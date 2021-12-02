@@ -2,29 +2,52 @@ State,District,Latitude,Longitude
 Andaman and Nicobar Islands,North and Middle Andaman,12.6519,92.8976
 Andaman and Nicobar Islands,South Andaman,11.7401,92.6586
 Andaman and Nicobar Islands,Nicobar,7.835291,93.5116
-Andhra Pradesh,Adilabad,19.28451,78.81321
+Telangana,Adilabad,19.28451,78.81321
 Andhra Pradesh,Anantapur,14.31207,77.46016
 Andhra Pradesh,Chittoor,13.33109,78.92764
 Andhra Pradesh,Cuddapah,14.49029,78.69614
 Andhra Pradesh,East Godavari,16.78272,82.24321
 Andhra Pradesh,Guntur,15.88493,80.58658
 Andhra Pradesh,Hyderabad,17.38972,78.46669
-Andhra Pradesh,Karimnagar,18.51548,79.43765
-Andhra Pradesh,Khammam,17.68392,80.67009
+Telangana,BHADRADRI KOTHAGUDEM,,
+Telangana,Jagitial,,
+Telangana,JANGOAN,,
+Telangana,MEDCHAL MALKAJGIRI,,
+Telangana,SANGAREDDY,,
+Telangana,Nirmal,,
+Telangana,RAJANNA SIRCILLA,,
+Telangana,PEDDAPALLI,,
+Telangana,Mulugu,,
+Telangana,NAGARKURNOOL,,
+Telangana,NARAYANAPET,,
+Telangana,SIDDIPET,,
+Telangana,SURYAPET,,
+Telangana,VIKARABAD,,
+Telangana,WANAPARTHY,,
+Telangana,Warangal  Urban,,
+Telangana,Warangal Rural,,
+Telangana,JAYASHANKAR BHUPALAPALLY,,
+Telangana,JOGULAMBA GADWAL,,
+Telangana,YADADRI BHUVANAGIRI,,
+Telangana,KAMAREDDY,,
+Telangana,MAHABUBABAD,,
+Telangana,MANCHERIAL,,
+Telangana,Karimnagar,18.51548,79.43765
+Telangana,Khammam,17.68392,80.67009
 Andhra Pradesh,Krishna,16.14387,81.14805
 Andhra Pradesh,Kurnool,15.4376,77.90087
-Andhra Pradesh,Mahbubnagar,16.63955,77.98933
-Andhra Pradesh,Medak,17.8893,78.13779
-Andhra Pradesh,Nalgonda,17.11325,79.16984
+Telangana,Mahbubnagar,16.63955,77.98933
+Telangana,Medak,17.8893,78.13779
+Telangana,Nalgonda,17.11325,79.16984
 Andhra Pradesh,Nellore,13.89434,80.14703
-Andhra Pradesh,Nizamabad,18.42949,78.07523
+Telangana,Nizamabad,18.42949,78.07523
 Andhra Pradesh,Prakasam,15.48904,80.11666
-Andhra Pradesh,Rangareddi,17.24524,78.05757
+Telangana,Rangareddi,17.24524,78.05757
 Andhra Pradesh,Srikakulam,18.5709,84.25875
 Andhra Pradesh,Visakhapatanam,17.64684,83.01014
 Andhra Pradesh,Vizianagaram,18.2833,83.45983
-Andhra Pradesh,Warangal,18.01753,79.87422
-Andhra Pradesh,West Godavari,16.63298,81.45913
+Telangana,Warangal,18.01753,79.87422
+Andhra Pradesh,Andhra Pradesh,16.63298,81.45913
 Arunachal Pradesh,Anjaw,28.06549,96.82878
 Arunachal Pradesh,Changlang,27.36048,96.37553
 Arunachal Pradesh,East Kameng,27.37119,93.04741
@@ -138,7 +161,6 @@ Chhattisgarh,Surajpur,23.5027,82.821
 Chhattisgarh,Surguja,23.32719,83.23582
 Dadra and Nagar Haveli,Dadra and Nagar Haveli,20.21513,73.09455
 Daman and Diu,Daman,20.43162,72.83924
-Daman and Diu,Junagadh,20.72568,70.83986
 Delhi,Delhi,28.64594,77.12805
 Goa,North Goa,15.54872,73.80668
 Goa,South Goa,15.19528,73.94179
@@ -210,7 +232,7 @@ Jammu and Kashmir,Doda,33.35961,76.07164
 Jammu and Kashmir,Jammu,32.7132,74.84775
 Jammu and Kashmir,Kargil,33.56599,76.63675
 Jammu and Kashmir,Kathua,32.51782,75.58901
-Jammu and Kashmir,KUPWARA,34.59923,74.21588
+Jammu and Kashmir,KUPWARA,34.4319,74.124
 Jammu and Kashmir,Leh Ladakh,33.58579,78.30726
 Jammu and Kashmir,Pulwama,33.88414,75.00922
 Jammu and Kashmir,POONCH,33.79124,74.29593
@@ -219,7 +241,6 @@ Jammu and Kashmir,Reasi,33.0828,74.8333
 Jammu and Kashmir,SAMBA,32.7266,74.857
 Jammu and Kashmir,Shopian,33.7253,74.8277
 Jammu and Kashmir,Kulgam,33.6451,75.0185
-Jammu and Kashmir,KUPWARA,34.0333332,74.2666656
 Jammu and Kashmir,Rajauri,33.27232,74.40777
 Jammu and Kashmir,Srinagar,34.27313,75.11021
 Jammu and Kashmir,Ramban,33.2411,75.2382
@@ -427,36 +448,36 @@ Nagaland,Peren,25.5125,93.7391
 Nagaland,Tuensang,26.21104,94.8581
 Nagaland,Wokha,26.20261,94.19908
 Nagaland,Zunheboto,26.02818,94.50027
-Orissa,Angul,21.12071,84.99839
-Orissa,Baleshwar,21.48571,87.08086
-Orissa,Bargarh,21.13241,83.26444
-Orissa,Bhadrak,20.95263,86.81496
-Orissa,Balangir,20.6163,83.2152
-Orissa,Boudh,20.58319,84.12363
-Orissa,Cuttack,20.40764,85.77768
-Orissa,Deogarh,21.43146,84.81452
-Orissa,Dhenkanal,20.79887,85.53227
-Orissa,Gajapati,19.12108,84.14015
-Orissa,Ganjam,19.26326,84.80298
-Orissa,Jagatsinghpur,20.11444,86.43265
-Orissa,Jajpur,20.85325,86.15277
-Orissa,Jharsuguda,21.82706,83.93582
-Orissa,Kalahandi,19.78425,83.1124
-Orissa,Kandhamal,20.09288,84.02216
-Orissa,Kendrapara,20.60632,86.83763
-Orissa,Kendujhar,21.49226,85.76277
-Orissa,Khordha,20.05416,85.52235
-Orissa,Koraput,18.82628,82.81278
-Orissa,Malkangiri,18.25228,81.98294
-Orissa,Mayurbhanj,21.89762,86.40304
-Orissa,Nabarangpur,19.51305,82.42042
-Orissa,Nayagarh,20.1929,85.05615
-Orissa,Nuapada,20.47131,82.59153
-Orissa,Puri,19.83509,85.86699
-Orissa,Rayagada,19.29284,83.4586
-Orissa,Sambalpur,21.51575,84.34958
-Orissa,Sonepur,20.8908,83.76853
-Orissa,Sundargarh,22.06355,84.50525
+Odisha,Angul,21.12071,84.99839
+Odisha,Baleshwar,21.48571,87.08086
+Odisha,Bargarh,21.13241,83.26444
+Odisha,Bhadrak,20.95263,86.81496
+Odisha,Balangir,20.6163,83.2152
+Odisha,Boudh,20.58319,84.12363
+Odisha,Cuttack,20.40764,85.77768
+Odisha,Deogarh,21.43146,84.81452
+Odisha,Dhenkanal,20.79887,85.53227
+Odisha,Gajapati,19.12108,84.14015
+Odisha,Ganjam,19.26326,84.80298
+Odisha,Jagatsinghpur,20.11444,86.43265
+Odisha,Jajpur,20.85325,86.15277
+Odisha,Jharsuguda,21.82706,83.93582
+Odisha,Kalahandi,19.78425,83.1124
+Odisha,Kandhamal,20.09288,84.02216
+Odisha,Kendrapara,20.60632,86.83763
+Odisha,Kendujhar,21.49226,85.76277
+Odisha,Khordha,20.05416,85.52235
+Odisha,Koraput,18.82628,82.81278
+Odisha,Malkangiri,18.25228,81.98294
+Odisha,Mayurbhanj,21.89762,86.40304
+Odisha,Nabarangpur,19.51305,82.42042
+Odisha,Nayagarh,20.1929,85.05615
+Odisha,Nuapada,20.47131,82.59153
+Odisha,Puri,19.83509,85.86699
+Odisha,Rayagada,19.29284,83.4586
+Odisha,Sambalpur,21.51575,84.34958
+Odisha,Sonepur,20.8908,83.76853
+Odisha,Sundargarh,22.06355,84.50525
 Puducherry,Karaikal,10.87616,79.8237
 Puducherry,Mahe,12.00642,75.28275
 Puducherry,Puducherry,11.88781,79.79711
@@ -634,19 +655,19 @@ Uttar Pradesh,Sonbhadra,24.46693,83.06816
 Uttar Pradesh,Sultanpur,26.28464,82.0571
 Uttar Pradesh,Unnao,26.63164,80.63677
 Uttar Pradesh,Varanasi,25.36057,82.8253
-Uttaranchal,Almora,29.68353,79.50165
-Uttaranchal,Bageshwar,29.98703,79.83954
-Uttaranchal,Chamoli,30.58339,79.56281
-Uttaranchal,Champawat,29.29142,80.0772
-Uttaranchal,DEHRADUN,30.53333,77.90884
-Uttaranchal,Haridwar,29.88606,77.9298
-Uttaranchal,NAINITAL,29.33637,79.49979
-Uttaranchal,Pauri Garhwal,29.97807,78.7745
-Uttaranchal,Pithoragarh,30.14721,80.34229
-Uttaranchal,Rudra Prayag,30.55658,79.09422
-Uttaranchal,Tehri Garhwal,30.4637,78.48784
-Uttaranchal,Udham Singh Nagar,29.0278,79.45629
-Uttaranchal,UTTAR KASHI,30.96896,78.56881
+Uttarakhand,Almora,29.68353,79.50165
+Uttarakhand,Bageshwar,29.98703,79.83954
+Uttarakhand,Chamoli,30.58339,79.56281
+Uttarakhand,Champawat,29.29142,80.0772
+Uttarakhand,DEHRADUN,30.53333,77.90884
+Uttarakhand,Haridwar,29.88606,77.9298
+Uttarakhand,NAINITAL,29.33637,79.49979
+Uttarakhand,Pauri Garhwal,29.97807,78.7745
+Uttarakhand,Pithoragarh,30.14721,80.34229
+Uttarakhand,Rudra Prayag,30.55658,79.09422
+Uttarakhand,Tehri Garhwal,30.4637,78.48784
+Uttarakhand,Udham Singh Nagar,29.0278,79.45629
+Uttarakhand,UTTAR KASHI,30.96896,78.56881
 West Bengal,Bankura,23.08128,87.1264
 West Bengal,BARDHAMAN,23.44445,87.81506
 West Bengal,Birbhum,24.06389,87.65153
