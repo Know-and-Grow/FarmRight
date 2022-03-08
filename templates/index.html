@@ -5,11 +5,19 @@
 		<title>Know & Grow</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="../lib/w3.css">
-		<link rel="icon" type="image" href="images/favicon.png">
+		<link rel="stylesheet" href="././static/css/main.css" />
+		<noscript><link rel="stylesheet" href="././static/css/noscript.css" /></noscript>
+		<link rel="icon" type="image" href="./static/images/favicon.png">
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<!-- Scripts -->
+		<script type="text/javascript" src="././static/js/jquery.min.js"></script>
+		<script type="text/javascript" src="././static/js/browser.min.js"></script>
+		<script type="text/javascript" src="././static/js/breakpoints.min.js"></script>
+		<script type="text/javascript" src="././static/js/util.js"></script>
+		<script type="text/javascript" src="././static/js/main.js"></script>
+		<script type="text/javascript" src="././static/js/form_validation.js"></script>
+		<script type="text/javascript" src="./static/js/location.js"></script>
 	</head>
 	<body class="is-preload">
 		<!-- <iframe name="sayduck3dViewer" style="width:100px;height:100px;" src="https://sayduck.com/3d/ZDE9?background-color=transparent&starting-variant=eagkw8w9ma&" frameborder="0"></iframe> -->
@@ -27,7 +35,7 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<img class="logo" src="./images/favicon.png" alt="Know&Grow_Logo" width="100px" height="100px">
+							<img class="logo" src="./././static/images/favicon.png" alt="Know&Grow_Logo" width="100px" height="100px">
 							<!-- <span class="icon fa-gem"></span> -->
 						</div>
 						<div class="content">
@@ -54,7 +62,7 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/INTRO.png" alt="" /></span>
+								<span class="image main"><img src="./././static/images/INTRO.png" alt="" /></span>
 								<p>The comparison of different algorithms based on their performance metrics is used to find the most accurate model for crop recommendation. The most accurate model was found to be a Random Forest Algorithm with a precision of 82.74%, recall 80.92%, and an F1 score of 78.67%. The model trained hence, can be used for giving a list of the recommended crops to the user.</p>
 								<a href="#predict">Find your best crop!</a>
 							</article>
@@ -62,12 +70,12 @@
 						<!-- predict -->
 							<article id="predict">
 								<h2 class="major">Form</h2>
-								<span class="image main"><img src="images/TOOL.png" alt="" /></span>
+								<span class="image main"><img src="./././static/images/TOOL.png" alt="" /></span>
 								<!-- <p>Kindly fill the form to find your best crop.</p> -->
 								<!-- Form -->
 								<section>
 									<div class="content">
-										<form name="predictionform" onSubmit="validateinput()" method="post" action="#">
+										<form method="POST" action="{{ url_for('crop_prediction') }}" name="predictionform" onSubmit="validateinput()" method="post" action="#">
 											<header>
 												<h3 style="
 												color: #B3D81C; 
@@ -75,36 +83,20 @@
 												font-size: 22px;">Location</h3>
 											</header>
 											<div class="fields">
-												<div class="field half">
-													<label for="state">State</label>
-													<select name="state" id="state" required>
-														<option value="">-- State --</option>
-														<option value="1">Delhi</option>
-														<option value="2">Uttar Pradesh</option>
-														<option value="3">Madhya Pradesh</option>
-														<option value="4">Arunachal Pradesh</option>
-													</select>
-												</div>
-												<div class="field half">
-													<label for="district">District</label>
-													<select name="district" id="district" required>
-														<option value="">-- District --</option>
-														<option value="1">South Delhi</option>
-														<option value="2">North Delhi</option>
-														<option value="3">East Delhi</option>
-														<option value="4">West Delhi</option>
-													</select>
-												</div>
+												<label for="state">State</label>
+												<select onchange="print_city('state_name', this.selectedIndex);" name="state" id="state" required></select>
+												<label for="district">District</label>
+												<select name="district" id="state_name" required>
+													<script language="javascript"> print_state("state");</script>
+												</select>
 											</div>
+
 											<header>
 												<h3 style="
 												color: #d46600; 
 												font-weight: bold;
 												font-size: 22px;">Soil Properties</h3>
 											</header>
-											<!-- <button class="buttonload">
-												<i class="fa fa-spinner fa-spin"></i>Loading
-											  </button> -->
 											<div class="fields">
 												<div class="field third">
 													<label for="nitrogen">Nitrogen</label>
@@ -122,27 +114,8 @@
 													<label for="organiccarbon">Organic Carbon</label>
 													<input type="text" name="organiccarbon" id="organiccarbon" value="" placeholder="OC Quantity" required/>
 												</div>
-												<div class="field half">
-													<label for="ph">pH Value</label>
-													<input type="text" name="ph" id="ph" value="" placeholder="ph Level" required/>
-												</div>
 											</div>
-											<header>
-												<h3 style="
-												color: #16f0af; 
-												font-weight: bold;
-												font-size: 22px;">Environment Properties</h3>
-											</header>
-											<div class="fields">	
-												<div class="field half">
-													<label for="rainfall">Rainfall</label>
-													<input type="text" name="rainfall" id="rainfall" value="" placeholder="Rainfall"  required/>
-												</div>
-												<div class="field half">
-													<label for="temperature">Temperature</label>
-													<input type="text" name="temperature" id="temperature" value="" placeholder="Temperature" required/>
-												</div>
-											</div>
+
 											<header>
 												<h3 style="
 												color: #1c58d8; 
@@ -183,6 +156,45 @@
 												Kharif, June-October -->
 
 											</div>
+
+											<header>
+												<h3 style="
+												color: #ffd331; 
+												font-weight: bold;
+												font-size: 22px;">pH Value</h3>
+											</header>
+											<div class="fields">
+												<div class="field half">
+													<label for="ph_acidic">Acidic: pH Value</label>
+													<input type="text" name="ph_acidic" id="ph_acidic" value="" placeholder="ph Level-Acidic" required/>
+												</div>
+												<div class="field half">
+													<label for="ph_neutral">Neutral: pH Value</label>
+													<input type="text" name="ph_neutral" id="ph_neutral" value="" placeholder="ph Level-Neutral" required/>
+												</div>
+												<div class="field half">
+													<label for="ph_basic">Basic: pH Value</label>
+													<input type="text" name="ph_basic" id="ph_basic" value="" placeholder="ph Level-Basic" required/>
+												</div>
+											</div>
+
+											<header>
+												<h3 style="
+												color: #16f0af; 
+												font-weight: bold;
+												font-size: 22px;">Environment Properties</h3>
+											</header>
+											<div class="fields">	
+												<div class="field half">
+													<label for="rainfall">Rainfall</label>
+													<input type="text" name="rainfall" id="rainfall" value="" placeholder="Rainfall"  required/>
+												</div>
+												<div class="field half">
+													<label for="temperature">Temperature</label>
+													<input type="text" name="temperature" id="temperature" value="" placeholder="Temperature" required/>
+												</div>
+											</div>										
+
 											<ul class="actions">
 												<li><input type="submit" name="PredictCrop" id="submit" value="PredictCrop" /></li>
 											</ul>
@@ -194,13 +206,13 @@
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/ABOUT.png" alt="" /></span>
+								<span class="image main"><img src="./././static/images/ABOUT.png" alt="" /></span>
 								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
 							</article>
 
 					</div>
 
-					<a href="#first" class="large wide smooth-scroll-middle">Get Started</a>
+					<a href="#first" class="large wide smooth-scroll-middle">Explore</a>
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -214,14 +226,6 @@
 
 		<!-- BG -->
 			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/form.js"></script>
 
 	</body>
 </html>
