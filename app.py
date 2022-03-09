@@ -1,6 +1,6 @@
 # Importing essential libraries and modules
 
-from flask import Flask, render_template, request
+from flask import Flask, redirect, render_template, request, url_for
 import numpy as np
 import pandas as pd
 import requests
@@ -59,15 +59,10 @@ app = Flask(__name__)
 @ app.route('/')
 def home():
     title = 'Know and Grow - Home'
-    return render_template('index.html', title=title)
+    return render_template('index.html', soil=[[]],state='',district='')
 
 # render crop recommendation form page
 
-
-@ app.route('/crop-recommend')
-def crop_recommend():
-    title = 'Know and Grow - Crop Recommendation'
-    return render_template('form1.html',title=title)
 
 
 
@@ -112,12 +107,39 @@ def load_properties():
 
 
 
-@ app.route('/crop-predict', methods=['POST'])
+@ app.route('/#predict', methods=['POST'])
 def crop_prediction():
     title = 'Harvestify - Crop Recommendation'
 
     if request.method == 'POST':
-        
+        if request.form['submitBtn'] == 'Load Properties':
+            state = request.form.get("state")
+            #state_code=config.state_mapping[state]
+
+            district = request.form.get("district")
+            #district_code=config.district_mapping[district]
+
+            season=request.form["season"].upper()
+
+            soil_df=pd.read_csv('Datasets/Soil_DB.csv')
+            soil_df = soil_df.iloc[: , 2:]
+            soil=soil_df.loc[(soil_df['State']==state) & (soil_df['District']==district)]
+            soil['N'] = soil['N'].astype(str).str[:-1].astype(float, errors = 'raise')
+            soil['OC'] = soil['OC'].astype(str).str[:-1].astype(float, errors = 'raise')
+            soil['P'] = soil['P'].astype(str).str[:-1].astype(float, errors = 'raise')
+            soil['K'] = soil['K'].astype(str).str[:-1].astype(float, errors = 'raise')
+            soil['ACIDIC']=soil[['AS%','SrAc%','HAc%','MAc%','SlAc%']].sum(axis=1)
+            soil['NEUTRAL']=soil['N%']
+            soil['BASIC']=soil[['MAl%','SlAl%']].sum(axis=1)
+            soil=soil.drop(columns=['AS%','SrAc%','HAc%','MAc%','SlAc%','N%','MAl%','SlAl%','State','District'])
+            soil=np.array(soil).reshape(1,-1)
+            print(state)
+            print(district)
+            print(soil)
+            return redirect(url_for('.home', _anchor='predict',soil=soil,state=state,district=district))
+
+        elif request.form['submitBtn'] == 'Predict Crop':
+            pass
         n = float(request.form['nitrogen'])
         oc = float(request.form['organiccarbon'])
         p = float(request.form['phosphorus'])
