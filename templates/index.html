@@ -5,19 +5,14 @@
 		<title>Know & Grow</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="././static/css/main.css" />
-		<noscript><link rel="stylesheet" href="././static/css/noscript.css" /></noscript>
-		<link rel="icon" type="image" href="./static/images/favicon.png">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
+		<link rel="icon" type="image" href="{{ url_for('static', filename='images/favicon.png') }}">
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 		
 		<!-- Scripts -->
-		<script type="text/javascript" src="././static/js/jquery.min.js"></script>
-		<script type="text/javascript" src="././static/js/browser.min.js"></script>
-		<script type="text/javascript" src="././static/js/breakpoints.min.js"></script>
-		<script type="text/javascript" src="././static/js/util.js"></script>
-		<script type="text/javascript" src="././static/js/main.js"></script>
-		<script type="text/javascript" src="././static/js/form_validation.js"></script>
-		<script type="text/javascript" src="./static/js/location.js"></script>
+		
+		<script type="text/javascript" src="{{ url_for('static', filename='js/location.js') }}"></script>
 	</head>
 	<body class="is-preload">
 		<!-- <iframe name="sayduck3dViewer" style="width:100px;height:100px;" src="https://sayduck.com/3d/ZDE9?background-color=transparent&starting-variant=eagkw8w9ma&" frameborder="0"></iframe> -->
@@ -35,7 +30,7 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<img class="logo" src="./././static/images/favicon.png" alt="Know&Grow_Logo" width="100px" height="100px">
+							<img class="logo" src="{{ url_for('static', filename='images/favicon.png') }}" alt="Know&Grow_Logo" width="100px" height="100px">
 							<!-- <span class="icon fa-gem"></span> -->
 						</div>
 						<div class="content">
@@ -62,7 +57,7 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="./././static/images/INTRO.png" alt="" /></span>
+								<span class="image main"><img src="{{ url_for('static', filename='images/INTRO.png') }}" alt="" /></span>
 								<p>The comparison of different algorithms based on their performance metrics is used to find the most accurate model for crop recommendation. The most accurate model was found to be a Random Forest Algorithm with a precision of 82.74%, recall 80.92%, and an F1 score of 78.67%. The model trained hence, can be used for giving a list of the recommended crops to the user.</p>
 								<a href="#predict">Find your best crop!</a>
 							</article>
@@ -70,7 +65,7 @@
 						<!-- predict -->
 							<article id="predict">
 								<h2 class="major">Form</h2>
-								<span class="image main"><img src="./././static/images/TOOL.png" alt="" /></span>
+								<span class="image main"><img src="{{ url_for('static', filename='images/TOOL.png') }}" alt="" /></span>
 								<!-- <p>Kindly fill the form to find your best crop.</p> -->
 								<!-- Form -->
 								<section>
@@ -206,7 +201,7 @@
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="./././static/images/ABOUT.png" alt="" /></span>
+								<span class="image main"><img src="{{ url_for('static', filename='images/ABOUT.png') }}" alt="" /></span>
 								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
 							</article>
 
@@ -226,6 +221,11 @@
 
 		<!-- BG -->
 			<div id="bg"></div>
-
+			<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='js/util.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='js/form_validation.js') }}"></script>
 	</body>
 </html>
