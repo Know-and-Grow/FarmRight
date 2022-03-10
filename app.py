@@ -84,20 +84,20 @@ def crop_prediction():
         oc = float(request.form['organiccarbon'])
         p = float(request.form['phosphorus'])
         k = float(request.form['potassium'])
-        # acidic = float(request.form['acidic'])
-        # basic = float(request.form['basic'])
-        # neutral = float(request.form['neutral'])
+        acidic = float(request.form['ph_acidic'])
+        basic = float(request.form['ph_basic'])
+        neutral = float(request.form['ph_neutral'])
 
         rainfall = float(request.form['rainfall'])
         temperature=float(request.form['temperature'])
-        state = request.form.get("state").upper()
+        state = request.form.get("state")
         state_code=config.state_mapping[state]
 
-        district = request.form.get("district").upper()
+        district = request.form.get("district")
         district_code=config.district_mapping[district]
 
-        
-        # season_code=config.season_mapping[season]
+        season=request.form["season"]
+        season_code=config.season_mapping[season]
 
         # if weather_fetch(city) != None:
         #     # temperature, humidity = weather_fetch(city)
@@ -110,10 +110,8 @@ def crop_prediction():
         # else:
 
         #     return render_template('try_again.html', title=title)
-        data = np.array([[state_code,district_code,n, oc, p, k, temperature, rainfall]])
-        print(len(data))
-        data = np.array([[10.  , 498.  ,   1.  ,  99.92,  99.47,  74.47,  42.38,   0.74,
-        0.98,  98.27, 300.  ,   8.]])
+        data = np.array([[state_code,district_code,season_code,n, oc, p, k, acidic,neutral,basic,temperature, rainfall]])
+        print(data)
         print(len(data))
         my_prediction = crop_recommendation_model.predict(data)
         my_prediction=my_prediction.todense()

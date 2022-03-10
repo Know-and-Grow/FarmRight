@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./././static/css/main.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <noscript>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" />
+	</noscript>
+    <link rel="icon" type="image" href="{{ url_for('static', filename='images/favicon.png') }}">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <title>Know & Grow</title>
 </head>
 <body>
     
@@ -22,42 +28,18 @@
                                                     <tr>
                                                         <th>Rank</th>
                                                         <th>Crop Name</th>
-                                                        <th>Production in Tons per hectare</th>
+                                                        {% set count = namespace(value=1) %}
                                                     </tr>
                                                 </thead>
                                                 <tbody>
+                                                    {% for crop in prediction %}
                                                     <tr>
-                                                        <td>Item 1</td>
-                                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                                        <td>29.99</td>
+                                                        <td>Crop {{ count.value }}</td>
+                                                        <td>{{crop}}</td>
                                                     </tr>
-                                                    <tr>
-                                                        <td>Item 2</td>
-                                                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                                        <td>19.99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Item 3</td>
-                                                        <td> Morbi faucibus arcu accumsan lorem.</td>
-                                                        <td>29.99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Item 4</td>
-                                                        <td>Vitae integer tempus condimentum.</td>
-                                                        <td>19.99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Item 5</td>
-                                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                                        <td>29.99</td>
-                                                    </tr>
+                                                    {% set count.value = count.value + 1 %}
+                                                    {% endfor %}
                                                 </tbody>
-                                                <tfoot>
-                                                    <tr>
-                                                        <td colspan="2"></td>
-                                                        <td>100.00</td>
-                                                    </tr>
-                                                </tfoot>
                                             </table>
                                         </div>
                                     </div>
