@@ -16,6 +16,9 @@
 	<!-- Scripts -->
 
 	<script type="text/javascript" src="{{ url_for('static', filename='js/location.js') }}"></script>
+
+
+
 </head>
 
 <body class="is-preload">
@@ -112,27 +115,27 @@
 							</header>
 							<div class="fields">
 								<div class="field half">
-									<input type="radio" id="kharif" name="season" />
+									<input type="radio" id="kharif" name="season" value="KHARIF" />
 									<label for="kharif">June-October</label>
 								</div>
 								<div class="field half">
-									<input type="radio" id="rabi" name="season" />
+									<input type="radio" id="rabi" name="season" value="RABI" />
 									<label for="rabi">October-March</label>
 								</div>
 								<div class="field half">
-									<input type="radio" id="autumn" name="season" />
+									<input type="radio" id="autumn" name="season" value="AUTUMN" />
 									<label for="autumn">September-October</label>
 								</div>
 								<div class="field half">
-									<input type="radio" id="winter" name="season" />
+									<input type="radio" id="winter" name="season" value="WINTER" />
 									<label for="winter">November-April</label>
 								</div>
 								<div class="field half">
-									<input type="radio" id="summer" name="season" />
+									<input type="radio" id="summer" name="season" value="SUMMER" />
 									<label for="summer">March-June</label>
 								</div>
 								<div class="field half">
-									<input type="radio" id="wholeyear" name="season" />
+									<input type="radio" id="wholeyear" name="season" value="WHOLE YEAR" />
 									<label for="wholeyear">Whole Year</label>
 								</div>
 
@@ -146,7 +149,8 @@
 							</div>
 
 							<ul class="actions">
-								<li><input type="submit" name="submitBtn" id="submit" value="Load Properties" /></li>
+								<li><input name="loadBtn" id="loadBtn" value="Load Properties"
+										onclick="load_properties()" /></li>
 							</ul>
 							<header>
 								<h3 style="
@@ -265,14 +269,54 @@
 	<script type="text/javascript" src="{{ url_for('static', filename='js/util.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/form_validation.js') }}"></script>
+
+
 	<script>
-		
-		// document.getElementById("nitrogen").defaultValue = "{{soil[0][0]}}"
-		// document.getElementById("phosphorus").defaultValue = "{{soil[0][2]}}"
-		// document.getElementById("potassium").defaultValue = "{{soil[0][3]}}"
-		// document.getElementById("organiccarbon").defaultValue = "{{soil[0][1]}}"
-		// // seasonBtn = document.getElementById("{{season}}")
-		// seasonBtn.checked = true
+
+		function load_properties() {
+			stateElem = document.getElementById("state")
+			state = stateElem.value
+			districtElem = document.getElementById("district")
+			district = districtElem.value
+			season = document.querySelector('input[name="season"]:checked').value;
+
+			// read csv file SoilDB.csv
+			fetch("{{ url_for('static', filename='js/Soil_DB.json') }}")
+				.then(response => {
+					return response.json();
+				})
+				.then(jsondata => {
+					all_districts = jsondata[state]
+					var k;
+					for (k = 0; k < all_districts.length; ++k) {
+						if (all_districts[k].District == district) {
+							soil_properties = all_districts[k]
+							n = soil_properties.N
+							oc = soil_properties.OC
+							p = soil_properties.P
+							k = soil_properties.K
+							acidic = soil_properties.ACIDIC
+							neutral = soil_properties.NEUTRAL
+							basic = soil_properties.BASIC
+							document.getElementById("nitrogen").defaultValue = n
+							document.getElementById("phosphorus").defaultValue = p
+							document.getElementById("potassium").defaultValue = k
+							document.getElementById("organiccarbon").defaultValue = oc
+							document.getElementById("ph_acidic").defaultValue = acidic
+							document.getElementById("ph_neutral").defaultValue = neutral
+							document.getElementById("ph_basic").defaultValue = basic
+
+							break;
+						}
+					}
+				});
+			// select row for given state and district
+			//
+
+
+		}
+
+
 	</script>
 </body>
 

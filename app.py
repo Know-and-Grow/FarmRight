@@ -1,5 +1,6 @@
 # Importing essential libraries and modules
 
+import json
 from flask import Flask, redirect, render_template, request, url_for
 import numpy as np
 import pandas as pd
@@ -59,7 +60,7 @@ app = Flask(__name__)
 @ app.route('/')
 def home():
     title = 'Know and Grow - Home'
-    return render_template('index.html', soil=[[]],state='',district='')
+    return render_template('index.html')
 
 # render crop recommendation form page
 
@@ -74,72 +75,11 @@ def home():
 # RENDER PREDICTION PAGES
 
 # render crop recommendation result page
-
-
-@ app.route('/load_properties', methods=['POST'])
-def load_properties():
-    title = 'Harvestify - Crop Recommendation'
-    if request.method == 'POST':
-        state = request.form.get("state").upper()
-        state_code=config.state_mapping[state]
-
-        district = request.form.get("district").upper()
-        district_code=config.district_mapping[district]
-
-        season=request.form["season"].upper()
-        
-
-        soil_df=pd.read_csv('Data/Soil_DB.csv')
-        soil_df = soil_df.iloc[: , 2:]
-        soil=soil_df.loc[(soil_df['State']==state) & (soil_df['District']==district)]
-        soil['N'] = soil['N'].astype(str).str[:-1].astype(float, errors = 'raise')
-        soil['OC'] = soil['OC'].astype(str).str[:-1].astype(float, errors = 'raise')
-        soil['P'] = soil['P'].astype(str).str[:-1].astype(float, errors = 'raise')
-        soil['K'] = soil['K'].astype(str).str[:-1].astype(float, errors = 'raise')
-        soil['ACIDIC']=soil[['AS%','SrAc%','HAc%','MAc%','SlAc%']].sum(axis=1)
-        soil['NEUTRAL']=soil['N%']
-        soil['BASIC']=soil[['MAl%','SlAl%']].sum(axis=1)
-        soil=soil.drop(columns=['AS%','SrAc%','HAc%','MAc%','SlAc%','N%','MAl%','SlAl%','State','District'])
-        soil=np.array(soil).reshape(1,-1)
-        print(soil)
-        return render_template('form2.html', soil=soil,state=state,district=district,season=season,title=title)
-
-
-
-
-@ app.route('/#predict', methods=['POST'])
+@ app.route('/predict', methods=['POST'])
 def crop_prediction():
     title = 'Harvestify - Crop Recommendation'
 
     if request.method == 'POST':
-        if request.form['submitBtn'] == 'Load Properties':
-            state = request.form.get("state")
-            #state_code=config.state_mapping[state]
-
-            district = request.form.get("district")
-            #district_code=config.district_mapping[district]
-
-            season=request.form["season"].upper()
-
-            soil_df=pd.read_csv('Datasets/Soil_DB.csv')
-            soil_df = soil_df.iloc[: , 2:]
-            soil=soil_df.loc[(soil_df['State']==state) & (soil_df['District']==district)]
-            soil['N'] = soil['N'].astype(str).str[:-1].astype(float, errors = 'raise')
-            soil['OC'] = soil['OC'].astype(str).str[:-1].astype(float, errors = 'raise')
-            soil['P'] = soil['P'].astype(str).str[:-1].astype(float, errors = 'raise')
-            soil['K'] = soil['K'].astype(str).str[:-1].astype(float, errors = 'raise')
-            soil['ACIDIC']=soil[['AS%','SrAc%','HAc%','MAc%','SlAc%']].sum(axis=1)
-            soil['NEUTRAL']=soil['N%']
-            soil['BASIC']=soil[['MAl%','SlAl%']].sum(axis=1)
-            soil=soil.drop(columns=['AS%','SrAc%','HAc%','MAc%','SlAc%','N%','MAl%','SlAl%','State','District'])
-            soil=np.array(soil).reshape(1,-1)
-            print(state)
-            print(district)
-            print(soil)
-            return redirect(url_for('.home', _anchor='predict',soil=soil,state=state,district=district))
-
-        elif request.form['submitBtn'] == 'Predict Crop':
-            pass
         n = float(request.form['nitrogen'])
         oc = float(request.form['organiccarbon'])
         p = float(request.form['phosphorus'])
@@ -183,7 +123,7 @@ def crop_prediction():
             if(my_prediction[i]==1):
                 crop_index.append(i)
         recommendation=[crop for crop, code in config.crop_mapping.items() if code in crop_index]
-    
+
         print(recommendation)
         return render_template('output.html', prediction=recommendation, title=title)
 
