@@ -4,45 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/output.css') }}">
     <noscript>
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" />
 	</noscript>
     <link rel="icon" type="image" href="{{ url_for('static', filename='images/favicon.png') }}">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-
-    <title>Know & Grow</title>
+    <title>Crop Recommentation</title>
 </head>
-<body>
+<body class="tablepage">
     
-								<!-- Table -->
-                                <section>
-                                    <header>
-                                        <h3>Crop Recommentation</h3>
-                                    </header>
-                                    <div  id="predictiondata" class="header">
-                                        <h4>The Best Crops for your farm!</h4>
-                                        <div class="table-wrapper">
-                                            <table>
-                                                <thead>
-                                                    <tr>
-                                                        <th>Rank</th>
-                                                        <th>Crop Name</th>
-                                                        {% set count = namespace(value=1) %}
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    {% for crop in prediction %}
-                                                    <tr>
-                                                        <td>Crop {{ count.value }}</td>
-                                                        <td>{{crop}}</td>
-                                                    </tr>
-                                                    {% set count.value = count.value + 1 %}
-                                                    {% endfor %}
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </section>
+    <img class="logo" src="{{ url_for('static', filename='images/favicon.png') }}" alt="Know&Grow_Logo" width="100px" height="100px">
+
+	<div class="predictioncontainer">
+        <!-- Table -->
+        <header class="headertitle">
+            <h3>Crop Recommentation</h3>
+        </header>
+        <div id="predictiondata" class="predictiondata">
+            <h4>The Best Crops for your farm!</h4>
+            <div class="table-wrapper">
+                <table class="rwd-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Crop Name</th>
+                            {% set count = namespace(value=1) %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for crop in prediction %}
+                        <tr>
+                            <td>Crop {{ count.value }}</td>
+                            <td>{{crop}}</td>
+                        </tr>
+                        {% set count.value = count.value + 1 %}
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

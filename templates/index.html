@@ -14,15 +14,11 @@
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<!-- Scripts -->
-
 	<script type="text/javascript" src="{{ url_for('static', filename='js/location.js') }}"></script>
-
-
-
 </head>
 
 <body class="is-preload">
-	<!-- <iframe name="sayduck3dViewer" style="width:100px;height:100px;" src="https://sayduck.com/3d/ZDE9?background-color=transparent&starting-variant=eagkw8w9ma&" frameborder="0"></iframe> -->
+	<!-- <iframe name="sayduck3dViewer" style="width:100px;height:100px;" src="https://sayduck.com/3d/ZDE9?background-color=transparent&starting-variant=eagkw8w9ma&" frameborder="0"></iframe>
 
 	<nav class="w3-sidenav w3-black" style="width:70px">
 		<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i
@@ -36,6 +32,7 @@
 		<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i
 				class="fa fa-trash w3-xxlarge"></i></a>
 	</nav>
+	 -->
 	<!-- Wrapper -->
 	<div id="wrapper">
 
@@ -49,14 +46,15 @@
 			<div class="content">
 				<div class="inner">
 					<h1>KNOW & GROW</h1>
-					<p>We recommend Best Crops for <b>YOU</b> considering all factors YOUR crop needs. <br>
+					<p>We recommend Best Crops for <b>YOU.</b><br>
+						We considering all factors YOUR crop needs. <br>
 						Let's GROW together.</p>
 				</div>
 			</div>
 			<nav>
 				<ul>
 					<!-- <li><a href="#intro">Home</a></li> -->
-					<li><a href="{{ url_for('.home', _anchor='predict') }}">Find the Crop!</a></li>
+					<li><a href="{{ url_for('.home', _anchor='predict') }}">Let's Grow!</a></li>
 					<!-- <li><a href="#about">About</a></li> -->
 					<!-- <li><a href="#contact">Contact</a></li> -->
 					<!--<li><a href="#elements">Elements</a></li>-->
@@ -89,10 +87,7 @@
 					<div class="content">
 						<form method="POST" action="{{ url_for('crop_prediction') }}" name="predictionform">
 							<header>
-								<h3 style="
-												color: #B3D81C; 
-												font-weight: bold;
-												font-size: 22px;">Location</h3>
+								<h3 class="inputcategory">Location</h3>
 							</header>
 							<div class="fields">
 								<div class="field half">
@@ -107,32 +102,30 @@
 									</select>
 								</div>
 							</div>
+							<hr class="hr hr-1">
 							<header>
-								<h3 style="
-												color: #1c58d8; 
-												font-weight: bold;
-												font-size: 22px;">Season Months</h3>
+								<h3 class="inputcategory">Season Months</h3>
 							</header>
 							<div class="fields">
 								<div class="field half">
 									<input type="radio" id="kharif" name="season" value="KHARIF" />
-									<label for="kharif">June-October</label>
+									<label for="kharif">June-October (Kharif)</label>
 								</div>
 								<div class="field half">
 									<input type="radio" id="rabi" name="season" value="RABI" />
-									<label for="rabi">October-March</label>
+									<label for="rabi">October-March (Rabi)</label>
 								</div>
 								<div class="field half">
 									<input type="radio" id="autumn" name="season" value="AUTUMN" />
-									<label for="autumn">September-October</label>
+									<label for="autumn">September-October (Autumn)</label>
 								</div>
 								<div class="field half">
 									<input type="radio" id="winter" name="season" value="WINTER" />
-									<label for="winter">November-April</label>
+									<label for="winter">November-April (Winter)</label>
 								</div>
 								<div class="field half">
 									<input type="radio" id="summer" name="season" value="SUMMER" />
-									<label for="summer">March-June</label>
+									<label for="summer">March-June (Summer)</label>
 								</div>
 								<div class="field half">
 									<input type="radio" id="wholeyear" name="season" value="WHOLE YEAR" />
@@ -147,88 +140,73 @@
 												Kharif, June-October -->
 
 							</div>
-
-							<ul class="actions">
-								<li><input name="loadBtn" id="loadBtn" value="Load Properties"
-										onclick="load_properties()" /></li>
-							</ul>
+							<hr class="hr hr-1">
+							<button class = "btnStyle" type="button" name="loadBtn" id="loadBtn" value="Load Properties" onclick="load_properties()">Load Properties</button>							
+							<hr class="hr hr-1">	
 							<header>
-								<h3 style="
-												color: #d46600; 
-												font-weight: bold;
-												font-size: 22px;">Soil Properties</h3>
+								<h3 class="inputcategory">Soil Properties</h3>
 							</header>
 							<div id="Properties" class="fields">
 								<div class="field third">
-									<label for="nitrogen">Nitrogen</label>
-									<input type="text" name="nitrogen" id="nitrogen" value="" placeholder="N Quantity"
-										required />
+									<label for="nitrogen">Nitrogen (%)</label>
+									<input type="text" name="nitrogen" id="nitrogen" value="" placeholder="N Quantity (%)" required />
 								</div>
 								<div class="field third">
-									<label for="phosphorus">Phosphorus</label>
+									<label for="phosphorus">Phosphorus (%)</label>
 									<input type="text" name="phosphorus" id="phosphorus" value=""
-										placeholder="P Quantity" required />
+										placeholder="P Quantity (%)" required />
 								</div>
 								<div class="field third">
-									<label for="potassium">Potassium</label>
-									<input type="text" name="potassium" id="potassium" value="" placeholder="K Quantity"
-										required />
+									<label for="potassium">Potassium (%)</label>
+									<input type="text" name="potassium" id="potassium" value="" placeholder="K Quantity (%)" required />
 								</div>
 								<div class="field half">
-									<label for="organiccarbon">Organic Carbon</label>
+									<label for="organiccarbon">Organic Carbon (%)</label>
 									<input type="text" name="organiccarbon" id="organiccarbon" value=""
-										placeholder="OC Quantity" required />
+										placeholder="OC Quantity (%)" required />
 								</div>
 							</div>
 
 
 
 							<header>
-								<h3 style="
-												color: #ffd331; 
-												font-weight: bold;
-												font-size: 22px;">pH Value</h3>
+								<h3 class="inputcategory">pH Value</h3>
 							</header>
 							<div class="fields">
 								<div class="field half">
-									<label for="ph_acidic">Acidic: pH Value</label>
+									<label for="ph_acidic">Acidic (%)</label>
 									<input type="text" name="ph_acidic" id="ph_acidic" value=""
-										placeholder="ph Level-Acidic" required />
+										placeholder="ph Level-Acidic (%)" required />
 								</div>
 								<div class="field half">
-									<label for="ph_neutral">Neutral: pH Value</label>
+									<label for="ph_neutral">Neutral (%)</label>
 									<input type="text" name="ph_neutral" id="ph_neutral" value=""
-										placeholder="ph Level-Neutral" required />
+										placeholder="ph Level-Neutral (%)" required />
 								</div>
 								<div class="field half">
-									<label for="ph_basic">Basic: pH Value</label>
+									<label for="ph_basic">Basic (%)</label>
 									<input type="text" name="ph_basic" id="ph_basic" value=""
-										placeholder="ph Level-Basic" required />
+										placeholder="ph Level-Basic (%)" required />
 								</div>
 							</div>
 
 							<header>
-								<h3 style="
-												color: #16f0af; 
-												font-weight: bold;
-												font-size: 22px;">Environment Properties</h3>
+								<h3 class="inputcategory">Environment Properties</h3>
 							</header>
 							<div class="fields">
 								<div class="field half">
-									<label for="rainfall">Rainfall</label>
-									<input type="text" name="rainfall" id="rainfall" value="" placeholder="Rainfall"
+									<label for="rainfall">Rainfall (mm/Day)</label>
+									<input type="text" name="rainfall" id="rainfall" value="" placeholder="Rainfall (mm/Day"
 										required />
 								</div>
 								<div class="field half">
-									<label for="temperature">Temperature</label>
+									<label for="temperature">Temperature (Kelvin)</label>
 									<input type="text" name="temperature" id="temperature" value=""
-										placeholder="Temperature" required />
+										placeholder="Temperature (Kelvin)" required />
 								</div>
 							</div>
 
-							<ul class="actions">
-								<li><input type="submit" name="submitBtn" id="submit" value="Predict Crop" /></li>
-							</ul>
+							<button class = "btnStyle predictbtn"  type="submit" name="submitBtn" id="submit" value="Predict Crop" onclick="load_properties()">Predict</button>							
 						</form>
 					</div>
 				</section>
@@ -247,19 +225,22 @@
 			</article>
 
 		</div>
+		<div class="">
+			<button href="#first" class="large wide smooth-scroll-middle explore"></button>
+		</div>
 
-		<a href="#first" class="large wide smooth-scroll-middle">Explore</a>
-
-		<!-- Footer -->
-		<footer id="footer">
-			<p class="copyright">&copy; We bring MAGIC to YOUR Farms. Design: <a
-					href="https://github.com/Know-and-Grow/Know-and-Grow/tree/main/Datasets">Our Research/Code</a>.</p>
-			<!-- <p class="copyright" href='https://www.freepik.com/vectors/rural-landscape'>Rural landscape vector created by jcomp - www.freepik.com</p>
-						<p href='https://www.freepik.com/vectors/peasant'>Peasant vector created by vectorpouch - www.freepik.com</p>
-						<p href='https://www.freepik.com/vectors/rural-landscape'>Rural landscape vector created by jcomp - www.freepik.com</p> -->
-		</footer>
-
+		<div>
+			<!-- Footer -->
+			<footer id="footer">
+				<p class="copyright">&copy; We bring MAGIC to YOUR Farms. Design: <a href="https://github.com/Know-and-Grow/Know-and-Grow/tree/main/Datasets">Our Research/Code</a>.</p>
+				<!-- <p class="copyright" href='https://www.freepik.com/vectors/rural-landscape'>Rural landscape vector created by jcomp - www.freepik.com</p>
+				<p href='https://www.freepik.com/vectors/peasant'>Peasant vector created by vectorpouch - www.freepik.com</p>
+				<p href='https://www.freepik.com/vectors/rural-landscape'>Rural landscape vector created by jcomp - www.freepik.com</p> -->
+			</footer>
+		</div>
 	</div>
+
+	
 
 	<!-- BG -->
 	<div id="bg"></div>
