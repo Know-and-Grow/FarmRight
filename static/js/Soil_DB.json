@@ -1,0 +1,7020 @@
+{
+   "ANDAMAN AND NICOBAR ISLANDS": [
+      {
+         "District": "NICOBAR",
+         "N": 99.11,
+         "OC": 65.96,
+         "P": 78.16,
+         "K": 89.89,
+         "ACIDIC": "35.27",
+         "NEUTRAL": 8.53,
+         "BASIC": "56.2"
+      },
+      {
+         "District": "NORTH AND MIDDLE ANDAMAN",
+         "N": 99.91,
+         "OC": 85.85,
+         "P": 98.35,
+         "K": 85.05,
+         "ACIDIC": "94.44",
+         "NEUTRAL": 1.52,
+         "BASIC": "4.05"
+      },
+      {
+         "District": "SOUTH ANDAMAN",
+         "N": 98.58,
+         "OC": 74.05,
+         "P": 91.81,
+         "K": 87.86,
+         "ACIDIC": "65.56",
+         "NEUTRAL": 3.89,
+         "BASIC": "30.56"
+      }
+   ],
+   "ANDHRA PRADESH": [
+      {
+         "District": "ANANTAPUR",
+         "N": 92.62,
+         "OC": 54.21,
+         "P": 6.13,
+         "K": 15.85,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "CHITTOOR",
+         "N": 96.23,
+         "OC": 36.68,
+         "P": 11.63,
+         "K": 49.93,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "EAST GODAVARI",
+         "N": 95.82,
+         "OC": 24.8,
+         "P": 13.7,
+         "K": 18.62,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "GUNTUR",
+         "N": 89.51,
+         "OC": 51.99,
+         "P": 11.07,
+         "K": 6.16,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "KRISHNA",
+         "N": 90.28,
+         "OC": 21.44,
+         "P": 2.28,
+         "K": 26.2,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "KURNOOL",
+         "N": 99.69,
+         "OC": 56.39,
+         "P": 8.85,
+         "K": 29.49,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "PRAKASAM",
+         "N": 93.43,
+         "OC": 52.37,
+         "P": 24.88,
+         "K": 16.77,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "NELLORE",
+         "N": 93.47,
+         "OC": 24.58,
+         "P": 10.11,
+         "K": 58.58,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "SRIKAKULAM",
+         "N": 88.52,
+         "OC": 29.53,
+         "P": 42.62,
+         "K": 23.91,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "VISAKHAPATANAM",
+         "N": 88.98,
+         "OC": 22.07,
+         "P": 14.41,
+         "K": 51.42,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "VIZIANAGARAM",
+         "N": 94.23,
+         "OC": 35.39,
+         "P": 9.17,
+         "K": 23.2,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "WEST GODAVARI",
+         "N": 87.25,
+         "OC": 33.02,
+         "P": 3.41,
+         "K": 56.53,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "Y.S.R.",
+         "N": 98.59,
+         "OC": 63.67,
+         "P": 19.79,
+         "K": 28.43,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "CUDDAPAH",
+         "N": 95.09,
+         "OC": 44.85,
+         "P": 12.32,
+         "K": 34.12,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      }
+   ],
+   "ARUNACHAL PRADESH": [
+      {
+         "District": "CHANGLANG",
+         "N": 7.28,
+         "OC": 26.47,
+         "P": 96.8,
+         "K": 21.61,
+         "ACIDIC": "96.49",
+         "NEUTRAL": 1.1,
+         "BASIC": "2.4299999999999997"
+      },
+      {
+         "District": "DIBANG VALLEY",
+         "N": 0.48,
+         "OC": 5.07,
+         "P": 79.85,
+         "K": 20.27,
+         "ACIDIC": "99.88",
+         "NEUTRAL": 0,
+         "BASIC": "0.12"
+      },
+      {
+         "District": "EAST KAMENG",
+         "N": 4.05,
+         "OC": 6.37,
+         "P": 84.33,
+         "K": 16.22,
+         "ACIDIC": "98.69",
+         "NEUTRAL": 0.19,
+         "BASIC": "1.12"
+      },
+      {
+         "District": "EAST SIANG",
+         "N": 0.7,
+         "OC": 0,
+         "P": 93.59,
+         "K": 39.48,
+         "ACIDIC": "99.88",
+         "NEUTRAL": 0,
+         "BASIC": "0.12"
+      },
+      {
+         "District": "KRA DAADI",
+         "N": 4.82,
+         "OC": 10.68,
+         "P": 86.35,
+         "K": 31.03,
+         "ACIDIC": "99.60999999999999",
+         "NEUTRAL": 0,
+         "BASIC": "0.38"
+      },
+      {
+         "District": "KURUNG KUMEY",
+         "N": 1.37,
+         "OC": 3.62,
+         "P": 93.98,
+         "K": 18.42,
+         "ACIDIC": "97.42999999999999",
+         "NEUTRAL": 0.86,
+         "BASIC": "1.72"
+      },
+      {
+         "District": "LOHIT",
+         "N": 3.6,
+         "OC": 8.64,
+         "P": 72.63,
+         "K": 12.6,
+         "ACIDIC": "99.37",
+         "NEUTRAL": 0.27,
+         "BASIC": "0.36"
+      },
+      {
+         "District": "LOWER DIBANG VALLEY",
+         "N": 0.68,
+         "OC": 0.81,
+         "P": 88.15,
+         "K": 17.17,
+         "ACIDIC": "99.99999999999999",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "LOWER SUBANSIRI",
+         "N": 51.58,
+         "OC": 6,
+         "P": 57.24,
+         "K": 41.33,
+         "ACIDIC": "97.99",
+         "NEUTRAL": 0.44,
+         "BASIC": "1.56"
+      },
+      {
+         "District": "PAPUM PARE",
+         "N": 1.11,
+         "OC": 3.2,
+         "P": 80.56,
+         "K": 10.94,
+         "ACIDIC": "97.72",
+         "NEUTRAL": 0.92,
+         "BASIC": "1.3599999999999999"
+      },
+      {
+         "District": "TAWANG",
+         "N": 5.08,
+         "OC": 9.46,
+         "P": 82.87,
+         "K": 8.11,
+         "ACIDIC": "90.91",
+         "NEUTRAL": 1.25,
+         "BASIC": "7.84"
+      },
+      {
+         "District": "UPPER SIANG",
+         "N": 4.13,
+         "OC": 13.84,
+         "P": 96.86,
+         "K": 16.83,
+         "ACIDIC": "99.57000000000001",
+         "NEUTRAL": 0,
+         "BASIC": "0.43"
+      },
+      {
+         "District": "UPPER SUBANSIRI",
+         "N": 0.88,
+         "OC": 23.12,
+         "P": 84.47,
+         "K": 33.08,
+         "ACIDIC": "97.66",
+         "NEUTRAL": 0.13,
+         "BASIC": "2.21"
+      },
+      {
+         "District": "WEST KAMENG",
+         "N": 6.31,
+         "OC": 12.94,
+         "P": 99.05,
+         "K": 7.73,
+         "ACIDIC": "99.85000000000001",
+         "NEUTRAL": 0,
+         "BASIC": "0.16"
+      },
+      {
+         "District": "WEST SIANG",
+         "N": 0.28,
+         "OC": 0.14,
+         "P": 94.26,
+         "K": 18.73,
+         "ACIDIC": "99.96000000000001",
+         "NEUTRAL": 0,
+         "BASIC": "0.05"
+      },
+      {
+         "District": "ANJAW",
+         "N": 3.79,
+         "OC": 13.39,
+         "P": 83.09,
+         "K": 18.16,
+         "ACIDIC": "98.58",
+         "NEUTRAL": 0.46,
+         "BASIC": "0.97"
+      },
+      {
+         "District": "LONGDING",
+         "N": 53.7,
+         "OC": 20.86,
+         "P": 94.06,
+         "K": 65.19,
+         "ACIDIC": "96.50000000000001",
+         "NEUTRAL": 0.17,
+         "BASIC": "3.34"
+      },
+      {
+         "District": "TIRAP",
+         "N": 58.33,
+         "OC": 27.22,
+         "P": 98.11,
+         "K": 78.63,
+         "ACIDIC": "90.42",
+         "NEUTRAL": 0.38,
+         "BASIC": "9.22"
+      },
+      {
+         "District": "NAMSAI",
+         "N": 27.94,
+         "OC": 24.5,
+         "P": 88.98,
+         "K": 44.26,
+         "ACIDIC": "87.11",
+         "NEUTRAL": 0.58,
+         "BASIC": "12.33"
+      }
+   ],
+   "ASSAM": [
+      {
+         "District": "BAKSA",
+         "N": 76.89,
+         "OC": 57.14,
+         "P": 96.78,
+         "K": 85.38,
+         "ACIDIC": "97.32",
+         "NEUTRAL": 0.22,
+         "BASIC": "2.46"
+      },
+      {
+         "District": "BARPETA",
+         "N": 63.26,
+         "OC": 29.87,
+         "P": 79.61,
+         "K": 85.48,
+         "ACIDIC": "55.03",
+         "NEUTRAL": 0.34,
+         "BASIC": "44.64"
+      },
+      {
+         "District": "BISWANATH",
+         "N": 93.69,
+         "OC": 43.37,
+         "P": 94.08,
+         "K": 28.57,
+         "ACIDIC": "98.67000000000002",
+         "NEUTRAL": 0.26,
+         "BASIC": "1.07"
+      },
+      {
+         "District": "BONGAIGAON",
+         "N": 67.93,
+         "OC": 26.1,
+         "P": 84.49,
+         "K": 87.01,
+         "ACIDIC": "68.37",
+         "NEUTRAL": 0.63,
+         "BASIC": "31.0"
+      },
+      {
+         "District": "CACHAR",
+         "N": 0.89,
+         "OC": 2.4,
+         "P": 56.5,
+         "K": 74.86,
+         "ACIDIC": "99.05000000000001",
+         "NEUTRAL": 0.03,
+         "BASIC": "0.91"
+      },
+      {
+         "District": "CHARAIDEO",
+         "N": 100,
+         "OC": 33.33,
+         "P": 100,
+         "K": 100,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "CHIRANG",
+         "N": 80.9,
+         "OC": 37.67,
+         "P": 95.15,
+         "K": 76.17,
+         "ACIDIC": "71.97",
+         "NEUTRAL": 0.14,
+         "BASIC": "27.88"
+      },
+      {
+         "District": "DARRANG",
+         "N": 91.73,
+         "OC": 78.67,
+         "P": 95.44,
+         "K": 79.36,
+         "ACIDIC": "98.69",
+         "NEUTRAL": 0.03,
+         "BASIC": "1.28"
+      },
+      {
+         "District": "DHEMAJI",
+         "N": 89.83,
+         "OC": 66.67,
+         "P": 65.08,
+         "K": 5.56,
+         "ACIDIC": "99.97999999999999",
+         "NEUTRAL": 0,
+         "BASIC": "0.02"
+      },
+      {
+         "District": "DHUBRI",
+         "N": 0.26,
+         "OC": 1.19,
+         "P": 18.65,
+         "K": 78.11,
+         "ACIDIC": "99.92999999999999",
+         "NEUTRAL": 0,
+         "BASIC": "0.06"
+      },
+      {
+         "District": "DIBRUGARH",
+         "N": 53.1,
+         "OC": 10.69,
+         "P": 98.12,
+         "K": 94.31,
+         "ACIDIC": "99.69",
+         "NEUTRAL": 0.06,
+         "BASIC": "0.24000000000000002"
+      },
+      {
+         "District": "GOALPARA",
+         "N": 5.12,
+         "OC": 5.62,
+         "P": 72.66,
+         "K": 66.57,
+         "ACIDIC": "99.71",
+         "NEUTRAL": 0,
+         "BASIC": "0.3"
+      },
+      {
+         "District": "GOLAGHAT",
+         "N": 29.08,
+         "OC": 1.23,
+         "P": 97.57,
+         "K": 83.23,
+         "ACIDIC": "99.78999999999999",
+         "NEUTRAL": 0.04,
+         "BASIC": "0.16"
+      },
+      {
+         "District": "HAILAKANDI",
+         "N": 0.34,
+         "OC": 1.27,
+         "P": 94.39,
+         "K": 77.36,
+         "ACIDIC": "99.99000000000001",
+         "NEUTRAL": 0,
+         "BASIC": "0.02"
+      },
+      {
+         "District": "HOJAI",
+         "N": 91.5,
+         "OC": 38.46,
+         "P": 57.69,
+         "K": 89.1,
+         "ACIDIC": "53.839999999999996",
+         "NEUTRAL": 0.64,
+         "BASIC": "45.51"
+      },
+      {
+         "District": "JORHAT",
+         "N": 1.85,
+         "OC": 5.11,
+         "P": 68.87,
+         "K": 69.32,
+         "ACIDIC": "98.82",
+         "NEUTRAL": 0.05,
+         "BASIC": "1.14"
+      },
+      {
+         "District": "KAMRUP",
+         "N": 4.12,
+         "OC": 5.12,
+         "P": 72.62,
+         "K": 85.6,
+         "ACIDIC": "98.03999999999999",
+         "NEUTRAL": 0.29,
+         "BASIC": "1.66"
+      },
+      {
+         "District": "KAMRUP METROPOLITAN",
+         "N": 0.71,
+         "OC": 1.42,
+         "P": 59.45,
+         "K": 65.53,
+         "ACIDIC": "97.32",
+         "NEUTRAL": 0.04,
+         "BASIC": "2.64"
+      },
+      {
+         "District": "KARBI ANGLONG",
+         "N": 87.37,
+         "OC": 55.81,
+         "P": 65.79,
+         "K": 7.29,
+         "ACIDIC": "99.96000000000001",
+         "NEUTRAL": 0.05,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "KARIMGANJ",
+         "N": 0.29,
+         "OC": 4.79,
+         "P": 61.64,
+         "K": 70.86,
+         "ACIDIC": "99.56",
+         "NEUTRAL": 0.02,
+         "BASIC": "0.42000000000000004"
+      },
+      {
+         "District": "KOKRAJHAR",
+         "N": 86.58,
+         "OC": 82.04,
+         "P": 85.25,
+         "K": 88.64,
+         "ACIDIC": "28.44",
+         "NEUTRAL": 0.25,
+         "BASIC": "71.31"
+      },
+      {
+         "District": "LAKHIMPUR",
+         "N": 91.47,
+         "OC": 57.44,
+         "P": 79.52,
+         "K": 61.3,
+         "ACIDIC": "99.6",
+         "NEUTRAL": 0,
+         "BASIC": "0.4"
+      },
+      {
+         "District": "MAJULI",
+         "N": 2.68,
+         "OC": 7.38,
+         "P": 71.81,
+         "K": 76.18,
+         "ACIDIC": "92.62",
+         "NEUTRAL": 0,
+         "BASIC": "7.38"
+      },
+      {
+         "District": "MARIGAON",
+         "N": 0.68,
+         "OC": 1.54,
+         "P": 48.49,
+         "K": 66.42,
+         "ACIDIC": "95.97",
+         "NEUTRAL": 0.61,
+         "BASIC": "3.41"
+      },
+      {
+         "District": "NAGAON",
+         "N": 76.28,
+         "OC": 20.07,
+         "P": 95.8,
+         "K": 94.25,
+         "ACIDIC": "93.84",
+         "NEUTRAL": 0.2,
+         "BASIC": "5.949999999999999"
+      },
+      {
+         "District": "NALBARI",
+         "N": 93.7,
+         "OC": 69.69,
+         "P": 71.94,
+         "K": 86.86,
+         "ACIDIC": "86.16999999999999",
+         "NEUTRAL": 0.33,
+         "BASIC": "13.5"
+      },
+      {
+         "District": "SIVASAGAR",
+         "N": 57.98,
+         "OC": 10.13,
+         "P": 98.96,
+         "K": 86.9,
+         "ACIDIC": "99.86999999999999",
+         "NEUTRAL": 0.03,
+         "BASIC": "0.1"
+      },
+      {
+         "District": "SONITPUR",
+         "N": 94.91,
+         "OC": 42.66,
+         "P": 97.52,
+         "K": 50.48,
+         "ACIDIC": "98.78",
+         "NEUTRAL": 0.23,
+         "BASIC": "0.99"
+      },
+      {
+         "District": "SOUTH SALMARA MANCACHAR",
+         "N": 0.58,
+         "OC": 6.27,
+         "P": 19.52,
+         "K": 80.01,
+         "ACIDIC": "99.64999999999999",
+         "NEUTRAL": 0.05,
+         "BASIC": "0.31"
+      },
+      {
+         "District": "TINSUKIA",
+         "N": 72.93,
+         "OC": 38.39,
+         "P": 97.52,
+         "K": 98.58,
+         "ACIDIC": "65.45",
+         "NEUTRAL": 0.37,
+         "BASIC": "34.2"
+      },
+      {
+         "District": "UDALGURI",
+         "N": 0.28,
+         "OC": 0.75,
+         "P": 5.85,
+         "K": 67.97,
+         "ACIDIC": "99.97",
+         "NEUTRAL": 0,
+         "BASIC": "0.03"
+      },
+      {
+         "District": "DIMA HASAO",
+         "N": 51.39,
+         "OC": 16.25,
+         "P": 74.77,
+         "K": 54.83,
+         "ACIDIC": "93.19",
+         "NEUTRAL": 0.12,
+         "BASIC": "6.6899999999999995"
+      }
+   ],
+   "BIHAR": [
+      {
+         "District": "ARARIA",
+         "N": 31.55,
+         "OC": 15.45,
+         "P": 52.91,
+         "K": 49.67,
+         "ACIDIC": "99.94",
+         "NEUTRAL": 0,
+         "BASIC": "0.06"
+      },
+      {
+         "District": "ARWAL",
+         "N": 38.28,
+         "OC": 34.76,
+         "P": 31.97,
+         "K": 95.65,
+         "ACIDIC": "43.97",
+         "NEUTRAL": 0.09,
+         "BASIC": "55.94"
+      },
+      {
+         "District": "AURANGABAD",
+         "N": 0,
+         "OC": 0,
+         "P": 0,
+         "K": 50,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 0,
+         "BASIC": "100.0"
+      },
+      {
+         "District": "BANKA",
+         "N": 96.84,
+         "OC": 92.8,
+         "P": 0.97,
+         "K": 97.44,
+         "ACIDIC": "59.05",
+         "NEUTRAL": 12.65,
+         "BASIC": "28.299999999999997"
+      },
+      {
+         "District": "BEGUSARAI",
+         "N": 99.6,
+         "OC": 31.94,
+         "P": 5.29,
+         "K": 4.36,
+         "ACIDIC": "30.63",
+         "NEUTRAL": 9.84,
+         "BASIC": "59.53"
+      },
+      {
+         "District": "BHAGALPUR",
+         "N": 90.27,
+         "OC": 82.37,
+         "P": 55.28,
+         "K": 7.31,
+         "ACIDIC": "54.29",
+         "NEUTRAL": 3.68,
+         "BASIC": "42.040000000000006"
+      },
+      {
+         "District": "BHOJPUR",
+         "N": 57.43,
+         "OC": 46.74,
+         "P": 96.36,
+         "K": 28.42,
+         "ACIDIC": "19.689999999999998",
+         "NEUTRAL": 0.11,
+         "BASIC": "80.2"
+      },
+      {
+         "District": "BUXAR",
+         "N": 50.05,
+         "OC": 34.9,
+         "P": 47.66,
+         "K": 40.66,
+         "ACIDIC": "47.57",
+         "NEUTRAL": 0.62,
+         "BASIC": "51.82"
+      },
+      {
+         "District": "DARBHANGA",
+         "N": 49.2,
+         "OC": 32.76,
+         "P": 0.43,
+         "K": 29.24,
+         "ACIDIC": "9.370000000000001",
+         "NEUTRAL": 0.34,
+         "BASIC": "90.29"
+      },
+      {
+         "District": "GAYA",
+         "N": 0,
+         "OC": 0,
+         "P": 0,
+         "K": 0,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 0,
+         "BASIC": "100.0"
+      },
+      {
+         "District": "GOPALGANJ",
+         "N": 99.9,
+         "OC": 79.46,
+         "P": 97.01,
+         "K": 88.75,
+         "ACIDIC": "0.44",
+         "NEUTRAL": 3.45,
+         "BASIC": "96.12"
+      },
+      {
+         "District": "JAMUI",
+         "N": 100,
+         "OC": 100,
+         "P": 0,
+         "K": 20,
+         "ACIDIC": "40.0",
+         "NEUTRAL": 0,
+         "BASIC": "60.0"
+      },
+      {
+         "District": "KAIMUR",
+         "N": 58.73,
+         "OC": 51.23,
+         "P": 20.58,
+         "K": 75.65,
+         "ACIDIC": "19.689999999999998",
+         "NEUTRAL": 0.26,
+         "BASIC": "80.06"
+      },
+      {
+         "District": "KATIHAR",
+         "N": 59.23,
+         "OC": 43.6,
+         "P": 24.5,
+         "K": 22.13,
+         "ACIDIC": "86.53",
+         "NEUTRAL": 6.27,
+         "BASIC": "7.2"
+      },
+      {
+         "District": "KHAGARIA",
+         "N": 99.96,
+         "OC": 0.25,
+         "P": 23.65,
+         "K": 1.64,
+         "ACIDIC": "0.49",
+         "NEUTRAL": 0.84,
+         "BASIC": "98.66999999999999"
+      },
+      {
+         "District": "KISHANGANJ",
+         "N": 100,
+         "OC": 100,
+         "P": 0,
+         "K": 0,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "MADHEPURA",
+         "N": 70.67,
+         "OC": 39.63,
+         "P": 15.73,
+         "K": 11.37,
+         "ACIDIC": "39.72",
+         "NEUTRAL": 3.27,
+         "BASIC": "57.02"
+      },
+      {
+         "District": "MADHUBANI",
+         "N": 58.82,
+         "OC": 23.53,
+         "P": 0,
+         "K": 47.06,
+         "ACIDIC": "64.7",
+         "NEUTRAL": 0,
+         "BASIC": "35.29"
+      },
+      {
+         "District": "MUNGER",
+         "N": 41.73,
+         "OC": 30.14,
+         "P": 3.68,
+         "K": 0.5,
+         "ACIDIC": "28.53",
+         "NEUTRAL": 0.11,
+         "BASIC": "71.37"
+      },
+      {
+         "District": "MUZAFFARPUR",
+         "N": 98.52,
+         "OC": 16.03,
+         "P": 13.65,
+         "K": 5.93,
+         "ACIDIC": "1.24",
+         "NEUTRAL": 0.44,
+         "BASIC": "98.32"
+      },
+      {
+         "District": "NALANDA",
+         "N": 57.15,
+         "OC": 57.15,
+         "P": 57.15,
+         "K": 28.57,
+         "ACIDIC": "14.29",
+         "NEUTRAL": 0,
+         "BASIC": "85.71"
+      },
+      {
+         "District": "NAWADA",
+         "N": 50,
+         "OC": 50,
+         "P": 0,
+         "K": 0,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 0,
+         "BASIC": "100.0"
+      },
+      {
+         "District": "PASHCHIM CHAMPARAN",
+         "N": 100,
+         "OC": 50,
+         "P": 0,
+         "K": 0,
+         "ACIDIC": "25.0",
+         "NEUTRAL": 0,
+         "BASIC": "75.0"
+      },
+      {
+         "District": "PATNA",
+         "N": 25.37,
+         "OC": 10.72,
+         "P": 1.21,
+         "K": 22.32,
+         "ACIDIC": "52.04",
+         "NEUTRAL": 9.22,
+         "BASIC": "38.74"
+      },
+      {
+         "District": "PURVI CHAMPARAN",
+         "N": 91.67,
+         "OC": 66.66,
+         "P": 8.33,
+         "K": 58.33,
+         "ACIDIC": "25.0",
+         "NEUTRAL": 0,
+         "BASIC": "75.0"
+      },
+      {
+         "District": "PURNIA",
+         "N": 0,
+         "OC": 0,
+         "P": 0,
+         "K": 100,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "ROHTAS",
+         "N": 22.44,
+         "OC": 8.75,
+         "P": 2.38,
+         "K": 1.14,
+         "ACIDIC": "45.410000000000004",
+         "NEUTRAL": 0.51,
+         "BASIC": "54.06999999999999"
+      },
+      {
+         "District": "SAHARSA",
+         "N": 20,
+         "OC": 20,
+         "P": 0,
+         "K": 60,
+         "ACIDIC": "20.0",
+         "NEUTRAL": 0,
+         "BASIC": "80.0"
+      },
+      {
+         "District": "SAMASTIPUR",
+         "N": 90,
+         "OC": 10,
+         "P": 0,
+         "K": 10,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 0,
+         "BASIC": "100.0"
+      },
+      {
+         "District": "SARAN",
+         "N": 100,
+         "OC": 44.44,
+         "P": 0,
+         "K": 0,
+         "ACIDIC": "5.56",
+         "NEUTRAL": 0,
+         "BASIC": "94.44"
+      },
+      {
+         "District": "SHEIKHPURA",
+         "N": 100,
+         "OC": 57.14,
+         "P": 42.86,
+         "K": 14.29,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 0,
+         "BASIC": "100.0"
+      },
+      {
+         "District": "SITAMARHI",
+         "N": 54.98,
+         "OC": 22.51,
+         "P": 15.17,
+         "K": 93.04,
+         "ACIDIC": "45.35",
+         "NEUTRAL": 0.2,
+         "BASIC": "54.44"
+      },
+      {
+         "District": "SIWAN",
+         "N": 94.91,
+         "OC": 42.37,
+         "P": 25.42,
+         "K": 23.73,
+         "ACIDIC": "5.07",
+         "NEUTRAL": 0,
+         "BASIC": "94.91"
+      },
+      {
+         "District": "SUPAUL",
+         "N": 100,
+         "OC": 100,
+         "P": 0,
+         "K": 0,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "VAISHALI",
+         "N": 100,
+         "OC": 57.14,
+         "P": 42.86,
+         "K": 14.29,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 0,
+         "BASIC": "100.0"
+      },
+      {
+         "District": "JEHANABAD",
+         "N": 30.2,
+         "OC": 25.66,
+         "P": 22.58,
+         "K": 36.64,
+         "ACIDIC": "27.57",
+         "NEUTRAL": 2.33,
+         "BASIC": "70.10000000000001"
+      },
+      {
+         "District": "LAKHISARAI",
+         "N": 73.34,
+         "OC": 45.99,
+         "P": 10.61,
+         "K": 12.29,
+         "ACIDIC": "30.24",
+         "NEUTRAL": 3.83,
+         "BASIC": "65.92"
+      },
+      {
+         "District": "SHEOHAR",
+         "N": 81.72,
+         "OC": 35.07,
+         "P": 12.38,
+         "K": 52.43,
+         "ACIDIC": "23.86",
+         "NEUTRAL": 0.21,
+         "BASIC": "75.92"
+      }
+   ],
+   "CHANDIGARH": [
+      {
+         "District": "CHANDIGARH",
+         "N": 52.47,
+         "OC": 93.7,
+         "P": 34.56,
+         "K": 50.82,
+         "ACIDIC": "5.430000000000001",
+         "NEUTRAL": 2.76,
+         "BASIC": "91.82000000000001"
+      }
+   ],
+   "CHHATTISGARH": [
+      {
+         "District": "BALOD",
+         "N": 76.98,
+         "OC": 48.03,
+         "P": 50.05,
+         "K": 13.34,
+         "ACIDIC": "47.34",
+         "NEUTRAL": 2.07,
+         "BASIC": "50.58"
+      },
+      {
+         "District": "BALODA BAZAR",
+         "N": 91.03,
+         "OC": 33.64,
+         "P": 30.56,
+         "K": 14.01,
+         "ACIDIC": "68.78",
+         "NEUTRAL": 4.62,
+         "BASIC": "26.6"
+      },
+      {
+         "District": "BALRAMPUR",
+         "N": 81.84,
+         "OC": 58.93,
+         "P": 12.11,
+         "K": 21.37,
+         "ACIDIC": "97.34",
+         "NEUTRAL": 0.22,
+         "BASIC": "2.44"
+      },
+      {
+         "District": "BASTAR",
+         "N": 73.4,
+         "OC": 52.95,
+         "P": 27.85,
+         "K": 26.85,
+         "ACIDIC": "94.0",
+         "NEUTRAL": 0.94,
+         "BASIC": "5.06"
+      },
+      {
+         "District": "BEMETARA",
+         "N": 44.63,
+         "OC": 32.12,
+         "P": 14.4,
+         "K": 22.7,
+         "ACIDIC": "39.47",
+         "NEUTRAL": 0.19,
+         "BASIC": "60.33"
+      },
+      {
+         "District": "BIJAPUR",
+         "N": 63.65,
+         "OC": 43.02,
+         "P": 20.8,
+         "K": 47.8,
+         "ACIDIC": "89.58",
+         "NEUTRAL": 0.4,
+         "BASIC": "10.02"
+      },
+      {
+         "District": "BILASPUR",
+         "N": 62.28,
+         "OC": 42.54,
+         "P": 24.62,
+         "K": 28.64,
+         "ACIDIC": "67.84",
+         "NEUTRAL": 4.3,
+         "BASIC": "27.86"
+      },
+      {
+         "District": "DANTEWADA",
+         "N": 61.02,
+         "OC": 55.48,
+         "P": 36.46,
+         "K": 26.94,
+         "ACIDIC": "94.88",
+         "NEUTRAL": 0.34,
+         "BASIC": "4.78"
+      },
+      {
+         "District": "DHAMTARI",
+         "N": 87.91,
+         "OC": 43.44,
+         "P": 52.62,
+         "K": 9.72,
+         "ACIDIC": "74.07000000000001",
+         "NEUTRAL": 1.61,
+         "BASIC": "24.33"
+      },
+      {
+         "District": "DURG",
+         "N": 21.18,
+         "OC": 4.27,
+         "P": 6.83,
+         "K": 7.68,
+         "ACIDIC": "56.51",
+         "NEUTRAL": 0.32,
+         "BASIC": "43.16"
+      },
+      {
+         "District": "GARIABAND",
+         "N": 93.46,
+         "OC": 38.4,
+         "P": 33.01,
+         "K": 23.17,
+         "ACIDIC": "87.72",
+         "NEUTRAL": 0.41,
+         "BASIC": "11.89"
+      },
+      {
+         "District": "JANJGIR-CHAMPA",
+         "N": 81.97,
+         "OC": 48.79,
+         "P": 63.31,
+         "K": 16.65,
+         "ACIDIC": "88.86",
+         "NEUTRAL": 0.38,
+         "BASIC": "10.77"
+      },
+      {
+         "District": "JASHPUR",
+         "N": 71.34,
+         "OC": 42.48,
+         "P": 40.53,
+         "K": 39.44,
+         "ACIDIC": "99.28",
+         "NEUTRAL": 0.11,
+         "BASIC": "0.62"
+      },
+      {
+         "District": "KABIRDHAM",
+         "N": 70.28,
+         "OC": 41.24,
+         "P": 36.64,
+         "K": 12.55,
+         "ACIDIC": "32.739999999999995",
+         "NEUTRAL": 5.9,
+         "BASIC": "61.38"
+      },
+      {
+         "District": "KANKER",
+         "N": 38.55,
+         "OC": 59.58,
+         "P": 43.48,
+         "K": 39.1,
+         "ACIDIC": "79.8",
+         "NEUTRAL": 0.48,
+         "BASIC": "19.71"
+      },
+      {
+         "District": "KONDAGAON",
+         "N": 71,
+         "OC": 67.07,
+         "P": 64.79,
+         "K": 24.55,
+         "ACIDIC": "97.41",
+         "NEUTRAL": 0.25,
+         "BASIC": "2.3400000000000003"
+      },
+      {
+         "District": "KORBA",
+         "N": 63.67,
+         "OC": 43.9,
+         "P": 28.71,
+         "K": 22.96,
+         "ACIDIC": "95.33",
+         "NEUTRAL": 0.31,
+         "BASIC": "4.35"
+      },
+      {
+         "District": "KORIYA",
+         "N": 78.75,
+         "OC": 53.3,
+         "P": 13.86,
+         "K": 20.56,
+         "ACIDIC": "95.94999999999999",
+         "NEUTRAL": 0.9,
+         "BASIC": "3.16"
+      },
+      {
+         "District": "MAHASAMUND",
+         "N": 65.86,
+         "OC": 52.37,
+         "P": 18.53,
+         "K": 20.85,
+         "ACIDIC": "87.99000000000001",
+         "NEUTRAL": 0.67,
+         "BASIC": "11.34"
+      },
+      {
+         "District": "MUNGELI",
+         "N": 72.22,
+         "OC": 55.09,
+         "P": 30.84,
+         "K": 10.8,
+         "ACIDIC": "40.0",
+         "NEUTRAL": 5.95,
+         "BASIC": "54.05"
+      },
+      {
+         "District": "NARAYANPUR",
+         "N": 69.33,
+         "OC": 29.73,
+         "P": 1.17,
+         "K": 37.69,
+         "ACIDIC": "90.41999999999999",
+         "NEUTRAL": 1.13,
+         "BASIC": "8.45"
+      },
+      {
+         "District": "RAIGARH",
+         "N": 63.55,
+         "OC": 60.43,
+         "P": 34.83,
+         "K": 18.71,
+         "ACIDIC": "89.94",
+         "NEUTRAL": 1.21,
+         "BASIC": "8.84"
+      },
+      {
+         "District": "RAIPUR",
+         "N": 87.73,
+         "OC": 54.76,
+         "P": 27.29,
+         "K": 16.4,
+         "ACIDIC": "67.46",
+         "NEUTRAL": 5.17,
+         "BASIC": "27.37"
+      },
+      {
+         "District": "RAJNANDGAON",
+         "N": 95.14,
+         "OC": 89.54,
+         "P": 45.54,
+         "K": 16.06,
+         "ACIDIC": "52.5",
+         "NEUTRAL": 9.07,
+         "BASIC": "38.43"
+      },
+      {
+         "District": "SUKMA",
+         "N": 72.82,
+         "OC": 42.48,
+         "P": 13.9,
+         "K": 48.77,
+         "ACIDIC": "95.37",
+         "NEUTRAL": 0.04,
+         "BASIC": "4.59"
+      },
+      {
+         "District": "SURAJPUR",
+         "N": 87.91,
+         "OC": 34.44,
+         "P": 21.17,
+         "K": 9.47,
+         "ACIDIC": "95.73",
+         "NEUTRAL": 0.43,
+         "BASIC": "3.84"
+      },
+      {
+         "District": "SURGUJA",
+         "N": 77.81,
+         "OC": 52.41,
+         "P": 13.42,
+         "K": 7.54,
+         "ACIDIC": "96.71",
+         "NEUTRAL": 0.79,
+         "BASIC": "2.49"
+      }
+   ],
+   "DELHI": [
+      {
+         "District": "NORTH",
+         "N": 0,
+         "OC": 0,
+         "P": 100,
+         "K": 50,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 0,
+         "BASIC": "100.0"
+      },
+      {
+         "District": "NORTH WEST",
+         "N": 0,
+         "OC": 0,
+         "P": 100,
+         "K": 0,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 0,
+         "BASIC": "100.0"
+      },
+      {
+         "District": "SOUTH WEST",
+         "N": 81.08,
+         "OC": 71.18,
+         "P": 49.55,
+         "K": 13.51,
+         "ACIDIC": "8.11",
+         "NEUTRAL": 0,
+         "BASIC": "91.89"
+      }
+   ],
+   "GOA": [
+      {
+         "District": "NORTH GOA",
+         "N": 34.54,
+         "OC": 14.5,
+         "P": 71.89,
+         "K": 22.88,
+         "ACIDIC": "96.39",
+         "NEUTRAL": 1.85,
+         "BASIC": "1.75"
+      },
+      {
+         "District": "SOUTH GOA",
+         "N": 15.29,
+         "OC": 3.88,
+         "P": 75.25,
+         "K": 23.29,
+         "ACIDIC": "96.95000000000002",
+         "NEUTRAL": 0.34,
+         "BASIC": "2.7199999999999998"
+      }
+   ],
+   "GUJARAT": [
+      {
+         "District": "AHMADABAD",
+         "N": 99.98,
+         "OC": 32.9,
+         "P": 32.56,
+         "K": 20.02,
+         "ACIDIC": "19.849999999999998",
+         "NEUTRAL": 2.06,
+         "BASIC": "78.09"
+      },
+      {
+         "District": "AMRELI",
+         "N": 99.74,
+         "OC": 33.8,
+         "P": 18.54,
+         "K": 9.8,
+         "ACIDIC": "7.56",
+         "NEUTRAL": 2.11,
+         "BASIC": "90.32"
+      },
+      {
+         "District": "ANAND",
+         "N": 96.98,
+         "OC": 27.01,
+         "P": 46.32,
+         "K": 44.96,
+         "ACIDIC": "32.1",
+         "NEUTRAL": 2.97,
+         "BASIC": "64.91"
+      },
+      {
+         "District": "ARAVALLI",
+         "N": 100,
+         "OC": 43.09,
+         "P": 16.56,
+         "K": 37.15,
+         "ACIDIC": "8.21",
+         "NEUTRAL": 1.16,
+         "BASIC": "90.62"
+      },
+      {
+         "District": "BANAS KANTHA",
+         "N": 100,
+         "OC": 33.23,
+         "P": 19.61,
+         "K": 14.92,
+         "ACIDIC": "1.87",
+         "NEUTRAL": 1.15,
+         "BASIC": "96.99"
+      },
+      {
+         "District": "BHARUCH",
+         "N": 99.86,
+         "OC": 37.94,
+         "P": 17.51,
+         "K": 3.78,
+         "ACIDIC": "10.04",
+         "NEUTRAL": 3.89,
+         "BASIC": "86.07"
+      },
+      {
+         "District": "BHAVNAGAR",
+         "N": 99.98,
+         "OC": 32.66,
+         "P": 18.94,
+         "K": 10.15,
+         "ACIDIC": "4.25",
+         "NEUTRAL": 2.55,
+         "BASIC": "93.2"
+      },
+      {
+         "District": "BOTAD",
+         "N": 100,
+         "OC": 41.04,
+         "P": 18.13,
+         "K": 5.04,
+         "ACIDIC": "4.91",
+         "NEUTRAL": 2.13,
+         "BASIC": "92.96000000000001"
+      },
+      {
+         "District": "CHHOTAUDEPUR",
+         "N": 99.93,
+         "OC": 52.41,
+         "P": 16.35,
+         "K": 5.21,
+         "ACIDIC": "14.100000000000001",
+         "NEUTRAL": 3.54,
+         "BASIC": "82.35000000000001"
+      },
+      {
+         "District": "DAHOD",
+         "N": 98.77,
+         "OC": 51.89,
+         "P": 7.32,
+         "K": 13.31,
+         "ACIDIC": "7.57",
+         "NEUTRAL": 3.7,
+         "BASIC": "88.72"
+      },
+      {
+         "District": "DANG",
+         "N": 99.96,
+         "OC": 16.26,
+         "P": 2.03,
+         "K": 14.94,
+         "ACIDIC": "9.68",
+         "NEUTRAL": 3.47,
+         "BASIC": "86.85"
+      },
+      {
+         "District": "DEVBHUMIDWARKA",
+         "N": 99.74,
+         "OC": 39.71,
+         "P": 29.63,
+         "K": 26.43,
+         "ACIDIC": "0.27",
+         "NEUTRAL": 0.16,
+         "BASIC": "99.58"
+      },
+      {
+         "District": "GANDHINAGAR",
+         "N": 99.99,
+         "OC": 39.07,
+         "P": 22.1,
+         "K": 8.62,
+         "ACIDIC": "19.9",
+         "NEUTRAL": 3.8,
+         "BASIC": "76.28999999999999"
+      },
+      {
+         "District": "GIRSOMNATH",
+         "N": 96.94,
+         "OC": 35.64,
+         "P": 10.04,
+         "K": 2.95,
+         "ACIDIC": "9.01",
+         "NEUTRAL": 2.59,
+         "BASIC": "88.39"
+      },
+      {
+         "District": "JAMNAGAR",
+         "N": 99.89,
+         "OC": 16.91,
+         "P": 16.03,
+         "K": 18.76,
+         "ACIDIC": "4.07",
+         "NEUTRAL": 1.43,
+         "BASIC": "94.5"
+      },
+      {
+         "District": "JUNAGADH",
+         "N": 99.78,
+         "OC": 44.02,
+         "P": 12.76,
+         "K": 5.57,
+         "ACIDIC": "3.3499999999999996",
+         "NEUTRAL": 4.18,
+         "BASIC": "92.47"
+      },
+      {
+         "District": "KACHCHH",
+         "N": 100,
+         "OC": 68.21,
+         "P": 11.29,
+         "K": 8.13,
+         "ACIDIC": "5.23",
+         "NEUTRAL": 1.63,
+         "BASIC": "93.14"
+      },
+      {
+         "District": "KHEDA",
+         "N": 100,
+         "OC": 45.19,
+         "P": 16.67,
+         "K": 16.35,
+         "ACIDIC": "7.0",
+         "NEUTRAL": 3.13,
+         "BASIC": "89.87"
+      },
+      {
+         "District": "MAHESANA",
+         "N": 99.9,
+         "OC": 66.14,
+         "P": 5.4,
+         "K": 2.17,
+         "ACIDIC": "11.26",
+         "NEUTRAL": 2.57,
+         "BASIC": "86.16000000000001"
+      },
+      {
+         "District": "MAHISAGAR",
+         "N": 100,
+         "OC": 36.41,
+         "P": 15.58,
+         "K": 2.35,
+         "ACIDIC": "16.52",
+         "NEUTRAL": 5.27,
+         "BASIC": "78.21000000000001"
+      },
+      {
+         "District": "MORBI",
+         "N": 99.98,
+         "OC": 41.78,
+         "P": 19.65,
+         "K": 5.68,
+         "ACIDIC": "5.31",
+         "NEUTRAL": 3.14,
+         "BASIC": "91.55"
+      },
+      {
+         "District": "NARMADA",
+         "N": 99.99,
+         "OC": 52.87,
+         "P": 12.19,
+         "K": 3.53,
+         "ACIDIC": "9.53",
+         "NEUTRAL": 3.15,
+         "BASIC": "87.31"
+      },
+      {
+         "District": "NAVSARI",
+         "N": 98.83,
+         "OC": 51.69,
+         "P": 17.52,
+         "K": 6.61,
+         "ACIDIC": "14.07",
+         "NEUTRAL": 4.04,
+         "BASIC": "81.89"
+      },
+      {
+         "District": "PANCH MAHALS",
+         "N": 99.99,
+         "OC": 20.78,
+         "P": 15.68,
+         "K": 17.3,
+         "ACIDIC": "20.11",
+         "NEUTRAL": 4.09,
+         "BASIC": "75.8"
+      },
+      {
+         "District": "PATAN",
+         "N": 99.99,
+         "OC": 51.07,
+         "P": 23.69,
+         "K": 6.71,
+         "ACIDIC": "14.75",
+         "NEUTRAL": 1.97,
+         "BASIC": "83.28"
+      },
+      {
+         "District": "PORBANDAR",
+         "N": 99.99,
+         "OC": 57.37,
+         "P": 10.44,
+         "K": 1.22,
+         "ACIDIC": "6.42",
+         "NEUTRAL": 0.61,
+         "BASIC": "92.97"
+      },
+      {
+         "District": "RAJKOT",
+         "N": 99.82,
+         "OC": 49.18,
+         "P": 31.15,
+         "K": 0.89,
+         "ACIDIC": "4.44",
+         "NEUTRAL": 1.77,
+         "BASIC": "93.8"
+      },
+      {
+         "District": "SABAR KANTHA",
+         "N": 99.98,
+         "OC": 35.58,
+         "P": 25.7,
+         "K": 17.94,
+         "ACIDIC": "6.300000000000001",
+         "NEUTRAL": 1.7,
+         "BASIC": "92.0"
+      },
+      {
+         "District": "SURAT",
+         "N": 99.5,
+         "OC": 47.77,
+         "P": 18.69,
+         "K": 6.09,
+         "ACIDIC": "11.06",
+         "NEUTRAL": 3.65,
+         "BASIC": "85.3"
+      },
+      {
+         "District": "SURENDRANAGAR",
+         "N": 99.78,
+         "OC": 46.36,
+         "P": 39,
+         "K": 7.24,
+         "ACIDIC": "5.6",
+         "NEUTRAL": 1.48,
+         "BASIC": "92.9"
+      },
+      {
+         "District": "TAPI",
+         "N": 99.77,
+         "OC": 52.69,
+         "P": 8.57,
+         "K": 6.55,
+         "ACIDIC": "19.0",
+         "NEUTRAL": 5.55,
+         "BASIC": "75.44"
+      },
+      {
+         "District": "VADODARA",
+         "N": 99.97,
+         "OC": 43.8,
+         "P": 33.28,
+         "K": 19.87,
+         "ACIDIC": "20.07",
+         "NEUTRAL": 3.11,
+         "BASIC": "76.82000000000001"
+      },
+      {
+         "District": "VALSAD",
+         "N": 96.56,
+         "OC": 55.48,
+         "P": 25.29,
+         "K": 3.26,
+         "ACIDIC": "16.4",
+         "NEUTRAL": 3.58,
+         "BASIC": "80.02"
+      }
+   ],
+   "HARYANA": [
+      {
+         "District": "AMBALA",
+         "N": 100,
+         "OC": 92.68,
+         "P": 65.85,
+         "K": 52.2,
+         "ACIDIC": "3.4899999999999998",
+         "NEUTRAL": 1.49,
+         "BASIC": "95.01"
+      },
+      {
+         "District": "BHIWANI",
+         "N": 99.99,
+         "OC": 98.3,
+         "P": 80.63,
+         "K": 53.6,
+         "ACIDIC": "0.8200000000000001",
+         "NEUTRAL": 0.92,
+         "BASIC": "98.25999999999999"
+      },
+      {
+         "District": "FARIDABAD",
+         "N": 99.9,
+         "OC": 99.88,
+         "P": 99.93,
+         "K": 1.95,
+         "ACIDIC": "0.03",
+         "NEUTRAL": 0.4,
+         "BASIC": "99.58"
+      },
+      {
+         "District": "FATEHABAD",
+         "N": 99.76,
+         "OC": 92.82,
+         "P": 79.31,
+         "K": 50.85,
+         "ACIDIC": "2.05",
+         "NEUTRAL": 0.43,
+         "BASIC": "97.53"
+      },
+      {
+         "District": "GURGAON",
+         "N": 97.71,
+         "OC": 95.04,
+         "P": 75.81,
+         "K": 56.48,
+         "ACIDIC": "1.35",
+         "NEUTRAL": 1.28,
+         "BASIC": "97.38"
+      },
+      {
+         "District": "HISAR",
+         "N": 100,
+         "OC": 96.77,
+         "P": 62.1,
+         "K": 20.91,
+         "ACIDIC": "0.7200000000000001",
+         "NEUTRAL": 2.51,
+         "BASIC": "96.77"
+      },
+      {
+         "District": "JHAJJAR",
+         "N": 100,
+         "OC": 97.01,
+         "P": 93.51,
+         "K": 23.41,
+         "ACIDIC": "1.37",
+         "NEUTRAL": 1.34,
+         "BASIC": "97.29"
+      },
+      {
+         "District": "JIND",
+         "N": 99.97,
+         "OC": 98.72,
+         "P": 92.72,
+         "K": 5.59,
+         "ACIDIC": "0.5",
+         "NEUTRAL": 0.57,
+         "BASIC": "98.91999999999999"
+      },
+      {
+         "District": "KAITHAL",
+         "N": 99.2,
+         "OC": 97.84,
+         "P": 69.49,
+         "K": 30.48,
+         "ACIDIC": "0.86",
+         "NEUTRAL": 0.62,
+         "BASIC": "98.50999999999999"
+      },
+      {
+         "District": "KARNAL",
+         "N": 100,
+         "OC": 96.06,
+         "P": 91.67,
+         "K": 54.47,
+         "ACIDIC": "0.12",
+         "NEUTRAL": 0.13,
+         "BASIC": "99.74"
+      },
+      {
+         "District": "KURUKSHETRA",
+         "N": 99.18,
+         "OC": 92.66,
+         "P": 96.3,
+         "K": 42.87,
+         "ACIDIC": "1.7399999999999998",
+         "NEUTRAL": 1.51,
+         "BASIC": "96.75"
+      },
+      {
+         "District": "MAHENDRAGARH",
+         "N": 99.75,
+         "OC": 88.01,
+         "P": 97.89,
+         "K": 41.6,
+         "ACIDIC": "1.7999999999999998",
+         "NEUTRAL": 0.17,
+         "BASIC": "98.03"
+      },
+      {
+         "District": "MEWAT",
+         "N": 99.99,
+         "OC": 95.66,
+         "P": 81.22,
+         "K": 31.43,
+         "ACIDIC": "0.54",
+         "NEUTRAL": 0.77,
+         "BASIC": "98.69"
+      },
+      {
+         "District": "PALWAL",
+         "N": 99.99,
+         "OC": 99.27,
+         "P": 99.11,
+         "K": 10.52,
+         "ACIDIC": "0.14",
+         "NEUTRAL": 0.09,
+         "BASIC": "99.76"
+      },
+      {
+         "District": "PANCHKULA",
+         "N": 96.97,
+         "OC": 94.57,
+         "P": 36.64,
+         "K": 65.18,
+         "ACIDIC": "10.620000000000001",
+         "NEUTRAL": 3.19,
+         "BASIC": "86.17"
+      },
+      {
+         "District": "PANIPAT",
+         "N": 100,
+         "OC": 97.45,
+         "P": 76.43,
+         "K": 19.61,
+         "ACIDIC": "0.19",
+         "NEUTRAL": 0.42,
+         "BASIC": "99.39"
+      },
+      {
+         "District": "REWARI",
+         "N": 100,
+         "OC": 96.43,
+         "P": 91.82,
+         "K": 74.57,
+         "ACIDIC": "0.12",
+         "NEUTRAL": 3.57,
+         "BASIC": "96.31"
+      },
+      {
+         "District": "ROHTAK",
+         "N": 99.92,
+         "OC": 99.47,
+         "P": 74.47,
+         "K": 42.38,
+         "ACIDIC": "0.74",
+         "NEUTRAL": 0.98,
+         "BASIC": "98.27"
+      },
+      {
+         "District": "SIRSA",
+         "N": 99.9,
+         "OC": 99.21,
+         "P": 88.25,
+         "K": 22.3,
+         "ACIDIC": "0.08",
+         "NEUTRAL": 0.01,
+         "BASIC": "99.91"
+      },
+      {
+         "District": "SONIPAT",
+         "N": 99.89,
+         "OC": 92.09,
+         "P": 95.83,
+         "K": 31.29,
+         "ACIDIC": "0.29000000000000004",
+         "NEUTRAL": 0.44,
+         "BASIC": "99.28"
+      },
+      {
+         "District": "YAMUNANAGAR",
+         "N": 100,
+         "OC": 98.05,
+         "P": 81.12,
+         "K": 74.28,
+         "ACIDIC": "6.890000000000001",
+         "NEUTRAL": 2.66,
+         "BASIC": "90.44"
+      }
+   ],
+   "HIMACHAL PRADESH": [
+      {
+         "District": "BILASPUR",
+         "N": 40.76,
+         "OC": 29.6,
+         "P": 47.11,
+         "K": 16.37,
+         "ACIDIC": "31.29",
+         "NEUTRAL": 0.34,
+         "BASIC": "68.37"
+      },
+      {
+         "District": "CHAMBA",
+         "N": 30.43,
+         "OC": 2.14,
+         "P": 12.01,
+         "K": 7.27,
+         "ACIDIC": "39.97",
+         "NEUTRAL": 0.62,
+         "BASIC": "59.42"
+      },
+      {
+         "District": "HAMIRPUR",
+         "N": 24.08,
+         "OC": 14.14,
+         "P": 5.38,
+         "K": 4.15,
+         "ACIDIC": "70.02",
+         "NEUTRAL": 6.18,
+         "BASIC": "23.81"
+      },
+      {
+         "District": "KANGRA",
+         "N": 9.73,
+         "OC": 10.7,
+         "P": 13.68,
+         "K": 8.11,
+         "ACIDIC": "94.83999999999999",
+         "NEUTRAL": 0.97,
+         "BASIC": "4.19"
+      },
+      {
+         "District": "KINNAUR",
+         "N": 61.52,
+         "OC": 4.5,
+         "P": 4.95,
+         "K": 2.95,
+         "ACIDIC": "19.03",
+         "NEUTRAL": 4.67,
+         "BASIC": "76.3"
+      },
+      {
+         "District": "KULLU",
+         "N": 81.53,
+         "OC": 5.41,
+         "P": 32.85,
+         "K": 8.7,
+         "ACIDIC": "66.56",
+         "NEUTRAL": 6.22,
+         "BASIC": "27.22"
+      },
+      {
+         "District": "LAHUL AND SPITI",
+         "N": 86.8,
+         "OC": 2.3,
+         "P": 15.34,
+         "K": 3.96,
+         "ACIDIC": "48.809999999999995",
+         "NEUTRAL": 6.86,
+         "BASIC": "44.33"
+      },
+      {
+         "District": "MANDI",
+         "N": 98.31,
+         "OC": 2.63,
+         "P": 24.32,
+         "K": 8.33,
+         "ACIDIC": "76.67",
+         "NEUTRAL": 5.5,
+         "BASIC": "17.82"
+      },
+      {
+         "District": "SHIMLA",
+         "N": 9.61,
+         "OC": 7.16,
+         "P": 6.47,
+         "K": 25.93,
+         "ACIDIC": "65.03",
+         "NEUTRAL": 0.15,
+         "BASIC": "34.82"
+      },
+      {
+         "District": "SIRMAUR",
+         "N": 60.85,
+         "OC": 18.27,
+         "P": 3.87,
+         "K": 33.14,
+         "ACIDIC": "65.12",
+         "NEUTRAL": 10.79,
+         "BASIC": "24.09"
+      },
+      {
+         "District": "SOLAN",
+         "N": 21.31,
+         "OC": 7.06,
+         "P": 6.26,
+         "K": 3.98,
+         "ACIDIC": "56.53999999999999",
+         "NEUTRAL": 0.82,
+         "BASIC": "42.64"
+      },
+      {
+         "District": "UNA",
+         "N": 34.23,
+         "OC": 11.33,
+         "P": 21.48,
+         "K": 26.57,
+         "ACIDIC": "13.2",
+         "NEUTRAL": 10.27,
+         "BASIC": "76.53"
+      }
+   ],
+   "JAMMU AND KASHMIR": [
+      {
+         "District": "ANANTNAG",
+         "N": 24.14,
+         "OC": 29.79,
+         "P": 88.78,
+         "K": 34.55,
+         "ACIDIC": "67.03999999999999",
+         "NEUTRAL": 10.1,
+         "BASIC": "22.86"
+      },
+      {
+         "District": "BADGAM",
+         "N": 43.34,
+         "OC": 11.44,
+         "P": 14.15,
+         "K": 5.35,
+         "ACIDIC": "52.010000000000005",
+         "NEUTRAL": 14.68,
+         "BASIC": "33.309999999999995"
+      },
+      {
+         "District": "BANDIPORA",
+         "N": 92.5,
+         "OC": 15.89,
+         "P": 10.49,
+         "K": 48.55,
+         "ACIDIC": "49.12",
+         "NEUTRAL": 0.98,
+         "BASIC": "49.89"
+      },
+      {
+         "District": "BARAMULLA",
+         "N": 22.67,
+         "OC": 6.98,
+         "P": 67.07,
+         "K": 26.78,
+         "ACIDIC": "52.519999999999996",
+         "NEUTRAL": 0.47,
+         "BASIC": "47.010000000000005"
+      },
+      {
+         "District": "DODA",
+         "N": 17.93,
+         "OC": 36.49,
+         "P": 78.71,
+         "K": 13.14,
+         "ACIDIC": "40.43",
+         "NEUTRAL": 12.35,
+         "BASIC": "47.23"
+      },
+      {
+         "District": "GANDERBAL",
+         "N": 9.91,
+         "OC": 4.25,
+         "P": 37.79,
+         "K": 30.99,
+         "ACIDIC": "40.32",
+         "NEUTRAL": 2.98,
+         "BASIC": "56.69"
+      },
+      {
+         "District": "JAMMU",
+         "N": 35.61,
+         "OC": 49.76,
+         "P": 61.85,
+         "K": 60.37,
+         "ACIDIC": "51.769999999999996",
+         "NEUTRAL": 6.71,
+         "BASIC": "41.5"
+      },
+      {
+         "District": "KATHUA",
+         "N": 21.41,
+         "OC": 27.86,
+         "P": 25.05,
+         "K": 77.96,
+         "ACIDIC": "51.96",
+         "NEUTRAL": 1.25,
+         "BASIC": "46.78"
+      },
+      {
+         "District": "KISHTWAR",
+         "N": 9.18,
+         "OC": 7.49,
+         "P": 64.32,
+         "K": 5.84,
+         "ACIDIC": "31.35",
+         "NEUTRAL": 7.16,
+         "BASIC": "61.49"
+      },
+      {
+         "District": "KULGAM",
+         "N": 23.63,
+         "OC": 17.87,
+         "P": 67.67,
+         "K": 47.45,
+         "ACIDIC": "69.25",
+         "NEUTRAL": 10.36,
+         "BASIC": "20.39"
+      },
+      {
+         "District": "KUPWARA",
+         "N": 37.53,
+         "OC": 20.17,
+         "P": 53.38,
+         "K": 31.64,
+         "ACIDIC": "69.61",
+         "NEUTRAL": 2.36,
+         "BASIC": "28.029999999999998"
+      },
+      {
+         "District": "POONCH",
+         "N": 9.56,
+         "OC": 10.06,
+         "P": 77.35,
+         "K": 26.72,
+         "ACIDIC": "54.95",
+         "NEUTRAL": 3.95,
+         "BASIC": "41.1"
+      },
+      {
+         "District": "PULWAMA",
+         "N": 23.24,
+         "OC": 1.92,
+         "P": 18.64,
+         "K": 6.5,
+         "ACIDIC": "77.27000000000001",
+         "NEUTRAL": 2.58,
+         "BASIC": "20.15"
+      },
+      {
+         "District": "RAJAURI",
+         "N": 11.62,
+         "OC": 26.26,
+         "P": 24.14,
+         "K": 10.25,
+         "ACIDIC": "38.0",
+         "NEUTRAL": 20.58,
+         "BASIC": "41.42"
+      },
+      {
+         "District": "RAMBAN",
+         "N": 9.9,
+         "OC": 12.15,
+         "P": 48.74,
+         "K": 57.67,
+         "ACIDIC": "68.06",
+         "NEUTRAL": 6.05,
+         "BASIC": "25.89"
+      },
+      {
+         "District": "REASI",
+         "N": 13.48,
+         "OC": 15.59,
+         "P": 86.05,
+         "K": 51,
+         "ACIDIC": "55.53",
+         "NEUTRAL": 2.09,
+         "BASIC": "42.379999999999995"
+      },
+      {
+         "District": "SAMBA",
+         "N": 57.78,
+         "OC": 70.14,
+         "P": 71.46,
+         "K": 58.99,
+         "ACIDIC": "25.799999999999997",
+         "NEUTRAL": 4.72,
+         "BASIC": "69.49"
+      },
+      {
+         "District": "SHOPIAN",
+         "N": 8.07,
+         "OC": 1.81,
+         "P": 4.13,
+         "K": 18.02,
+         "ACIDIC": "95.92",
+         "NEUTRAL": 1.19,
+         "BASIC": "2.8800000000000003"
+      },
+      {
+         "District": "SRINAGAR",
+         "N": 3.17,
+         "OC": 4.88,
+         "P": 35.22,
+         "K": 4.26,
+         "ACIDIC": "27.290000000000003",
+         "NEUTRAL": 1.3,
+         "BASIC": "71.39999999999999"
+      },
+      {
+         "District": "UDHAMPUR",
+         "N": 18.13,
+         "OC": 20.12,
+         "P": 48.86,
+         "K": 56.51,
+         "ACIDIC": "67.07",
+         "NEUTRAL": 10.63,
+         "BASIC": "22.3"
+      },
+      {
+         "District": "KARGIL",
+         "N": 2.1,
+         "OC": 12.33,
+         "P": 35.44,
+         "K": 30.68,
+         "ACIDIC": "18.64",
+         "NEUTRAL": 5.34,
+         "BASIC": "76.01"
+      },
+      {
+         "District": "LEH LADAKH",
+         "N": 8.68,
+         "OC": 2.79,
+         "P": 16.82,
+         "K": 57.3,
+         "ACIDIC": "1.1",
+         "NEUTRAL": 0.18,
+         "BASIC": "98.71000000000001"
+      }
+   ],
+   "JHARKHAND": [
+      {
+         "District": "BOKARO",
+         "N": 74.25,
+         "OC": 59.98,
+         "P": 73.51,
+         "K": 47.3,
+         "ACIDIC": "93.84",
+         "NEUTRAL": 0.21,
+         "BASIC": "5.949999999999999"
+      },
+      {
+         "District": "CHATRA",
+         "N": 64.57,
+         "OC": 54.82,
+         "P": 38.08,
+         "K": 36.6,
+         "ACIDIC": "74.78",
+         "NEUTRAL": 0.9,
+         "BASIC": "24.32"
+      },
+      {
+         "District": "DHANBAD",
+         "N": 6.36,
+         "OC": 3.93,
+         "P": 42.95,
+         "K": 50.25,
+         "ACIDIC": "91.83000000000001",
+         "NEUTRAL": 0.17,
+         "BASIC": "8.01"
+      },
+      {
+         "District": "DUMKA",
+         "N": 99.61,
+         "OC": 52.41,
+         "P": 85.35,
+         "K": 99.73,
+         "ACIDIC": "99.74",
+         "NEUTRAL": 0,
+         "BASIC": "0.27"
+      },
+      {
+         "District": "EAST SINGHBUM",
+         "N": 72.06,
+         "OC": 48.85,
+         "P": 66.08,
+         "K": 55.9,
+         "ACIDIC": "95.69",
+         "NEUTRAL": 0.93,
+         "BASIC": "3.37"
+      },
+      {
+         "District": "GARHWA",
+         "N": 4.76,
+         "OC": 37.65,
+         "P": 73.81,
+         "K": 82.14,
+         "ACIDIC": "73.26",
+         "NEUTRAL": 1.16,
+         "BASIC": "25.58"
+      },
+      {
+         "District": "GIRIDIH",
+         "N": 53.22,
+         "OC": 36.09,
+         "P": 52.96,
+         "K": 31.67,
+         "ACIDIC": "92.13",
+         "NEUTRAL": 0.87,
+         "BASIC": "7.0"
+      },
+      {
+         "District": "GODDA",
+         "N": 27.97,
+         "OC": 17.11,
+         "P": 41.31,
+         "K": 45.84,
+         "ACIDIC": "66.67",
+         "NEUTRAL": 0.09,
+         "BASIC": "33.239999999999995"
+      },
+      {
+         "District": "GUMLA",
+         "N": 89.54,
+         "OC": 48.51,
+         "P": 61.18,
+         "K": 34.43,
+         "ACIDIC": "97.1",
+         "NEUTRAL": 1.24,
+         "BASIC": "1.6500000000000001"
+      },
+      {
+         "District": "HAZARIBAGH",
+         "N": 56.36,
+         "OC": 64.81,
+         "P": 83.63,
+         "K": 32.81,
+         "ACIDIC": "83.81",
+         "NEUTRAL": 1.94,
+         "BASIC": "14.25"
+      },
+      {
+         "District": "JAMTARA",
+         "N": 81.57,
+         "OC": 49,
+         "P": 74.01,
+         "K": 59.52,
+         "ACIDIC": "90.91",
+         "NEUTRAL": 1.64,
+         "BASIC": "7.46"
+      },
+      {
+         "District": "KHUNTI",
+         "N": 59.86,
+         "OC": 32.62,
+         "P": 63.98,
+         "K": 20.23,
+         "ACIDIC": "99.42",
+         "NEUTRAL": 0.04,
+         "BASIC": "0.54"
+      },
+      {
+         "District": "KODERMA",
+         "N": 57.49,
+         "OC": 60.12,
+         "P": 51.38,
+         "K": 45.88,
+         "ACIDIC": "93.85000000000001",
+         "NEUTRAL": 0.62,
+         "BASIC": "5.54"
+      },
+      {
+         "District": "LATEHAR",
+         "N": 49.92,
+         "OC": 55.06,
+         "P": 75.18,
+         "K": 14.09,
+         "ACIDIC": "82.35",
+         "NEUTRAL": 2.94,
+         "BASIC": "14.719999999999999"
+      },
+      {
+         "District": "LOHARDAGA",
+         "N": 57.19,
+         "OC": 24.6,
+         "P": 53.91,
+         "K": 18.4,
+         "ACIDIC": "99.85000000000001",
+         "NEUTRAL": 0,
+         "BASIC": "0.14"
+      },
+      {
+         "District": "PAKUR",
+         "N": 86.61,
+         "OC": 70.82,
+         "P": 58.14,
+         "K": 95.46,
+         "ACIDIC": "99.52",
+         "NEUTRAL": 0,
+         "BASIC": "0.48"
+      },
+      {
+         "District": "PALAMU",
+         "N": 16.09,
+         "OC": 9.76,
+         "P": 86.82,
+         "K": 37.4,
+         "ACIDIC": "38.089999999999996",
+         "NEUTRAL": 0,
+         "BASIC": "61.900000000000006"
+      },
+      {
+         "District": "RAMGARH",
+         "N": 50,
+         "OC": 50,
+         "P": 100,
+         "K": 25,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "RANCHI",
+         "N": 55.41,
+         "OC": 40.69,
+         "P": 57.27,
+         "K": 15.93,
+         "ACIDIC": "96.59000000000002",
+         "NEUTRAL": 0.72,
+         "BASIC": "2.69"
+      },
+      {
+         "District": "SAHEBGANJ",
+         "N": 18.38,
+         "OC": 0.74,
+         "P": 93.38,
+         "K": 69.12,
+         "ACIDIC": "95.54999999999998",
+         "NEUTRAL": 0,
+         "BASIC": "4.44"
+      },
+      {
+         "District": "SARAIKELA KHARSAWAN",
+         "N": 62.64,
+         "OC": 48.94,
+         "P": 90.22,
+         "K": 39.03,
+         "ACIDIC": "97.0",
+         "NEUTRAL": 0.09,
+         "BASIC": "2.91"
+      },
+      {
+         "District": "SIMDEGA",
+         "N": 67.28,
+         "OC": 40.98,
+         "P": 56.22,
+         "K": 50.92,
+         "ACIDIC": "91.05",
+         "NEUTRAL": 0,
+         "BASIC": "8.94"
+      },
+      {
+         "District": "WEST SINGHBHUM",
+         "N": 31.24,
+         "OC": 33.05,
+         "P": 79.76,
+         "K": 50.29,
+         "ACIDIC": "97.49",
+         "NEUTRAL": 0.26,
+         "BASIC": "2.25"
+      },
+      {
+         "District": "DEOGHAR",
+         "N": 86.25,
+         "OC": 66.06,
+         "P": 42.66,
+         "K": 61.67,
+         "ACIDIC": "23.86",
+         "NEUTRAL": 0.21,
+         "BASIC": "75.92"
+      }
+   ],
+   "KARNATAKA": [
+      {
+         "District": "BAGALKOT",
+         "N": 39.11,
+         "OC": 51.32,
+         "P": 41.25,
+         "K": 7.13,
+         "ACIDIC": "3.51",
+         "NEUTRAL": 0.52,
+         "BASIC": "95.96000000000001"
+      },
+      {
+         "District": "BENGALURU RURAL",
+         "N": 96.44,
+         "OC": 43.01,
+         "P": 12.25,
+         "K": 25.74,
+         "ACIDIC": "78.56",
+         "NEUTRAL": 0.42,
+         "BASIC": "21.03"
+      },
+      {
+         "District": "BELGAUM",
+         "N": 50.65,
+         "OC": 49.41,
+         "P": 46.65,
+         "K": 36.41,
+         "ACIDIC": "11.969999999999999",
+         "NEUTRAL": 2.14,
+         "BASIC": "85.88"
+      },
+      {
+         "District": "BELLARY",
+         "N": 63.16,
+         "OC": 42.25,
+         "P": 11.25,
+         "K": 6.42,
+         "ACIDIC": "16.950000000000003",
+         "NEUTRAL": 2.11,
+         "BASIC": "80.94"
+      },
+      {
+         "District": "BENGALURU URBAN",
+         "N": 96.99,
+         "OC": 52.81,
+         "P": 12.53,
+         "K": 25.02,
+         "ACIDIC": "58.86000000000001",
+         "NEUTRAL": 0.55,
+         "BASIC": "40.589999999999996"
+      },
+      {
+         "District": "BIDAR",
+         "N": 85.1,
+         "OC": 43.79,
+         "P": 88.63,
+         "K": 8.62,
+         "ACIDIC": "23.84",
+         "NEUTRAL": 6.37,
+         "BASIC": "69.8"
+      },
+      {
+         "District": "BIJAPUR",
+         "N": 76.7,
+         "OC": 75.32,
+         "P": 52.59,
+         "K": 6.57,
+         "ACIDIC": "2.0999999999999996",
+         "NEUTRAL": 0.56,
+         "BASIC": "97.35"
+      },
+      {
+         "District": "CHAMARAJANAGAR",
+         "N": 12.25,
+         "OC": 91.77,
+         "P": 24.67,
+         "K": 17.58,
+         "ACIDIC": "28.33",
+         "NEUTRAL": 0.28,
+         "BASIC": "71.39"
+      },
+      {
+         "District": "CHIKKABALLAPUR",
+         "N": 95.75,
+         "OC": 49.49,
+         "P": 28.78,
+         "K": 9.91,
+         "ACIDIC": "61.41",
+         "NEUTRAL": 0.76,
+         "BASIC": "37.839999999999996"
+      },
+      {
+         "District": "CHIKMAGALUR",
+         "N": 75,
+         "OC": 35.91,
+         "P": 20.03,
+         "K": 12.71,
+         "ACIDIC": "56.29",
+         "NEUTRAL": 0.41,
+         "BASIC": "43.29"
+      },
+      {
+         "District": "CHITRADURGA",
+         "N": 81.14,
+         "OC": 62.32,
+         "P": 9.49,
+         "K": 53.38,
+         "ACIDIC": "53.2",
+         "NEUTRAL": 4.71,
+         "BASIC": "42.08"
+      },
+      {
+         "District": "DAKSHIN KANNAD",
+         "N": 100,
+         "OC": 4,
+         "P": 64.96,
+         "K": 94.5,
+         "ACIDIC": "95.13999999999999",
+         "NEUTRAL": 0.46,
+         "BASIC": "4.41"
+      },
+      {
+         "District": "DAVANGERE",
+         "N": 70.4,
+         "OC": 28.49,
+         "P": 5.73,
+         "K": 8.82,
+         "ACIDIC": "42.28",
+         "NEUTRAL": 5.61,
+         "BASIC": "52.11"
+      },
+      {
+         "District": "DHARWAD",
+         "N": 37.28,
+         "OC": 42.13,
+         "P": 85.22,
+         "K": 0.53,
+         "ACIDIC": "17.59",
+         "NEUTRAL": 0.09,
+         "BASIC": "82.33"
+      },
+      {
+         "District": "GADAG",
+         "N": 83.25,
+         "OC": 54.19,
+         "P": 62.42,
+         "K": 2.26,
+         "ACIDIC": "2.26",
+         "NEUTRAL": 0.07,
+         "BASIC": "97.68"
+      },
+      {
+         "District": "GULBARGA",
+         "N": 93.42,
+         "OC": 52.52,
+         "P": 14.04,
+         "K": 8.37,
+         "ACIDIC": "6.59",
+         "NEUTRAL": 2.73,
+         "BASIC": "90.67999999999999"
+      },
+      {
+         "District": "HASSAN",
+         "N": 24.26,
+         "OC": 32.25,
+         "P": 8.97,
+         "K": 32.83,
+         "ACIDIC": "68.57000000000001",
+         "NEUTRAL": 1.17,
+         "BASIC": "30.27"
+      },
+      {
+         "District": "HAVERI",
+         "N": 72.19,
+         "OC": 65.43,
+         "P": 26.83,
+         "K": 10.4,
+         "ACIDIC": "28.58",
+         "NEUTRAL": 1.49,
+         "BASIC": "69.92999999999999"
+      },
+      {
+         "District": "KODAGU",
+         "N": 1.05,
+         "OC": 11.06,
+         "P": 62.54,
+         "K": 63.35,
+         "ACIDIC": "98.49",
+         "NEUTRAL": 0.41,
+         "BASIC": "1.11"
+      },
+      {
+         "District": "KOLAR",
+         "N": 79.77,
+         "OC": 81.26,
+         "P": 12.17,
+         "K": 20.83,
+         "ACIDIC": "74.44",
+         "NEUTRAL": 3.37,
+         "BASIC": "22.189999999999998"
+      },
+      {
+         "District": "KOPPAL",
+         "N": 93.51,
+         "OC": 66.72,
+         "P": 35.69,
+         "K": 0.89,
+         "ACIDIC": "18.810000000000002",
+         "NEUTRAL": 1.15,
+         "BASIC": "80.05"
+      },
+      {
+         "District": "MANDYA",
+         "N": 41.85,
+         "OC": 26.78,
+         "P": 14.31,
+         "K": 8.02,
+         "ACIDIC": "61.44",
+         "NEUTRAL": 6.22,
+         "BASIC": "32.35"
+      },
+      {
+         "District": "MYSORE",
+         "N": 89.49,
+         "OC": 36.2,
+         "P": 22.5,
+         "K": 8.22,
+         "ACIDIC": "59.67",
+         "NEUTRAL": 0.49,
+         "BASIC": "39.84"
+      },
+      {
+         "District": "RAICHUR",
+         "N": 87.79,
+         "OC": 23.84,
+         "P": 19.27,
+         "K": 93.53,
+         "ACIDIC": "7.890000000000001",
+         "NEUTRAL": 1.24,
+         "BASIC": "90.87"
+      },
+      {
+         "District": "RAMANAGARA",
+         "N": 79.1,
+         "OC": 69.21,
+         "P": 30.12,
+         "K": 22.9,
+         "ACIDIC": "76.65",
+         "NEUTRAL": 2.86,
+         "BASIC": "20.5"
+      },
+      {
+         "District": "SHIMOGA",
+         "N": 97.03,
+         "OC": 41.48,
+         "P": 19.76,
+         "K": 41.42,
+         "ACIDIC": "93.86000000000001",
+         "NEUTRAL": 0.91,
+         "BASIC": "5.2299999999999995"
+      },
+      {
+         "District": "TUMKUR",
+         "N": 92.35,
+         "OC": 86.18,
+         "P": 51.11,
+         "K": 14.44,
+         "ACIDIC": "53.58",
+         "NEUTRAL": 8.67,
+         "BASIC": "37.739999999999995"
+      },
+      {
+         "District": "UDUPI",
+         "N": 99.66,
+         "OC": 12.61,
+         "P": 24.25,
+         "K": 60.02,
+         "ACIDIC": "99.00000000000001",
+         "NEUTRAL": 0.01,
+         "BASIC": "0.99"
+      },
+      {
+         "District": "UTTAR KANNAD",
+         "N": 76.19,
+         "OC": 5.72,
+         "P": 43.29,
+         "K": 54.89,
+         "ACIDIC": "96.21000000000001",
+         "NEUTRAL": 0.25,
+         "BASIC": "3.54"
+      },
+      {
+         "District": "YADGIR",
+         "N": 94.21,
+         "OC": 60.32,
+         "P": 49.11,
+         "K": 4.95,
+         "ACIDIC": "20.990000000000002",
+         "NEUTRAL": 1.23,
+         "BASIC": "77.77000000000001"
+      }
+   ],
+   "KERALA": [
+      {
+         "District": "ALAPPUZHA",
+         "N": 99.69,
+         "OC": 38.06,
+         "P": 18.8,
+         "K": 63.76,
+         "ACIDIC": "89.69",
+         "NEUTRAL": 2.19,
+         "BASIC": "8.12"
+      },
+      {
+         "District": "ERNAKULAM",
+         "N": 100,
+         "OC": 28.48,
+         "P": 26.36,
+         "K": 31.25,
+         "ACIDIC": "96.88000000000001",
+         "NEUTRAL": 0.2,
+         "BASIC": "2.9299999999999997"
+      },
+      {
+         "District": "IDUKKI",
+         "N": 100,
+         "OC": 6.34,
+         "P": 45.21,
+         "K": 21.84,
+         "ACIDIC": "98.96",
+         "NEUTRAL": 0.1,
+         "BASIC": "0.94"
+      },
+      {
+         "District": "KANNUR",
+         "N": 100,
+         "OC": 22.47,
+         "P": 42.59,
+         "K": 34.66,
+         "ACIDIC": "92.02000000000001",
+         "NEUTRAL": 1.45,
+         "BASIC": "6.52"
+      },
+      {
+         "District": "KASARAGOD",
+         "N": 100,
+         "OC": 9.66,
+         "P": 66.54,
+         "K": 63.98,
+         "ACIDIC": "99.46000000000001",
+         "NEUTRAL": 0.01,
+         "BASIC": "0.54"
+      },
+      {
+         "District": "KOLLAM",
+         "N": 100,
+         "OC": 15.13,
+         "P": 11.64,
+         "K": 37.2,
+         "ACIDIC": "90.38",
+         "NEUTRAL": 1.56,
+         "BASIC": "8.069999999999999"
+      },
+      {
+         "District": "KOTTAYAM",
+         "N": 100,
+         "OC": 9.28,
+         "P": 39.32,
+         "K": 23.84,
+         "ACIDIC": "98.09",
+         "NEUTRAL": 0.28,
+         "BASIC": "1.6300000000000001"
+      },
+      {
+         "District": "KOZHIKODE",
+         "N": 100,
+         "OC": 11.82,
+         "P": 44.66,
+         "K": 29.76,
+         "ACIDIC": "97.25",
+         "NEUTRAL": 1.17,
+         "BASIC": "1.6"
+      },
+      {
+         "District": "MALAPPURAM",
+         "N": 100,
+         "OC": 22.08,
+         "P": 43.68,
+         "K": 24.87,
+         "ACIDIC": "93.23",
+         "NEUTRAL": 1.5,
+         "BASIC": "5.28"
+      },
+      {
+         "District": "PALAKKAD",
+         "N": 84.22,
+         "OC": 42.6,
+         "P": 49.94,
+         "K": 43.17,
+         "ACIDIC": "97.33999999999999",
+         "NEUTRAL": 0.44,
+         "BASIC": "2.21"
+      },
+      {
+         "District": "PATHANAMTHITTA",
+         "N": 100,
+         "OC": 2.7,
+         "P": 16.44,
+         "K": 29.33,
+         "ACIDIC": "89.99000000000001",
+         "NEUTRAL": 2.08,
+         "BASIC": "7.92"
+      },
+      {
+         "District": "THIRUVANANTHAPURAM",
+         "N": 100,
+         "OC": 33.7,
+         "P": 29.61,
+         "K": 38.2,
+         "ACIDIC": "89.09",
+         "NEUTRAL": 1.77,
+         "BASIC": "9.15"
+      },
+      {
+         "District": "THRISSUR",
+         "N": 100,
+         "OC": 17.38,
+         "P": 28.97,
+         "K": 25.08,
+         "ACIDIC": "97.59",
+         "NEUTRAL": 0.19,
+         "BASIC": "2.2199999999999998"
+      },
+      {
+         "District": "WAYANAD",
+         "N": 100,
+         "OC": 4.76,
+         "P": 64.54,
+         "K": 32.55,
+         "ACIDIC": "98.46",
+         "NEUTRAL": 0.28,
+         "BASIC": "1.25"
+      }
+   ],
+   "MADHYA PRADESH": [
+      {
+         "District": "AGAR MALWA",
+         "N": 91.08,
+         "OC": 35.61,
+         "P": 48.83,
+         "K": 9.31,
+         "ACIDIC": "33.19",
+         "NEUTRAL": 0.82,
+         "BASIC": "65.99"
+      },
+      {
+         "District": "ALIRAJPUR",
+         "N": 57.06,
+         "OC": 31.64,
+         "P": 87.94,
+         "K": 15.49,
+         "ACIDIC": "48.190000000000005",
+         "NEUTRAL": 2.5,
+         "BASIC": "49.32"
+      },
+      {
+         "District": "ANUPPUR",
+         "N": 52.03,
+         "OC": 31.17,
+         "P": 31.37,
+         "K": 15.15,
+         "ACIDIC": "76.89",
+         "NEUTRAL": 4.27,
+         "BASIC": "18.84"
+      },
+      {
+         "District": "ASHOKNAGAR",
+         "N": 98.15,
+         "OC": 49.26,
+         "P": 97.49,
+         "K": 29.18,
+         "ACIDIC": "6.74",
+         "NEUTRAL": 0.07,
+         "BASIC": "93.19"
+      },
+      {
+         "District": "BALAGHAT",
+         "N": 15.1,
+         "OC": 5.9,
+         "P": 35.38,
+         "K": 17.65,
+         "ACIDIC": "73.48",
+         "NEUTRAL": 3.43,
+         "BASIC": "23.099999999999998"
+      },
+      {
+         "District": "BARWANI",
+         "N": 58.97,
+         "OC": 21.35,
+         "P": 33.49,
+         "K": 14.89,
+         "ACIDIC": "31.58",
+         "NEUTRAL": 2.6,
+         "BASIC": "65.83"
+      },
+      {
+         "District": "BETUL",
+         "N": 93.5,
+         "OC": 60.52,
+         "P": 93.48,
+         "K": 6.71,
+         "ACIDIC": "44.589999999999996",
+         "NEUTRAL": 0.72,
+         "BASIC": "54.68"
+      },
+      {
+         "District": "BHIND",
+         "N": 99.9,
+         "OC": 96.34,
+         "P": 99.44,
+         "K": 0.75,
+         "ACIDIC": "0.11",
+         "NEUTRAL": 0.39,
+         "BASIC": "99.51"
+      },
+      {
+         "District": "BHOPAL",
+         "N": 68.74,
+         "OC": 39.42,
+         "P": 72.05,
+         "K": 16.08,
+         "ACIDIC": "16.46",
+         "NEUTRAL": 9.33,
+         "BASIC": "74.21"
+      },
+      {
+         "District": "BURHANPUR",
+         "N": 84.84,
+         "OC": 46.54,
+         "P": 86.46,
+         "K": 4.84,
+         "ACIDIC": "10.27",
+         "NEUTRAL": 5.75,
+         "BASIC": "83.99"
+      },
+      {
+         "District": "CHHATARPUR",
+         "N": 84.61,
+         "OC": 56.29,
+         "P": 38.07,
+         "K": 12.53,
+         "ACIDIC": "30.740000000000002",
+         "NEUTRAL": 4.82,
+         "BASIC": "64.43"
+      },
+      {
+         "District": "CHHINDWARA",
+         "N": 71.58,
+         "OC": 39.68,
+         "P": 62.85,
+         "K": 37.96,
+         "ACIDIC": "59.56",
+         "NEUTRAL": 1.42,
+         "BASIC": "39.019999999999996"
+      },
+      {
+         "District": "DAMOH",
+         "N": 32.29,
+         "OC": 15.37,
+         "P": 60.15,
+         "K": 17.05,
+         "ACIDIC": "27.39",
+         "NEUTRAL": 8.8,
+         "BASIC": "63.8"
+      },
+      {
+         "District": "DATIA",
+         "N": 87.94,
+         "OC": 46.27,
+         "P": 43.41,
+         "K": 4.3,
+         "ACIDIC": "2.31",
+         "NEUTRAL": 0.08,
+         "BASIC": "97.62"
+      },
+      {
+         "District": "DEWAS",
+         "N": 99.66,
+         "OC": 48.86,
+         "P": 39.12,
+         "K": 0.19,
+         "ACIDIC": "17.88",
+         "NEUTRAL": 2.05,
+         "BASIC": "80.07"
+      },
+      {
+         "District": "DHAR",
+         "N": 71.89,
+         "OC": 38.59,
+         "P": 88.01,
+         "K": 3.12,
+         "ACIDIC": "22.189999999999998",
+         "NEUTRAL": 1.17,
+         "BASIC": "76.63"
+      },
+      {
+         "District": "DINDORI",
+         "N": 26.74,
+         "OC": 14.85,
+         "P": 94.11,
+         "K": 7.07,
+         "ACIDIC": "89.7",
+         "NEUTRAL": 0.17,
+         "BASIC": "10.12"
+      },
+      {
+         "District": "KHANDWA",
+         "N": 83.14,
+         "OC": 15.15,
+         "P": 82.57,
+         "K": 17.01,
+         "ACIDIC": "7.29",
+         "NEUTRAL": 15.43,
+         "BASIC": "77.27"
+      },
+      {
+         "District": "GUNA",
+         "N": 76.88,
+         "OC": 12.46,
+         "P": 95.47,
+         "K": 77.89,
+         "ACIDIC": "9.0",
+         "NEUTRAL": 0.1,
+         "BASIC": "90.89999999999999"
+      },
+      {
+         "District": "GWALIOR",
+         "N": 99.24,
+         "OC": 31.85,
+         "P": 18.29,
+         "K": 0.6,
+         "ACIDIC": "11.389999999999999",
+         "NEUTRAL": 7.51,
+         "BASIC": "81.08999999999999"
+      },
+      {
+         "District": "HARDA",
+         "N": 81.56,
+         "OC": 18.59,
+         "P": 27.07,
+         "K": 3.67,
+         "ACIDIC": "41.919999999999995",
+         "NEUTRAL": 10.64,
+         "BASIC": "47.449999999999996"
+      },
+      {
+         "District": "HOSHANGABAD",
+         "N": 96.71,
+         "OC": 38.72,
+         "P": 48.57,
+         "K": 4.25,
+         "ACIDIC": "11.66",
+         "NEUTRAL": 0.72,
+         "BASIC": "87.64"
+      },
+      {
+         "District": "INDORE",
+         "N": 99.82,
+         "OC": 76.8,
+         "P": 98.83,
+         "K": 0.3,
+         "ACIDIC": "22.04",
+         "NEUTRAL": 2.94,
+         "BASIC": "75.03"
+      },
+      {
+         "District": "JABALPUR",
+         "N": 45.06,
+         "OC": 24.42,
+         "P": 81.97,
+         "K": 14,
+         "ACIDIC": "44.379999999999995",
+         "NEUTRAL": 6.24,
+         "BASIC": "49.37"
+      },
+      {
+         "District": "JHABUA",
+         "N": 64.69,
+         "OC": 27.56,
+         "P": 81.75,
+         "K": 8.2,
+         "ACIDIC": "7.28",
+         "NEUTRAL": 23.6,
+         "BASIC": "69.12"
+      },
+      {
+         "District": "KATNI",
+         "N": 72.56,
+         "OC": 26.67,
+         "P": 11.61,
+         "K": 15.63,
+         "ACIDIC": "43.54",
+         "NEUTRAL": 0.51,
+         "BASIC": "55.96"
+      },
+      {
+         "District": "KHARGONE",
+         "N": 78.16,
+         "OC": 34.01,
+         "P": 87.64,
+         "K": 3.34,
+         "ACIDIC": "3.0",
+         "NEUTRAL": 0.52,
+         "BASIC": "96.47"
+      },
+      {
+         "District": "MANDLA",
+         "N": 77.6,
+         "OC": 21.32,
+         "P": 66.24,
+         "K": 14.3,
+         "ACIDIC": "52.849999999999994",
+         "NEUTRAL": 22.86,
+         "BASIC": "24.3"
+      },
+      {
+         "District": "MANDSAUR",
+         "N": 58.6,
+         "OC": 15.99,
+         "P": 70.69,
+         "K": 12.26,
+         "ACIDIC": "9.98",
+         "NEUTRAL": 0.18,
+         "BASIC": "89.83999999999999"
+      },
+      {
+         "District": "MORENA",
+         "N": 96.19,
+         "OC": 59.64,
+         "P": 27.19,
+         "K": 2.77,
+         "ACIDIC": "3.7199999999999998",
+         "NEUTRAL": 0.09,
+         "BASIC": "96.19"
+      },
+      {
+         "District": "NARSINGHPUR",
+         "N": 90.53,
+         "OC": 50.86,
+         "P": 51.3,
+         "K": 18.18,
+         "ACIDIC": "8.89",
+         "NEUTRAL": 0.13,
+         "BASIC": "90.98"
+      },
+      {
+         "District": "NEEMUCH",
+         "N": 84.88,
+         "OC": 29.62,
+         "P": 18.87,
+         "K": 0.29,
+         "ACIDIC": "4.82",
+         "NEUTRAL": 0.38,
+         "BASIC": "94.80999999999999"
+      },
+      {
+         "District": "PANNA",
+         "N": 35.45,
+         "OC": 9.14,
+         "P": 80.25,
+         "K": 1.98,
+         "ACIDIC": "55.94",
+         "NEUTRAL": 1.77,
+         "BASIC": "42.29"
+      },
+      {
+         "District": "RAISEN",
+         "N": 94.66,
+         "OC": 43.14,
+         "P": 76.11,
+         "K": 15.67,
+         "ACIDIC": "20.84",
+         "NEUTRAL": 0.23,
+         "BASIC": "78.92999999999999"
+      },
+      {
+         "District": "RAJGARH",
+         "N": 78.96,
+         "OC": 42.57,
+         "P": 51.65,
+         "K": 4.59,
+         "ACIDIC": "6.43",
+         "NEUTRAL": 2.84,
+         "BASIC": "90.75"
+      },
+      {
+         "District": "RATLAM",
+         "N": 98.95,
+         "OC": 68.43,
+         "P": 91.31,
+         "K": 0.6,
+         "ACIDIC": "1.01",
+         "NEUTRAL": 0.56,
+         "BASIC": "98.41"
+      },
+      {
+         "District": "REWA",
+         "N": 75.95,
+         "OC": 25.38,
+         "P": 19.29,
+         "K": 8.79,
+         "ACIDIC": "20.009999999999998",
+         "NEUTRAL": 0.01,
+         "BASIC": "79.99"
+      },
+      {
+         "District": "SAGAR",
+         "N": 36.4,
+         "OC": 22.24,
+         "P": 92.52,
+         "K": 41.91,
+         "ACIDIC": "2.86",
+         "NEUTRAL": 7.77,
+         "BASIC": "89.38"
+      },
+      {
+         "District": "SATNA",
+         "N": 48.5,
+         "OC": 30.37,
+         "P": 31.61,
+         "K": 11.35,
+         "ACIDIC": "27.13",
+         "NEUTRAL": 1.31,
+         "BASIC": "71.57000000000001"
+      },
+      {
+         "District": "SEHORE",
+         "N": 58.91,
+         "OC": 19.22,
+         "P": 90.56,
+         "K": 1.34,
+         "ACIDIC": "0.16000000000000003",
+         "NEUTRAL": 0.41,
+         "BASIC": "99.42999999999999"
+      },
+      {
+         "District": "SEONI",
+         "N": 47.7,
+         "OC": 17.82,
+         "P": 60.8,
+         "K": 14.86,
+         "ACIDIC": "56.050000000000004",
+         "NEUTRAL": 2.73,
+         "BASIC": "41.21"
+      },
+      {
+         "District": "SHAHDOL",
+         "N": 42.86,
+         "OC": 22.44,
+         "P": 92.64,
+         "K": 7.91,
+         "ACIDIC": "64.16999999999999",
+         "NEUTRAL": 4.56,
+         "BASIC": "31.26"
+      },
+      {
+         "District": "SHAJAPUR",
+         "N": 80.66,
+         "OC": 26.62,
+         "P": 56.46,
+         "K": 24,
+         "ACIDIC": "48.34",
+         "NEUTRAL": 0.05,
+         "BASIC": "51.61"
+      },
+      {
+         "District": "SHEOPUR",
+         "N": 88.19,
+         "OC": 20.83,
+         "P": 89.76,
+         "K": 7.65,
+         "ACIDIC": "3.21",
+         "NEUTRAL": 0.34,
+         "BASIC": "96.44"
+      },
+      {
+         "District": "SHIVPURI",
+         "N": 83.11,
+         "OC": 39.55,
+         "P": 60.49,
+         "K": 17.69,
+         "ACIDIC": "14.32",
+         "NEUTRAL": 0.05,
+         "BASIC": "85.62"
+      },
+      {
+         "District": "SIDHI",
+         "N": 42.36,
+         "OC": 15.4,
+         "P": 26.89,
+         "K": 22.34,
+         "ACIDIC": "58.0",
+         "NEUTRAL": 0.05,
+         "BASIC": "41.94"
+      },
+      {
+         "District": "SINGRAULI",
+         "N": 86.15,
+         "OC": 54.47,
+         "P": 33.17,
+         "K": 19.95,
+         "ACIDIC": "69.0",
+         "NEUTRAL": 1.6,
+         "BASIC": "29.4"
+      },
+      {
+         "District": "TIKAMGARH",
+         "N": 63.39,
+         "OC": 51.57,
+         "P": 52.95,
+         "K": 5.54,
+         "ACIDIC": "34.879999999999995",
+         "NEUTRAL": 9.88,
+         "BASIC": "55.24"
+      },
+      {
+         "District": "UJJAIN",
+         "N": 94,
+         "OC": 34.26,
+         "P": 56.06,
+         "K": 4.06,
+         "ACIDIC": "6.57",
+         "NEUTRAL": 2.69,
+         "BASIC": "90.72999999999999"
+      },
+      {
+         "District": "UMARIA",
+         "N": 55.4,
+         "OC": 29.27,
+         "P": 58.51,
+         "K": 18.62,
+         "ACIDIC": "43.45",
+         "NEUTRAL": 1.47,
+         "BASIC": "55.08"
+      },
+      {
+         "District": "VIDISHA",
+         "N": 97.86,
+         "OC": 37.41,
+         "P": 81.77,
+         "K": 5.84,
+         "ACIDIC": "14.08",
+         "NEUTRAL": 0.57,
+         "BASIC": "85.35000000000001"
+      }
+   ],
+   "MAHARASHTRA": [
+      {
+         "District": "AHMEDNAGAR",
+         "N": 48.87,
+         "OC": 40.78,
+         "P": 41.14,
+         "K": 7.65,
+         "ACIDIC": "3.63",
+         "NEUTRAL": 0.2,
+         "BASIC": "96.17"
+      },
+      {
+         "District": "AKOLA",
+         "N": 35.84,
+         "OC": 51.16,
+         "P": 7.52,
+         "K": 1.15,
+         "ACIDIC": "0.62",
+         "NEUTRAL": 0.26,
+         "BASIC": "99.13"
+      },
+      {
+         "District": "AMRAVATI",
+         "N": 63.25,
+         "OC": 64.62,
+         "P": 29.94,
+         "K": 0.48,
+         "ACIDIC": "1.3299999999999998",
+         "NEUTRAL": 0.24,
+         "BASIC": "98.42999999999999"
+      },
+      {
+         "District": "AURANGABAD",
+         "N": 50.99,
+         "OC": 62.5,
+         "P": 44.42,
+         "K": 3.66,
+         "ACIDIC": "0.6599999999999999",
+         "NEUTRAL": 0.28,
+         "BASIC": "99.05999999999999"
+      },
+      {
+         "District": "BEED",
+         "N": 88.65,
+         "OC": 63.27,
+         "P": 29.66,
+         "K": 3.54,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 0,
+         "BASIC": "100.0"
+      },
+      {
+         "District": "BHANDARA",
+         "N": 42.86,
+         "OC": 56.14,
+         "P": 25.72,
+         "K": 6.24,
+         "ACIDIC": "61.18000000000001",
+         "NEUTRAL": 0.4,
+         "BASIC": "38.42"
+      },
+      {
+         "District": "BULDHANA",
+         "N": 38.93,
+         "OC": 49.94,
+         "P": 22.05,
+         "K": 3.86,
+         "ACIDIC": "4.94",
+         "NEUTRAL": 0.55,
+         "BASIC": "94.51"
+      },
+      {
+         "District": "CHANDRAPUR",
+         "N": 75.85,
+         "OC": 87.22,
+         "P": 2.62,
+         "K": 1.24,
+         "ACIDIC": "58.78999999999999",
+         "NEUTRAL": 3.3,
+         "BASIC": "37.900000000000006"
+      },
+      {
+         "District": "DHULE",
+         "N": 63.53,
+         "OC": 62.1,
+         "P": 19.03,
+         "K": 0.51,
+         "ACIDIC": "3.43",
+         "NEUTRAL": 0.57,
+         "BASIC": "96.00999999999999"
+      },
+      {
+         "District": "GADCHIROLI",
+         "N": 52.24,
+         "OC": 75.43,
+         "P": 22.26,
+         "K": 1.54,
+         "ACIDIC": "62.79",
+         "NEUTRAL": 2.68,
+         "BASIC": "34.54"
+      },
+      {
+         "District": "GONDIA",
+         "N": 50.26,
+         "OC": 81.42,
+         "P": 12.17,
+         "K": 1,
+         "ACIDIC": "29.07",
+         "NEUTRAL": 1.16,
+         "BASIC": "69.77"
+      },
+      {
+         "District": "HINGOLI",
+         "N": 35.87,
+         "OC": 58.63,
+         "P": 27.46,
+         "K": 0.12,
+         "ACIDIC": "0.02",
+         "NEUTRAL": 0.02,
+         "BASIC": "99.96000000000001"
+      },
+      {
+         "District": "JALGAON",
+         "N": 93.05,
+         "OC": 97.25,
+         "P": 25.6,
+         "K": 0.08,
+         "ACIDIC": "4.23",
+         "NEUTRAL": 0.81,
+         "BASIC": "94.96"
+      },
+      {
+         "District": "JALNA",
+         "N": 83.74,
+         "OC": 58.96,
+         "P": 42.76,
+         "K": 4.47,
+         "ACIDIC": "1.01",
+         "NEUTRAL": 0.13,
+         "BASIC": "98.86"
+      },
+      {
+         "District": "KOLHAPUR",
+         "N": 28.77,
+         "OC": 34.96,
+         "P": 26.77,
+         "K": 28.38,
+         "ACIDIC": "46.629999999999995",
+         "NEUTRAL": 1.45,
+         "BASIC": "51.93"
+      },
+      {
+         "District": "LATUR",
+         "N": 73.97,
+         "OC": 74.92,
+         "P": 74.7,
+         "K": 1.4,
+         "ACIDIC": "1.8",
+         "NEUTRAL": 0.81,
+         "BASIC": "97.38"
+      },
+      {
+         "District": "NAGPUR",
+         "N": 19.87,
+         "OC": 31.55,
+         "P": 3.63,
+         "K": 7.89,
+         "ACIDIC": "7.26",
+         "NEUTRAL": 0.51,
+         "BASIC": "92.22"
+      },
+      {
+         "District": "NANDED",
+         "N": 16.37,
+         "OC": 29.59,
+         "P": 79.86,
+         "K": 1.59,
+         "ACIDIC": "0.8500000000000001",
+         "NEUTRAL": 0.13,
+         "BASIC": "99.02"
+      },
+      {
+         "District": "NANDURBAR",
+         "N": 88.84,
+         "OC": 76.99,
+         "P": 6.62,
+         "K": 1.6,
+         "ACIDIC": "7.6899999999999995",
+         "NEUTRAL": 0.83,
+         "BASIC": "91.47999999999999"
+      },
+      {
+         "District": "NASHIK",
+         "N": 61.98,
+         "OC": 42.31,
+         "P": 11.13,
+         "K": 10.39,
+         "ACIDIC": "8.25",
+         "NEUTRAL": 0.94,
+         "BASIC": "90.81"
+      },
+      {
+         "District": "OSMANABAD",
+         "N": 18.79,
+         "OC": 37.49,
+         "P": 73.54,
+         "K": 0.41,
+         "ACIDIC": "0.4",
+         "NEUTRAL": 0.32,
+         "BASIC": "99.27"
+      },
+      {
+         "District": "PALGHAR",
+         "N": 17.36,
+         "OC": 22.94,
+         "P": 1.92,
+         "K": 0.31,
+         "ACIDIC": "41.32",
+         "NEUTRAL": 1.52,
+         "BASIC": "57.15"
+      },
+      {
+         "District": "PARBHANI",
+         "N": 46.48,
+         "OC": 70.08,
+         "P": 54.52,
+         "K": 0.3,
+         "ACIDIC": "0.35",
+         "NEUTRAL": 0.32,
+         "BASIC": "99.33"
+      },
+      {
+         "District": "PUNE",
+         "N": 41.16,
+         "OC": 38.27,
+         "P": 47.49,
+         "K": 3.08,
+         "ACIDIC": "6.94",
+         "NEUTRAL": 0.33,
+         "BASIC": "92.74"
+      },
+      {
+         "District": "RAIGAD",
+         "N": 28.92,
+         "OC": 17.88,
+         "P": 21.7,
+         "K": 6.03,
+         "ACIDIC": "85.01",
+         "NEUTRAL": 0.51,
+         "BASIC": "14.479999999999999"
+      },
+      {
+         "District": "RATNAGIRI",
+         "N": 24.9,
+         "OC": 19.34,
+         "P": 41.32,
+         "K": 1.01,
+         "ACIDIC": "75.64",
+         "NEUTRAL": 0.2,
+         "BASIC": "24.15"
+      },
+      {
+         "District": "SANGLI",
+         "N": 90.85,
+         "OC": 57.96,
+         "P": 18.54,
+         "K": 9.8,
+         "ACIDIC": "6.290000000000001",
+         "NEUTRAL": 1.11,
+         "BASIC": "92.60000000000001"
+      },
+      {
+         "District": "SATARA",
+         "N": 91.18,
+         "OC": 79.07,
+         "P": 30.88,
+         "K": 21.82,
+         "ACIDIC": "11.67",
+         "NEUTRAL": 0.17,
+         "BASIC": "88.18"
+      },
+      {
+         "District": "SINDHUDURG",
+         "N": 9.29,
+         "OC": 2.63,
+         "P": 40.09,
+         "K": 21.73,
+         "ACIDIC": "95.75",
+         "NEUTRAL": 0.32,
+         "BASIC": "3.93"
+      },
+      {
+         "District": "SOLAPUR",
+         "N": 50.74,
+         "OC": 63.18,
+         "P": 25.66,
+         "K": 11.49,
+         "ACIDIC": "3.1",
+         "NEUTRAL": 0.29,
+         "BASIC": "96.6"
+      },
+      {
+         "District": "THANE",
+         "N": 4.74,
+         "OC": 5.74,
+         "P": 16.51,
+         "K": 10.33,
+         "ACIDIC": "57.849999999999994",
+         "NEUTRAL": 7.49,
+         "BASIC": "34.650000000000006"
+      },
+      {
+         "District": "WARDHA",
+         "N": 45.52,
+         "OC": 62.58,
+         "P": 6.2,
+         "K": 4.92,
+         "ACIDIC": "9.7",
+         "NEUTRAL": 0.53,
+         "BASIC": "89.77"
+      },
+      {
+         "District": "WASHIM",
+         "N": 57.12,
+         "OC": 68.46,
+         "P": 44.8,
+         "K": 0.2,
+         "ACIDIC": "2.93",
+         "NEUTRAL": 1.78,
+         "BASIC": "95.30000000000001"
+      },
+      {
+         "District": "YAVATMAL",
+         "N": 55.3,
+         "OC": 65.27,
+         "P": 11.16,
+         "K": 2.05,
+         "ACIDIC": "3.05",
+         "NEUTRAL": 0.2,
+         "BASIC": "96.75"
+      },
+      {
+         "District": "MUMBAI",
+         "N": 16.83,
+         "OC": 11.81,
+         "P": 19.11,
+         "K": 8.18,
+         "ACIDIC": "71.44",
+         "NEUTRAL": 4,
+         "BASIC": "24.57"
+      }
+   ],
+   "MANIPUR": [
+      {
+         "District": "BISHNUPUR",
+         "N": 100,
+         "OC": 0,
+         "P": 100,
+         "K": 100,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "CHANDEL",
+         "N": 0,
+         "OC": 0,
+         "P": 100,
+         "K": 100,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "TAMENGLONG",
+         "N": 100,
+         "OC": 58.62,
+         "P": 17.24,
+         "K": 100,
+         "ACIDIC": "37.93",
+         "NEUTRAL": 0,
+         "BASIC": "62.07"
+      },
+      {
+         "District": "THOUBAL",
+         "N": 0,
+         "OC": 0,
+         "P": 0,
+         "K": 100,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "UKHRUL",
+         "N": 100,
+         "OC": 0,
+         "P": 100,
+         "K": 59.26,
+         "ACIDIC": "48.15",
+         "NEUTRAL": 0,
+         "BASIC": "51.85"
+      },
+      {
+         "District": "CHURACHANDPUR",
+         "N": 66.67,
+         "OC": 19.54,
+         "P": 72.41,
+         "K": 100,
+         "ACIDIC": "79.3",
+         "NEUTRAL": 0,
+         "BASIC": "20.69"
+      },
+      {
+         "District": "IMPHAL EAST",
+         "N": 66.67,
+         "OC": 0,
+         "P": 66.67,
+         "K": 86.42,
+         "ACIDIC": "82.72",
+         "NEUTRAL": 0,
+         "BASIC": "17.28"
+      },
+      {
+         "District": "IMPHAL WEST",
+         "N": 55.56,
+         "OC": 0,
+         "P": 55.56,
+         "K": 95.47,
+         "ACIDIC": "94.24",
+         "NEUTRAL": 0,
+         "BASIC": "5.76"
+      },
+      {
+         "District": "SENAPATI",
+         "N": 42.13,
+         "OC": 13.81,
+         "P": 74.85,
+         "K": 43.79,
+         "ACIDIC": "76.65",
+         "NEUTRAL": 0.12,
+         "BASIC": "23.220000000000002"
+      }
+   ],
+   "MEGHALAYA": [
+      {
+         "District": "EAST GARO HILLS",
+         "N": 100,
+         "OC": 10.6,
+         "P": 94.41,
+         "K": 57.18,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "EAST JAINTIA HILLS",
+         "N": 100,
+         "OC": 9.83,
+         "P": 87.66,
+         "K": 60.54,
+         "ACIDIC": "99.96000000000001",
+         "NEUTRAL": 0,
+         "BASIC": "0.04"
+      },
+      {
+         "District": "EAST KHASI HILLS",
+         "N": 68.75,
+         "OC": 3.02,
+         "P": 60.23,
+         "K": 68.47,
+         "ACIDIC": "99.63",
+         "NEUTRAL": 0.02,
+         "BASIC": "0.35"
+      },
+      {
+         "District": "NORTH GARO HILLS",
+         "N": 0,
+         "OC": 26.55,
+         "P": 84.79,
+         "K": 56.72,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "RI BHOI",
+         "N": 88.89,
+         "OC": 3.64,
+         "P": 72.77,
+         "K": 54.99,
+         "ACIDIC": "99.97000000000001",
+         "NEUTRAL": 0,
+         "BASIC": "0.03"
+      },
+      {
+         "District": "SOUTH GARO HILLS",
+         "N": 100,
+         "OC": 11.1,
+         "P": 94.4,
+         "K": 94.5,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "SOUTH WEST GARO HILLS",
+         "N": 100,
+         "OC": 15.5,
+         "P": 94.32,
+         "K": 90.63,
+         "ACIDIC": "100.00999999999999",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "SOUTH WEST KHASI HILLS",
+         "N": 80,
+         "OC": 1,
+         "P": 66.08,
+         "K": 83.55,
+         "ACIDIC": "99.77000000000001",
+         "NEUTRAL": 0,
+         "BASIC": "0.24"
+      },
+      {
+         "District": "WEST GARO HILLS",
+         "N": 100,
+         "OC": 10.98,
+         "P": 97.16,
+         "K": 82.02,
+         "ACIDIC": "100.00999999999999",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "WEST JAINTIA HILLS",
+         "N": 74.93,
+         "OC": 4.23,
+         "P": 64.72,
+         "K": 43.42,
+         "ACIDIC": "99.93",
+         "NEUTRAL": 0.03,
+         "BASIC": "0.03"
+      },
+      {
+         "District": "WEST KHASI HILLS",
+         "N": 100,
+         "OC": 2.51,
+         "P": 75.56,
+         "K": 60.36,
+         "ACIDIC": "99.99",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      }
+   ],
+   "MIZORAM": [
+      {
+         "District": "AIZAWL",
+         "N": 1.08,
+         "OC": 61.51,
+         "P": 99.68,
+         "K": 20.4,
+         "ACIDIC": "100.00999999999999",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "CHAMPHAI",
+         "N": 3.51,
+         "OC": 53.89,
+         "P": 99.49,
+         "K": 10.61,
+         "ACIDIC": "99.69",
+         "NEUTRAL": 0,
+         "BASIC": "0.31"
+      },
+      {
+         "District": "KOLASIB",
+         "N": 16.9,
+         "OC": 38.78,
+         "P": 97.24,
+         "K": 12.25,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "LAWNGTLAI",
+         "N": 28.21,
+         "OC": 39.64,
+         "P": 88.23,
+         "K": 27.95,
+         "ACIDIC": "99.82000000000001",
+         "NEUTRAL": 0,
+         "BASIC": "0.18"
+      },
+      {
+         "District": "LUNGLEI",
+         "N": 34.69,
+         "OC": 42.02,
+         "P": 83.85,
+         "K": 25.36,
+         "ACIDIC": "97.78999999999999",
+         "NEUTRAL": 1.85,
+         "BASIC": "0.36"
+      },
+      {
+         "District": "MAMIT",
+         "N": 1.91,
+         "OC": 22.19,
+         "P": 99.82,
+         "K": 7.36,
+         "ACIDIC": "99.92",
+         "NEUTRAL": 0,
+         "BASIC": "0.09"
+      },
+      {
+         "District": "SAIHA",
+         "N": 43.34,
+         "OC": 37.53,
+         "P": 87.89,
+         "K": 30.51,
+         "ACIDIC": "99.75999999999999",
+         "NEUTRAL": 0,
+         "BASIC": "0.24"
+      },
+      {
+         "District": "SERCHHIP",
+         "N": 3.51,
+         "OC": 84.36,
+         "P": 99.86,
+         "K": 3.79,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      }
+   ],
+   "NAGALAND": [
+      {
+         "District": "DIMAPUR",
+         "N": 5.12,
+         "OC": 10.24,
+         "P": 83.12,
+         "K": 46.49,
+         "ACIDIC": "99.86",
+         "NEUTRAL": 0.07,
+         "BASIC": "0.08"
+      },
+      {
+         "District": "KIPHIRE",
+         "N": 5.79,
+         "OC": 5.93,
+         "P": 100,
+         "K": 11.03,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "KOHIMA",
+         "N": 3.73,
+         "OC": 2.06,
+         "P": 88.15,
+         "K": 31.56,
+         "ACIDIC": "99.26",
+         "NEUTRAL": 0.14,
+         "BASIC": "0.5900000000000001"
+      },
+      {
+         "District": "LONGLENG",
+         "N": 19.76,
+         "OC": 5.27,
+         "P": 38.17,
+         "K": 26.19,
+         "ACIDIC": "99.80999999999999",
+         "NEUTRAL": 0,
+         "BASIC": "0.19"
+      },
+      {
+         "District": "MOKOKCHUNG",
+         "N": 8.97,
+         "OC": 1.16,
+         "P": 91.45,
+         "K": 26.37,
+         "ACIDIC": "99.46999999999998",
+         "NEUTRAL": 0,
+         "BASIC": "0.53"
+      },
+      {
+         "District": "MON",
+         "N": 2.77,
+         "OC": 2.04,
+         "P": 84.07,
+         "K": 16.93,
+         "ACIDIC": "99.07",
+         "NEUTRAL": 0.12,
+         "BASIC": "0.81"
+      },
+      {
+         "District": "PEREN",
+         "N": 5.02,
+         "OC": 3.04,
+         "P": 91.01,
+         "K": 8.57,
+         "ACIDIC": "99.58",
+         "NEUTRAL": 0.1,
+         "BASIC": "0.31"
+      },
+      {
+         "District": "PHEK",
+         "N": 1.91,
+         "OC": 5.32,
+         "P": 77.85,
+         "K": 19.56,
+         "ACIDIC": "98.34",
+         "NEUTRAL": 0.37,
+         "BASIC": "1.29"
+      },
+      {
+         "District": "TUENSANG",
+         "N": 6.87,
+         "OC": 8.78,
+         "P": 87.9,
+         "K": 15.08,
+         "ACIDIC": "99.77",
+         "NEUTRAL": 0,
+         "BASIC": "0.24"
+      },
+      {
+         "District": "WOKHA",
+         "N": 3.89,
+         "OC": 4.14,
+         "P": 85.98,
+         "K": 24.15,
+         "ACIDIC": "99.94",
+         "NEUTRAL": 0.07,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "ZUNHEBOTO",
+         "N": 0.47,
+         "OC": 0.37,
+         "P": 94.61,
+         "K": 20.25,
+         "ACIDIC": "93.85",
+         "NEUTRAL": 0.76,
+         "BASIC": "5.39"
+      }
+   ],
+   "ODISHA": [
+      {
+         "District": "ANGUL",
+         "N": 100,
+         "OC": 15.15,
+         "P": 79.18,
+         "K": 16.43,
+         "ACIDIC": "87.52",
+         "NEUTRAL": 0.43,
+         "BASIC": "12.04"
+      },
+      {
+         "District": "BALANGIR",
+         "N": 100,
+         "OC": 21.37,
+         "P": 89.51,
+         "K": 31.08,
+         "ACIDIC": "82.34",
+         "NEUTRAL": 4.55,
+         "BASIC": "13.11"
+      },
+      {
+         "District": "BALESHWAR",
+         "N": 100,
+         "OC": 81.63,
+         "P": 45.05,
+         "K": 74.26,
+         "ACIDIC": "98.52000000000001",
+         "NEUTRAL": 0.54,
+         "BASIC": "0.93"
+      },
+      {
+         "District": "BARGARH",
+         "N": 99.61,
+         "OC": 58.65,
+         "P": 48.52,
+         "K": 23.74,
+         "ACIDIC": "89.24",
+         "NEUTRAL": 1.93,
+         "BASIC": "8.84"
+      },
+      {
+         "District": "BHADRAK",
+         "N": 89.23,
+         "OC": 32.61,
+         "P": 87.18,
+         "K": 80.24,
+         "ACIDIC": "98.88000000000001",
+         "NEUTRAL": 0.09,
+         "BASIC": "1.03"
+      },
+      {
+         "District": "BOUDH",
+         "N": 75,
+         "OC": 59.66,
+         "P": 58.59,
+         "K": 17.73,
+         "ACIDIC": "65.19",
+         "NEUTRAL": 4.46,
+         "BASIC": "30.35"
+      },
+      {
+         "District": "CUTTACK",
+         "N": 100,
+         "OC": 66.82,
+         "P": 50.49,
+         "K": 36.39,
+         "ACIDIC": "98.62",
+         "NEUTRAL": 0.01,
+         "BASIC": "1.3800000000000001"
+      },
+      {
+         "District": "DEOGARH",
+         "N": 68.75,
+         "OC": 81.93,
+         "P": 55.4,
+         "K": 10.97,
+         "ACIDIC": "83.37",
+         "NEUTRAL": 5.41,
+         "BASIC": "11.209999999999999"
+      },
+      {
+         "District": "DHENKANAL",
+         "N": 100,
+         "OC": 78.24,
+         "P": 44.15,
+         "K": 12.26,
+         "ACIDIC": "98.16000000000001",
+         "NEUTRAL": 0,
+         "BASIC": "1.84"
+      },
+      {
+         "District": "GAJAPATI",
+         "N": 84.95,
+         "OC": 46.28,
+         "P": 6.14,
+         "K": 7.57,
+         "ACIDIC": "96.11",
+         "NEUTRAL": 0.12,
+         "BASIC": "3.7800000000000002"
+      },
+      {
+         "District": "GANJAM",
+         "N": 100,
+         "OC": 27.8,
+         "P": 78.98,
+         "K": 30.77,
+         "ACIDIC": "79.96",
+         "NEUTRAL": 3.76,
+         "BASIC": "16.29"
+      },
+      {
+         "District": "JAGATSINGHPUR",
+         "N": 0,
+         "OC": 77.83,
+         "P": 71.78,
+         "K": 39.19,
+         "ACIDIC": "99.69000000000001",
+         "NEUTRAL": 0.02,
+         "BASIC": "0.28"
+      },
+      {
+         "District": "JAJPUR",
+         "N": 89.29,
+         "OC": 75.34,
+         "P": 72.96,
+         "K": 79.34,
+         "ACIDIC": "97.33",
+         "NEUTRAL": 0.01,
+         "BASIC": "2.6599999999999997"
+      },
+      {
+         "District": "JHARSUGUDA",
+         "N": 100,
+         "OC": 65.22,
+         "P": 68.73,
+         "K": 67.48,
+         "ACIDIC": "99.92",
+         "NEUTRAL": 0.02,
+         "BASIC": "0.06"
+      },
+      {
+         "District": "KALAHANDI",
+         "N": 96.88,
+         "OC": 59.02,
+         "P": 49.43,
+         "K": 1.63,
+         "ACIDIC": "93.69",
+         "NEUTRAL": 0.95,
+         "BASIC": "5.369999999999999"
+      },
+      {
+         "District": "KANDHAMAL",
+         "N": 100,
+         "OC": 91.64,
+         "P": 97.66,
+         "K": 11.76,
+         "ACIDIC": "95.49000000000001",
+         "NEUTRAL": 0.98,
+         "BASIC": "3.54"
+      },
+      {
+         "District": "KENDRAPARA",
+         "N": 100,
+         "OC": 55.27,
+         "P": 70,
+         "K": 35.3,
+         "ACIDIC": "99.60999999999999",
+         "NEUTRAL": 0.01,
+         "BASIC": "0.38"
+      },
+      {
+         "District": "KENDUJHAR",
+         "N": 100,
+         "OC": 72.51,
+         "P": 89.88,
+         "K": 81.62,
+         "ACIDIC": "97.07",
+         "NEUTRAL": 0.02,
+         "BASIC": "2.9099999999999997"
+      },
+      {
+         "District": "KHORDHA",
+         "N": 100,
+         "OC": 82.43,
+         "P": 64.16,
+         "K": 38.56,
+         "ACIDIC": "93.18999999999998",
+         "NEUTRAL": 0.02,
+         "BASIC": "6.789999999999999"
+      },
+      {
+         "District": "KORAPUT",
+         "N": 54.93,
+         "OC": 57.15,
+         "P": 86.65,
+         "K": 12,
+         "ACIDIC": "98.55000000000001",
+         "NEUTRAL": 0.1,
+         "BASIC": "1.36"
+      },
+      {
+         "District": "MALKANGIRI",
+         "N": 100,
+         "OC": 68.63,
+         "P": 10.29,
+         "K": 40.59,
+         "ACIDIC": "96.75999999999999",
+         "NEUTRAL": 0.51,
+         "BASIC": "2.74"
+      },
+      {
+         "District": "MAYURBHANJ",
+         "N": 94.44,
+         "OC": 44,
+         "P": 97.47,
+         "K": 50.16,
+         "ACIDIC": "98.29",
+         "NEUTRAL": 0.33,
+         "BASIC": "1.3800000000000001"
+      },
+      {
+         "District": "NABARANGPUR",
+         "N": 100,
+         "OC": 84.38,
+         "P": 71.91,
+         "K": 24.01,
+         "ACIDIC": "99.16",
+         "NEUTRAL": 0,
+         "BASIC": "0.84"
+      },
+      {
+         "District": "NAYAGARH",
+         "N": 100,
+         "OC": 81.59,
+         "P": 92.02,
+         "K": 30.2,
+         "ACIDIC": "90.03999999999999",
+         "NEUTRAL": 0.1,
+         "BASIC": "9.86"
+      },
+      {
+         "District": "NUAPADA",
+         "N": 100,
+         "OC": 62.12,
+         "P": 87.67,
+         "K": 4.89,
+         "ACIDIC": "90.59",
+         "NEUTRAL": 3.2,
+         "BASIC": "6.21"
+      },
+      {
+         "District": "PURI",
+         "N": 95.58,
+         "OC": 82.02,
+         "P": 80.46,
+         "K": 65.38,
+         "ACIDIC": "99.36",
+         "NEUTRAL": 0.04,
+         "BASIC": "0.6100000000000001"
+      },
+      {
+         "District": "RAYAGADA",
+         "N": 100,
+         "OC": 77.09,
+         "P": 96.58,
+         "K": 44.57,
+         "ACIDIC": "97.3",
+         "NEUTRAL": 0.04,
+         "BASIC": "2.66"
+      },
+      {
+         "District": "SAMBALPUR",
+         "N": 95,
+         "OC": 77.03,
+         "P": 63.65,
+         "K": 13.31,
+         "ACIDIC": "88.36999999999999",
+         "NEUTRAL": 2.83,
+         "BASIC": "8.8"
+      },
+      {
+         "District": "SONEPUR",
+         "N": 100,
+         "OC": 99.96,
+         "P": 8.37,
+         "K": 26.21,
+         "ACIDIC": "70.02",
+         "NEUTRAL": 5.09,
+         "BASIC": "24.9"
+      },
+      {
+         "District": "SUNDARGARH",
+         "N": 100,
+         "OC": 30.6,
+         "P": 47.2,
+         "K": 34.19,
+         "ACIDIC": "99.57",
+         "NEUTRAL": 0.29,
+         "BASIC": "0.14"
+      }
+   ],
+   "PUDUCHERRY": [
+      {
+         "District": "KARAIKAL",
+         "N": 100,
+         "OC": 0,
+         "P": 52.11,
+         "K": 50.83,
+         "ACIDIC": "66.11",
+         "NEUTRAL": 1.96,
+         "BASIC": "31.93"
+      },
+      {
+         "District": "PUDUCHERRY",
+         "N": 98.54,
+         "OC": 0,
+         "P": 99.87,
+         "K": 28.28,
+         "ACIDIC": "14.41",
+         "NEUTRAL": 3.41,
+         "BASIC": "82.19"
+      },
+      {
+         "District": "MAHE",
+         "N": 100,
+         "OC": 17.15,
+         "P": 43.63,
+         "K": 32.21,
+         "ACIDIC": "94.65",
+         "NEUTRAL": 1.31,
+         "BASIC": "4.07"
+      },
+      {
+         "District": "YANAM",
+         "N": 95.82,
+         "OC": 24.8,
+         "P": 13.7,
+         "K": 18.62,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 100,
+         "BASIC": "0.0"
+      }
+   ],
+   "PUNJAB": [
+      {
+         "District": "AMRITSAR",
+         "N": 100,
+         "OC": 91.05,
+         "P": 81.52,
+         "K": 57.45,
+         "ACIDIC": "2.56",
+         "NEUTRAL": 1.63,
+         "BASIC": "95.81"
+      },
+      {
+         "District": "BARNALA",
+         "N": 55.53,
+         "OC": 61.33,
+         "P": 83.69,
+         "K": 75.32,
+         "ACIDIC": "3.9400000000000004",
+         "NEUTRAL": 0.4,
+         "BASIC": "95.66"
+      },
+      {
+         "District": "BATHINDA",
+         "N": 94.12,
+         "OC": 89.83,
+         "P": 63.97,
+         "K": 13.49,
+         "ACIDIC": "0.07",
+         "NEUTRAL": 1.78,
+         "BASIC": "98.14999999999999"
+      },
+      {
+         "District": "FARIDKOT",
+         "N": 100,
+         "OC": 93.33,
+         "P": 55.22,
+         "K": 12.28,
+         "ACIDIC": "0.01",
+         "NEUTRAL": 0.02,
+         "BASIC": "99.97"
+      },
+      {
+         "District": "FATEHGARH SAHIB",
+         "N": 100,
+         "OC": 81.25,
+         "P": 54.99,
+         "K": 31.53,
+         "ACIDIC": "0.5700000000000001",
+         "NEUTRAL": 0.63,
+         "BASIC": "98.82000000000001"
+      },
+      {
+         "District": "FAZILKA",
+         "N": 100,
+         "OC": 91.52,
+         "P": 62.21,
+         "K": 23.91,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 0.4,
+         "BASIC": "99.58999999999999"
+      },
+      {
+         "District": "FEROZEPUR",
+         "N": 100,
+         "OC": 90.66,
+         "P": 57.64,
+         "K": 11.09,
+         "ACIDIC": "0.03",
+         "NEUTRAL": 0.99,
+         "BASIC": "98.97999999999999"
+      },
+      {
+         "District": "GURDASPUR",
+         "N": 48.38,
+         "OC": 97.9,
+         "P": 58.55,
+         "K": 37.75,
+         "ACIDIC": "0.47",
+         "NEUTRAL": 2.72,
+         "BASIC": "96.82000000000001"
+      },
+      {
+         "District": "HOSHIARPUR",
+         "N": 100,
+         "OC": 91.13,
+         "P": 56.01,
+         "K": 48.89,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 0.51,
+         "BASIC": "99.49000000000001"
+      },
+      {
+         "District": "JALANDHAR",
+         "N": 100,
+         "OC": 96.12,
+         "P": 82.25,
+         "K": 47.43,
+         "ACIDIC": "0.01",
+         "NEUTRAL": 0.23,
+         "BASIC": "99.75999999999999"
+      },
+      {
+         "District": "KAPURTHALA",
+         "N": 100,
+         "OC": 78.53,
+         "P": 64.3,
+         "K": 13.44,
+         "ACIDIC": "0.49",
+         "NEUTRAL": 0.21,
+         "BASIC": "99.31"
+      },
+      {
+         "District": "LUDHIANA",
+         "N": 100,
+         "OC": 90.06,
+         "P": 80.99,
+         "K": 79.29,
+         "ACIDIC": "2.2399999999999998",
+         "NEUTRAL": 0.59,
+         "BASIC": "97.16"
+      },
+      {
+         "District": "MANSA",
+         "N": 60,
+         "OC": 93.07,
+         "P": 68.7,
+         "K": 9.25,
+         "ACIDIC": "0.44",
+         "NEUTRAL": 0.74,
+         "BASIC": "98.82000000000001"
+      },
+      {
+         "District": "MOGA",
+         "N": 100,
+         "OC": 97.74,
+         "P": 77.61,
+         "K": 39.11,
+         "ACIDIC": "1.1099999999999999",
+         "NEUTRAL": 0.57,
+         "BASIC": "98.32000000000001"
+      },
+      {
+         "District": "MUKTSAR",
+         "N": 100,
+         "OC": 87.21,
+         "P": 61.43,
+         "K": 8.02,
+         "ACIDIC": "0.99",
+         "NEUTRAL": 0.31,
+         "BASIC": "98.71000000000001"
+      },
+      {
+         "District": "NAWANSHAHR",
+         "N": 93.75,
+         "OC": 96.88,
+         "P": 90.71,
+         "K": 23.6,
+         "ACIDIC": "0.05",
+         "NEUTRAL": 1.36,
+         "BASIC": "98.6"
+      },
+      {
+         "District": "PATHANKOT",
+         "N": 100,
+         "OC": 97.53,
+         "P": 60.77,
+         "K": 22.04,
+         "ACIDIC": "0.03",
+         "NEUTRAL": 1,
+         "BASIC": "98.96"
+      },
+      {
+         "District": "PATIALA",
+         "N": 100,
+         "OC": 92.64,
+         "P": 58.72,
+         "K": 34.35,
+         "ACIDIC": "0.13",
+         "NEUTRAL": 0.17,
+         "BASIC": "99.69999999999999"
+      },
+      {
+         "District": "RUPNAGAR",
+         "N": 100,
+         "OC": 92.42,
+         "P": 64.77,
+         "K": 51.06,
+         "ACIDIC": "0.01",
+         "NEUTRAL": 1.5,
+         "BASIC": "98.49"
+      },
+      {
+         "District": "S.A.S NAGAR",
+         "N": 7.97,
+         "OC": 92.82,
+         "P": 32.47,
+         "K": 36.46,
+         "ACIDIC": "0.21",
+         "NEUTRAL": 2.32,
+         "BASIC": "97.47"
+      },
+      {
+         "District": "SANGRUR",
+         "N": 100,
+         "OC": 95.28,
+         "P": 54.97,
+         "K": 6.16,
+         "ACIDIC": "0.03",
+         "NEUTRAL": 1.44,
+         "BASIC": "98.53"
+      },
+      {
+         "District": "TARN TARAN",
+         "N": 100,
+         "OC": 92.91,
+         "P": 58.77,
+         "K": 29.85,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 1.12,
+         "BASIC": "98.88"
+      }
+   ],
+   "RAJASTHAN": [
+      {
+         "District": "AJMER",
+         "N": 100,
+         "OC": 86.82,
+         "P": 31.3,
+         "K": 8.57,
+         "ACIDIC": "0.05",
+         "NEUTRAL": 0.26,
+         "BASIC": "99.69"
+      },
+      {
+         "District": "ALWAR",
+         "N": 100,
+         "OC": 98.2,
+         "P": 12.86,
+         "K": 19.3,
+         "ACIDIC": "0.060000000000000005",
+         "NEUTRAL": 0.26,
+         "BASIC": "99.69000000000001"
+      },
+      {
+         "District": "BANSWARA",
+         "N": 87.5,
+         "OC": 58,
+         "P": 24.42,
+         "K": 8.81,
+         "ACIDIC": "6.36",
+         "NEUTRAL": 1.21,
+         "BASIC": "92.44"
+      },
+      {
+         "District": "BARAN",
+         "N": 0,
+         "OC": 47.65,
+         "P": 19.24,
+         "K": 19.93,
+         "ACIDIC": "4.46",
+         "NEUTRAL": 0.2,
+         "BASIC": "95.34"
+      },
+      {
+         "District": "BARMER",
+         "N": 0,
+         "OC": 98.01,
+         "P": 20.09,
+         "K": 9.03,
+         "ACIDIC": "0.08999999999999998",
+         "NEUTRAL": 0.05,
+         "BASIC": "99.86"
+      },
+      {
+         "District": "BHARATPUR",
+         "N": 100,
+         "OC": 77.19,
+         "P": 38.19,
+         "K": 10.36,
+         "ACIDIC": "1.1099999999999999",
+         "NEUTRAL": 5.55,
+         "BASIC": "93.34"
+      },
+      {
+         "District": "BHILWARA",
+         "N": 100,
+         "OC": 63.13,
+         "P": 27.46,
+         "K": 1.41,
+         "ACIDIC": "0.30000000000000004",
+         "NEUTRAL": 1.59,
+         "BASIC": "98.11"
+      },
+      {
+         "District": "BIKANER",
+         "N": 0,
+         "OC": 97.94,
+         "P": 52.37,
+         "K": 1.21,
+         "ACIDIC": "0.13999999999999999",
+         "NEUTRAL": 0.05,
+         "BASIC": "99.84"
+      },
+      {
+         "District": "BUNDI",
+         "N": 0,
+         "OC": 43.62,
+         "P": 6.53,
+         "K": 3.23,
+         "ACIDIC": "0.5700000000000001",
+         "NEUTRAL": 0.36,
+         "BASIC": "99.06"
+      },
+      {
+         "District": "CHITTAURGARH",
+         "N": 0,
+         "OC": 42.95,
+         "P": 6.13,
+         "K": 1.48,
+         "ACIDIC": "0.11000000000000001",
+         "NEUTRAL": 0.84,
+         "BASIC": "99.06"
+      },
+      {
+         "District": "CHURU",
+         "N": 0,
+         "OC": 99.36,
+         "P": 96.03,
+         "K": 1.61,
+         "ACIDIC": "0.07",
+         "NEUTRAL": 0.06,
+         "BASIC": "99.85"
+      },
+      {
+         "District": "DAUSA",
+         "N": 0,
+         "OC": 95.07,
+         "P": 21.56,
+         "K": 3.55,
+         "ACIDIC": "0.5700000000000001",
+         "NEUTRAL": 0.68,
+         "BASIC": "98.76"
+      },
+      {
+         "District": "DHAULPUR",
+         "N": 100,
+         "OC": 93.23,
+         "P": 25.04,
+         "K": 23.24,
+         "ACIDIC": "0.11000000000000001",
+         "NEUTRAL": 0.24,
+         "BASIC": "99.64"
+      },
+      {
+         "District": "DUNGARPUR",
+         "N": 100,
+         "OC": 45.44,
+         "P": 12.03,
+         "K": 7.67,
+         "ACIDIC": "0.78",
+         "NEUTRAL": 0.46,
+         "BASIC": "98.75"
+      },
+      {
+         "District": "GANGANAGAR",
+         "N": 100,
+         "OC": 94.83,
+         "P": 24.63,
+         "K": 1.99,
+         "ACIDIC": "0.13",
+         "NEUTRAL": 0.12,
+         "BASIC": "99.74000000000001"
+      },
+      {
+         "District": "HANUMANGARH",
+         "N": 100,
+         "OC": 96.92,
+         "P": 31.83,
+         "K": 6.95,
+         "ACIDIC": "0.05",
+         "NEUTRAL": 0.02,
+         "BASIC": "99.93"
+      },
+      {
+         "District": "JAIPUR",
+         "N": 83.34,
+         "OC": 85.78,
+         "P": 29.27,
+         "K": 26.09,
+         "ACIDIC": "0.22999999999999998",
+         "NEUTRAL": 0.41,
+         "BASIC": "99.36000000000001"
+      },
+      {
+         "District": "JAISALMER",
+         "N": 0,
+         "OC": 99.77,
+         "P": 0.51,
+         "K": 1.03,
+         "ACIDIC": "0.03",
+         "NEUTRAL": 0.05,
+         "BASIC": "99.91"
+      },
+      {
+         "District": "JALORE",
+         "N": 0,
+         "OC": 91.55,
+         "P": 10.96,
+         "K": 11.55,
+         "ACIDIC": "0.25",
+         "NEUTRAL": 0.23,
+         "BASIC": "99.50999999999999"
+      },
+      {
+         "District": "JHALAWAR",
+         "N": 0,
+         "OC": 65.1,
+         "P": 15.45,
+         "K": 5.02,
+         "ACIDIC": "0.06999999999999999",
+         "NEUTRAL": 0.09,
+         "BASIC": "99.85"
+      },
+      {
+         "District": "JHUNJHUNU",
+         "N": 0,
+         "OC": 91.67,
+         "P": 8.55,
+         "K": 23.06,
+         "ACIDIC": "0.16",
+         "NEUTRAL": 0.32,
+         "BASIC": "99.50999999999999"
+      },
+      {
+         "District": "JODHPUR",
+         "N": 100,
+         "OC": 94.53,
+         "P": 6.83,
+         "K": 5.56,
+         "ACIDIC": "0.21",
+         "NEUTRAL": 0.17,
+         "BASIC": "99.62"
+      },
+      {
+         "District": "KARAULI",
+         "N": 0,
+         "OC": 56.11,
+         "P": 20.03,
+         "K": 6.33,
+         "ACIDIC": "0.88",
+         "NEUTRAL": 2.46,
+         "BASIC": "96.64"
+      },
+      {
+         "District": "KOTA",
+         "N": 100,
+         "OC": 52.33,
+         "P": 20.33,
+         "K": 2.63,
+         "ACIDIC": "0.56",
+         "NEUTRAL": 0.14,
+         "BASIC": "99.31"
+      },
+      {
+         "District": "NAGAUR",
+         "N": 100,
+         "OC": 94,
+         "P": 30.92,
+         "K": 12.83,
+         "ACIDIC": "0.36000000000000004",
+         "NEUTRAL": 0.14,
+         "BASIC": "99.50999999999999"
+      },
+      {
+         "District": "PALI",
+         "N": 88.89,
+         "OC": 91.36,
+         "P": 16.82,
+         "K": 1.28,
+         "ACIDIC": "0.8300000000000001",
+         "NEUTRAL": 0.22,
+         "BASIC": "98.94999999999999"
+      },
+      {
+         "District": "PRATAPGARH",
+         "N": 0,
+         "OC": 64.72,
+         "P": 4.91,
+         "K": 2.94,
+         "ACIDIC": "5.58",
+         "NEUTRAL": 0.09,
+         "BASIC": "94.33"
+      },
+      {
+         "District": "RAJSAMAND",
+         "N": 0,
+         "OC": 55.97,
+         "P": 19.52,
+         "K": 4.01,
+         "ACIDIC": "2.43",
+         "NEUTRAL": 2.22,
+         "BASIC": "95.35"
+      },
+      {
+         "District": "SAWAI MADHOPUR",
+         "N": 0,
+         "OC": 94.47,
+         "P": 39.06,
+         "K": 1.76,
+         "ACIDIC": "0.23",
+         "NEUTRAL": 1.03,
+         "BASIC": "98.75"
+      },
+      {
+         "District": "SIKAR",
+         "N": 0,
+         "OC": 97.65,
+         "P": 18.76,
+         "K": 35.34,
+         "ACIDIC": "0.07",
+         "NEUTRAL": 0.05,
+         "BASIC": "99.88"
+      },
+      {
+         "District": "SIROHI",
+         "N": 100,
+         "OC": 73.47,
+         "P": 4.32,
+         "K": 1.37,
+         "ACIDIC": "0.6299999999999999",
+         "NEUTRAL": 1.6,
+         "BASIC": "97.78"
+      },
+      {
+         "District": "TONK",
+         "N": 100,
+         "OC": 91.53,
+         "P": 4.06,
+         "K": 8.29,
+         "ACIDIC": "0.3",
+         "NEUTRAL": 0.24,
+         "BASIC": "99.46"
+      },
+      {
+         "District": "UDAIPUR",
+         "N": 100,
+         "OC": 48.05,
+         "P": 32.12,
+         "K": 3.29,
+         "ACIDIC": "1.73",
+         "NEUTRAL": 5.24,
+         "BASIC": "93.02"
+      }
+   ],
+   "SIKKIM": [
+      {
+         "District": "EAST SIKKIM",
+         "N": 28.06,
+         "OC": 0.21,
+         "P": 42.82,
+         "K": 2.36,
+         "ACIDIC": "93.61999999999999",
+         "NEUTRAL": 2.76,
+         "BASIC": "3.62"
+      },
+      {
+         "District": "NORTH SIKKIM",
+         "N": 37.07,
+         "OC": 0.15,
+         "P": 54.11,
+         "K": 1.35,
+         "ACIDIC": "84.91",
+         "NEUTRAL": 5.53,
+         "BASIC": "9.57"
+      },
+      {
+         "District": "SOUTH SIKKIM",
+         "N": 27.7,
+         "OC": 0.56,
+         "P": 33.83,
+         "K": 4.48,
+         "ACIDIC": "99.84",
+         "NEUTRAL": 0.03,
+         "BASIC": "0.13"
+      },
+      {
+         "District": "WEST SIKKIM",
+         "N": 27.18,
+         "OC": 0.21,
+         "P": 46.37,
+         "K": 4.58,
+         "ACIDIC": "91.6",
+         "NEUTRAL": 3.67,
+         "BASIC": "4.73"
+      }
+   ],
+   "TAMIL NADU": [
+      {
+         "District": "ARIYALUR",
+         "N": 99.93,
+         "OC": 76.59,
+         "P": 41.61,
+         "K": 66.37,
+         "ACIDIC": "17.95",
+         "NEUTRAL": 3.25,
+         "BASIC": "78.81"
+      },
+      {
+         "District": "COIMBATORE",
+         "N": 99.56,
+         "OC": 93.66,
+         "P": 98.47,
+         "K": 6.19,
+         "ACIDIC": "10.79",
+         "NEUTRAL": 5.06,
+         "BASIC": "84.17"
+      },
+      {
+         "District": "CUDDALORE",
+         "N": 99.83,
+         "OC": 97.41,
+         "P": 40.9,
+         "K": 54.78,
+         "ACIDIC": "31.47",
+         "NEUTRAL": 4.08,
+         "BASIC": "64.45"
+      },
+      {
+         "District": "DHARMAPURI",
+         "N": 99.7,
+         "OC": 98.4,
+         "P": 54.1,
+         "K": 34.98,
+         "ACIDIC": "6.96",
+         "NEUTRAL": 3.47,
+         "BASIC": "89.57000000000001"
+      },
+      {
+         "District": "DINDIGUL",
+         "N": 89.68,
+         "OC": 83.32,
+         "P": 32.92,
+         "K": 8.02,
+         "ACIDIC": "6.74",
+         "NEUTRAL": 5.54,
+         "BASIC": "87.72"
+      },
+      {
+         "District": "ERODE",
+         "N": 98.75,
+         "OC": 88.88,
+         "P": 86.83,
+         "K": 22.47,
+         "ACIDIC": "10.52",
+         "NEUTRAL": 2.28,
+         "BASIC": "87.18"
+      },
+      {
+         "District": "KANCHIPURAM",
+         "N": 99.68,
+         "OC": 92.48,
+         "P": 12.49,
+         "K": 68.08,
+         "ACIDIC": "30.130000000000003",
+         "NEUTRAL": 6.43,
+         "BASIC": "63.44"
+      },
+      {
+         "District": "KANNIYAKUMARI",
+         "N": 95.01,
+         "OC": 76.11,
+         "P": 45.07,
+         "K": 58.18,
+         "ACIDIC": "90.63",
+         "NEUTRAL": 1.66,
+         "BASIC": "7.71"
+      },
+      {
+         "District": "KARUR",
+         "N": 98.43,
+         "OC": 40.63,
+         "P": 66.15,
+         "K": 18.58,
+         "ACIDIC": "6.66",
+         "NEUTRAL": 1.58,
+         "BASIC": "91.77"
+      },
+      {
+         "District": "KRISHNAGIRI",
+         "N": 99.09,
+         "OC": 93.24,
+         "P": 48.94,
+         "K": 31.74,
+         "ACIDIC": "42.25",
+         "NEUTRAL": 5.56,
+         "BASIC": "52.19"
+      },
+      {
+         "District": "MADURAI",
+         "N": 95.98,
+         "OC": 53.02,
+         "P": 27.61,
+         "K": 26.55,
+         "ACIDIC": "19.689999999999998",
+         "NEUTRAL": 0.67,
+         "BASIC": "79.64"
+      },
+      {
+         "District": "NAGAPATTINAM",
+         "N": 99.87,
+         "OC": 69.62,
+         "P": 8.1,
+         "K": 29.83,
+         "ACIDIC": "41.72",
+         "NEUTRAL": 5.06,
+         "BASIC": "53.220000000000006"
+      },
+      {
+         "District": "NAMAKKAL",
+         "N": 95.45,
+         "OC": 86.28,
+         "P": 53.62,
+         "K": 23.09,
+         "ACIDIC": "8.3",
+         "NEUTRAL": 0.43,
+         "BASIC": "91.26"
+      },
+      {
+         "District": "PERAMBALUR",
+         "N": 99.93,
+         "OC": 77.07,
+         "P": 87.73,
+         "K": 21.22,
+         "ACIDIC": "0.9199999999999999",
+         "NEUTRAL": 0.37,
+         "BASIC": "98.71000000000001"
+      },
+      {
+         "District": "PUDUKKOTTAI",
+         "N": 98.9,
+         "OC": 86.4,
+         "P": 42.91,
+         "K": 63.32,
+         "ACIDIC": "54.54",
+         "NEUTRAL": 1.99,
+         "BASIC": "43.47"
+      },
+      {
+         "District": "RAMANATHAPURAM",
+         "N": 99.71,
+         "OC": 85.43,
+         "P": 38.52,
+         "K": 14.5,
+         "ACIDIC": "38.02",
+         "NEUTRAL": 0.63,
+         "BASIC": "61.35"
+      },
+      {
+         "District": "SALEM",
+         "N": 95.33,
+         "OC": 94.79,
+         "P": 80.58,
+         "K": 16.95,
+         "ACIDIC": "10.96",
+         "NEUTRAL": 2.56,
+         "BASIC": "86.49"
+      },
+      {
+         "District": "SIVAGANGA",
+         "N": 98.34,
+         "OC": 94.43,
+         "P": 33.06,
+         "K": 17.11,
+         "ACIDIC": "62.650000000000006",
+         "NEUTRAL": 2.43,
+         "BASIC": "34.919999999999995"
+      },
+      {
+         "District": "THANJAVUR",
+         "N": 99.49,
+         "OC": 54.88,
+         "P": 8.84,
+         "K": 65.25,
+         "ACIDIC": "25.89",
+         "NEUTRAL": 8.41,
+         "BASIC": "65.71000000000001"
+      },
+      {
+         "District": "THE NILGIRIS",
+         "N": 96.57,
+         "OC": 24.44,
+         "P": 29.43,
+         "K": 55.89,
+         "ACIDIC": "97.48",
+         "NEUTRAL": 0.52,
+         "BASIC": "1.99"
+      },
+      {
+         "District": "THENI",
+         "N": 99.85,
+         "OC": 99.79,
+         "P": 64.7,
+         "K": 22.68,
+         "ACIDIC": "13.0",
+         "NEUTRAL": 2.45,
+         "BASIC": "84.55"
+      },
+      {
+         "District": "THIRUVALLUR",
+         "N": 99.83,
+         "OC": 84.1,
+         "P": 24.09,
+         "K": 40.56,
+         "ACIDIC": "56.68",
+         "NEUTRAL": 6.88,
+         "BASIC": "36.43"
+      },
+      {
+         "District": "THIRUVARUR",
+         "N": 99.95,
+         "OC": 80.8,
+         "P": 22.24,
+         "K": 28.53,
+         "ACIDIC": "34.47",
+         "NEUTRAL": 4.69,
+         "BASIC": "60.83"
+      },
+      {
+         "District": "TIRUCHIRAPPALLI",
+         "N": 99.93,
+         "OC": 87.74,
+         "P": 59.1,
+         "K": 18.1,
+         "ACIDIC": "9.600000000000001",
+         "NEUTRAL": 1.78,
+         "BASIC": "88.63"
+      },
+      {
+         "District": "TIRUNELVELI",
+         "N": 99.38,
+         "OC": 84.61,
+         "P": 18.44,
+         "K": 18.31,
+         "ACIDIC": "33.53",
+         "NEUTRAL": 3.49,
+         "BASIC": "62.99"
+      },
+      {
+         "District": "TIRUPPUR",
+         "N": 96.79,
+         "OC": 73.67,
+         "P": 76.93,
+         "K": 8.54,
+         "ACIDIC": "2.52",
+         "NEUTRAL": 2.1,
+         "BASIC": "95.39999999999999"
+      },
+      {
+         "District": "TIRUVANNAMALAI",
+         "N": 94.51,
+         "OC": 88.04,
+         "P": 64.07,
+         "K": 61.89,
+         "ACIDIC": "15.879999999999999",
+         "NEUTRAL": 8.89,
+         "BASIC": "75.23"
+      },
+      {
+         "District": "THOOTHUKUDI",
+         "N": 99.93,
+         "OC": 77.5,
+         "P": 74.04,
+         "K": 8.48,
+         "ACIDIC": "12.620000000000001",
+         "NEUTRAL": 0.43,
+         "BASIC": "86.94"
+      },
+      {
+         "District": "VELLORE",
+         "N": 89.36,
+         "OC": 71.93,
+         "P": 80.04,
+         "K": 29.65,
+         "ACIDIC": "12.45",
+         "NEUTRAL": 0.42,
+         "BASIC": "87.13"
+      },
+      {
+         "District": "VILLUPURAM",
+         "N": 99.42,
+         "OC": 73.87,
+         "P": 35.16,
+         "K": 48.65,
+         "ACIDIC": "17.83",
+         "NEUTRAL": 5.04,
+         "BASIC": "77.14999999999999"
+      },
+      {
+         "District": "VIRUDHUNAGAR",
+         "N": 99.08,
+         "OC": 89.1,
+         "P": 73.53,
+         "K": 14.59,
+         "ACIDIC": "8.950000000000001",
+         "NEUTRAL": 1.01,
+         "BASIC": "90.03"
+      }
+   ],
+   "TELANGANA": [
+      {
+         "District": "ADILABAD",
+         "N": 81.39,
+         "OC": 93.29,
+         "P": 96.5,
+         "K": 37.11,
+         "ACIDIC": "13.64",
+         "NEUTRAL": 0.39,
+         "BASIC": "85.98"
+      },
+      {
+         "District": "BHADRADRI KOTHAGUDEM",
+         "N": 69.01,
+         "OC": 37.33,
+         "P": 57.33,
+         "K": 24,
+         "ACIDIC": "81.08",
+         "NEUTRAL": 1.35,
+         "BASIC": "17.57"
+      },
+      {
+         "District": "JAGITIAL",
+         "N": 75.96,
+         "OC": 76.77,
+         "P": 20.54,
+         "K": 28.74,
+         "ACIDIC": "15.43",
+         "NEUTRAL": 2.53,
+         "BASIC": "82.03"
+      },
+      {
+         "District": "JANGOAN",
+         "N": 81.42,
+         "OC": 62.08,
+         "P": 21.26,
+         "K": 16.77,
+         "ACIDIC": "75.66",
+         "NEUTRAL": 0.23,
+         "BASIC": "24.11"
+      },
+      {
+         "District": "JAYASHANKAR BHUPALAPALLY",
+         "N": 80.26,
+         "OC": 61.81,
+         "P": 27.49,
+         "K": 12.7,
+         "ACIDIC": "6.77",
+         "NEUTRAL": 2.9,
+         "BASIC": "90.34"
+      },
+      {
+         "District": "JOGULAMBA GADWAL",
+         "N": 90.4,
+         "OC": 48.68,
+         "P": 16.55,
+         "K": 41.87,
+         "ACIDIC": "24.490000000000002",
+         "NEUTRAL": 0.22,
+         "BASIC": "75.28"
+      },
+      {
+         "District": "KAMAREDDY",
+         "N": 70.98,
+         "OC": 50.76,
+         "P": 29.48,
+         "K": 25.93,
+         "ACIDIC": "20.259999999999998",
+         "NEUTRAL": 34.48,
+         "BASIC": "45.26"
+      },
+      {
+         "District": "KARIMNAGAR",
+         "N": 63.48,
+         "OC": 73.36,
+         "P": 5.65,
+         "K": 3.41,
+         "ACIDIC": "14.48",
+         "NEUTRAL": 1.6,
+         "BASIC": "83.92"
+      },
+      {
+         "District": "KHAMMAM",
+         "N": 96.26,
+         "OC": 57.86,
+         "P": 26.61,
+         "K": 45.77,
+         "ACIDIC": "21.64",
+         "NEUTRAL": 1,
+         "BASIC": "77.36"
+      },
+      {
+         "District": "KUMURAM BHEEM ASIFABAD",
+         "N": 69.83,
+         "OC": 85.31,
+         "P": 40.46,
+         "K": 13.3,
+         "ACIDIC": "17.37",
+         "NEUTRAL": 0.74,
+         "BASIC": "81.88999999999999"
+      },
+      {
+         "District": "MAHABUBABAD",
+         "N": 82.77,
+         "OC": 57.25,
+         "P": 31.78,
+         "K": 24.06,
+         "ACIDIC": "77.28",
+         "NEUTRAL": 4.55,
+         "BASIC": "18.18"
+      },
+      {
+         "District": "MAHBUBNAGAR",
+         "N": 96.01,
+         "OC": 56.46,
+         "P": 0.57,
+         "K": 11.22,
+         "ACIDIC": "25.53",
+         "NEUTRAL": 1.42,
+         "BASIC": "73.05"
+      },
+      {
+         "District": "MANCHERIAL",
+         "N": 67.44,
+         "OC": 74.19,
+         "P": 30.07,
+         "K": 9.18,
+         "ACIDIC": "12.71",
+         "NEUTRAL": 0.66,
+         "BASIC": "86.61"
+      },
+      {
+         "District": "MEDAK",
+         "N": 96.9,
+         "OC": 23.58,
+         "P": 7.58,
+         "K": 0.68,
+         "ACIDIC": "39.58",
+         "NEUTRAL": 7.57,
+         "BASIC": "52.84"
+      },
+      {
+         "District": "MEDCHAL MALKAJGIRI",
+         "N": 87.66,
+         "OC": 48.08,
+         "P": 8.48,
+         "K": 22.94,
+         "ACIDIC": "20.0",
+         "NEUTRAL": 0,
+         "BASIC": "80.0"
+      },
+      {
+         "District": "MULUGU",
+         "N": 86.66,
+         "OC": 86.67,
+         "P": 26.66,
+         "K": 13.33,
+         "ACIDIC": "40.0",
+         "NEUTRAL": 6.67,
+         "BASIC": "53.33"
+      },
+      {
+         "District": "NAGARKURNOOL",
+         "N": 78.35,
+         "OC": 58.92,
+         "P": 9.5,
+         "K": 20.47,
+         "ACIDIC": "57.699999999999996",
+         "NEUTRAL": 0,
+         "BASIC": "42.31"
+      },
+      {
+         "District": "NALGONDA",
+         "N": 42.48,
+         "OC": 59.78,
+         "P": 24.06,
+         "K": 7.14,
+         "ACIDIC": "12.450000000000001",
+         "NEUTRAL": 1.51,
+         "BASIC": "86.03999999999999"
+      },
+      {
+         "District": "NARAYANAPET",
+         "N": 90.68,
+         "OC": 52.24,
+         "P": 12.87,
+         "K": 21.12,
+         "ACIDIC": "51.760000000000005",
+         "NEUTRAL": 1.3,
+         "BASIC": "46.93"
+      },
+      {
+         "District": "NIRMAL",
+         "N": 66.81,
+         "OC": 76.83,
+         "P": 54.46,
+         "K": 31.88,
+         "ACIDIC": "24.630000000000003",
+         "NEUTRAL": 0.27,
+         "BASIC": "75.11"
+      },
+      {
+         "District": "NIZAMABAD",
+         "N": 99.67,
+         "OC": 99.11,
+         "P": 1,
+         "K": 75.51,
+         "ACIDIC": "0.51",
+         "NEUTRAL": 0,
+         "BASIC": "99.48"
+      },
+      {
+         "District": "PEDDAPALLI",
+         "N": 71.78,
+         "OC": 71.53,
+         "P": 20.94,
+         "K": 13.51,
+         "ACIDIC": "8.61",
+         "NEUTRAL": 4,
+         "BASIC": "87.38"
+      },
+      {
+         "District": "RAJANNA SIRCILLA",
+         "N": 82.37,
+         "OC": 60.39,
+         "P": 11.51,
+         "K": 23.71,
+         "ACIDIC": "12.600000000000001",
+         "NEUTRAL": 1.6,
+         "BASIC": "85.81"
+      },
+      {
+         "District": "RANGAREDDI",
+         "N": 96.55,
+         "OC": 60.52,
+         "P": 3.88,
+         "K": 43.04,
+         "ACIDIC": "23.91",
+         "NEUTRAL": 1.29,
+         "BASIC": "74.79"
+      },
+      {
+         "District": "SANGAREDDY",
+         "N": 89.3,
+         "OC": 47.87,
+         "P": 11.04,
+         "K": 23.54,
+         "ACIDIC": "24.089999999999996",
+         "NEUTRAL": 4.22,
+         "BASIC": "71.67999999999999"
+      },
+      {
+         "District": "SIDDIPET",
+         "N": 80.83,
+         "OC": 55.16,
+         "P": 13.83,
+         "K": 13.01,
+         "ACIDIC": "16.5",
+         "NEUTRAL": 3.34,
+         "BASIC": "80.16"
+      },
+      {
+         "District": "SURYAPET",
+         "N": 69.37,
+         "OC": 58.82,
+         "P": 25.34,
+         "K": 26.46,
+         "ACIDIC": "30.57",
+         "NEUTRAL": 0,
+         "BASIC": "69.43"
+      },
+      {
+         "District": "VIKARABAD",
+         "N": 94.41,
+         "OC": 56.41,
+         "P": 5.77,
+         "K": 25.13,
+         "ACIDIC": "17.78",
+         "NEUTRAL": 0.37,
+         "BASIC": "81.85"
+      },
+      {
+         "District": "WANAPARTHY",
+         "N": 91.35,
+         "OC": 57.26,
+         "P": 6.31,
+         "K": 20.39,
+         "ACIDIC": "46.15",
+         "NEUTRAL": 0,
+         "BASIC": "53.85"
+      },
+      {
+         "District": "WARANGAL RURAL",
+         "N": 89.6,
+         "OC": 66.13,
+         "P": 24.82,
+         "K": 12.03,
+         "ACIDIC": "53.58",
+         "NEUTRAL": 10.71,
+         "BASIC": "35.71"
+      },
+      {
+         "District": "WARANGAL URBAN",
+         "N": 96.43,
+         "OC": 75,
+         "P": 17.85,
+         "K": 0,
+         "ACIDIC": "16.18",
+         "NEUTRAL": 1.73,
+         "BASIC": "82.1"
+      },
+      {
+         "District": "WARANGAL",
+         "N": 93.01,
+         "OC": 70.56,
+         "P": 21.33,
+         "K": 6.01,
+         "ACIDIC": "34.89",
+         "NEUTRAL": 6.22,
+         "BASIC": "58.910000000000004"
+      },
+      {
+         "District": "YADADRI BHUVANAGIRI",
+         "N": 69.52,
+         "OC": 60.15,
+         "P": 13.97,
+         "K": 25.09,
+         "ACIDIC": "58.34",
+         "NEUTRAL": 0,
+         "BASIC": "41.66"
+      },
+      {
+         "District": "HYDERABAD",
+         "N": 79.59,
+         "OC": 57.04,
+         "P": 11.67,
+         "K": 16.74,
+         "ACIDIC": "37.11",
+         "NEUTRAL": 1.67,
+         "BASIC": "61.24"
+      }
+   ],
+   "DADRA AND NAGAR HAVELI": [
+      {
+         "District": "DADRA AND NAGAR HAVELI",
+         "N": 0,
+         "OC": 38.35,
+         "P": 69.95,
+         "K": 0.72,
+         "ACIDIC": "50.83",
+         "NEUTRAL": 0.27,
+         "BASIC": "48.900000000000006"
+      }
+   ],
+   "TRIPURA": [
+      {
+         "District": "DHALAI",
+         "N": 50,
+         "OC": 21.91,
+         "P": 46.54,
+         "K": 81.15,
+         "ACIDIC": "99.64",
+         "NEUTRAL": 0,
+         "BASIC": "0.35"
+      },
+      {
+         "District": "GOMATI",
+         "N": 63.26,
+         "OC": 38.93,
+         "P": 54.65,
+         "K": 74.36,
+         "ACIDIC": "94.91",
+         "NEUTRAL": 1.59,
+         "BASIC": "3.4899999999999998"
+      },
+      {
+         "District": "KHOWAI",
+         "N": 15.39,
+         "OC": 18.72,
+         "P": 51.77,
+         "K": 87.15,
+         "ACIDIC": "99.16",
+         "NEUTRAL": 0,
+         "BASIC": "0.84"
+      },
+      {
+         "District": "NORTH TRIPURA",
+         "N": 100,
+         "OC": 25.89,
+         "P": 52.98,
+         "K": 85.18,
+         "ACIDIC": "99.93",
+         "NEUTRAL": 0,
+         "BASIC": "0.08"
+      },
+      {
+         "District": "SEPAHIJALA",
+         "N": 64.82,
+         "OC": 25.04,
+         "P": 54.93,
+         "K": 81.97,
+         "ACIDIC": "100.00999999999999",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "SOUTH TRIPURA",
+         "N": 50,
+         "OC": 16.37,
+         "P": 58.62,
+         "K": 82.06,
+         "ACIDIC": "99.92",
+         "NEUTRAL": 0,
+         "BASIC": "0.07"
+      },
+      {
+         "District": "UNAKOTI",
+         "N": 5.88,
+         "OC": 13.7,
+         "P": 55.08,
+         "K": 88.29,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "WEST TRIPURA",
+         "N": 20.7,
+         "OC": 14.89,
+         "P": 56.48,
+         "K": 87.33,
+         "ACIDIC": "99.7",
+         "NEUTRAL": 0,
+         "BASIC": "0.3"
+      }
+   ],
+   "UTTAR PRADESH": [
+      {
+         "District": "AGRA",
+         "N": 99.6,
+         "OC": 93.61,
+         "P": 90.55,
+         "K": 4.03,
+         "ACIDIC": "2.2199999999999998",
+         "NEUTRAL": 5.02,
+         "BASIC": "92.75"
+      },
+      {
+         "District": "ALIGARH",
+         "N": 97.6,
+         "OC": 96.48,
+         "P": 98.21,
+         "K": 7.72,
+         "ACIDIC": "1.3599999999999999",
+         "NEUTRAL": 6.75,
+         "BASIC": "91.89"
+      },
+      {
+         "District": "ALLAHABAD",
+         "N": 97.36,
+         "OC": 95.73,
+         "P": 96.47,
+         "K": 5.4,
+         "ACIDIC": "3.78",
+         "NEUTRAL": 4.32,
+         "BASIC": "91.89"
+      },
+      {
+         "District": "AMBEDKAR NAGAR",
+         "N": 99.82,
+         "OC": 97.74,
+         "P": 94.62,
+         "K": 38.02,
+         "ACIDIC": "2.2199999999999998",
+         "NEUTRAL": 3.25,
+         "BASIC": "94.52"
+      },
+      {
+         "District": "AMETHI",
+         "N": 53.3,
+         "OC": 89.36,
+         "P": 97.58,
+         "K": 22.16,
+         "ACIDIC": "26.27",
+         "NEUTRAL": 3.55,
+         "BASIC": "70.18"
+      },
+      {
+         "District": "AMROHA",
+         "N": 99.81,
+         "OC": 91.16,
+         "P": 93.27,
+         "K": 24.08,
+         "ACIDIC": "4.130000000000001",
+         "NEUTRAL": 12.12,
+         "BASIC": "83.75"
+      },
+      {
+         "District": "AURAIYA",
+         "N": 99.88,
+         "OC": 95.28,
+         "P": 96.43,
+         "K": 1.02,
+         "ACIDIC": "0.06",
+         "NEUTRAL": 6.45,
+         "BASIC": "93.48"
+      },
+      {
+         "District": "AYODHYA",
+         "N": 99.83,
+         "OC": 98.64,
+         "P": 98.87,
+         "K": 2.55,
+         "ACIDIC": "4.84",
+         "NEUTRAL": 0.2,
+         "BASIC": "94.96000000000001"
+      },
+      {
+         "District": "AZAMGARH",
+         "N": 99.53,
+         "OC": 81.67,
+         "P": 93.51,
+         "K": 31.25,
+         "ACIDIC": "0.38",
+         "NEUTRAL": 0.6,
+         "BASIC": "99.00999999999999"
+      },
+      {
+         "District": "BAGHPAT",
+         "N": 99.93,
+         "OC": 94.11,
+         "P": 93.62,
+         "K": 58.6,
+         "ACIDIC": "0.8400000000000001",
+         "NEUTRAL": 1.16,
+         "BASIC": "98.0"
+      },
+      {
+         "District": "BAHRAICH",
+         "N": 99.9,
+         "OC": 91.5,
+         "P": 99.54,
+         "K": 0.62,
+         "ACIDIC": "8.42",
+         "NEUTRAL": 4.58,
+         "BASIC": "87.0"
+      },
+      {
+         "District": "BALLIA",
+         "N": 100,
+         "OC": 99.16,
+         "P": 99.7,
+         "K": 34.61,
+         "ACIDIC": "0.02",
+         "NEUTRAL": 6.55,
+         "BASIC": "93.41"
+      },
+      {
+         "District": "BALRAMPUR",
+         "N": 99.73,
+         "OC": 83.73,
+         "P": 94.2,
+         "K": 48.42,
+         "ACIDIC": "1.8599999999999999",
+         "NEUTRAL": 16.23,
+         "BASIC": "81.92"
+      },
+      {
+         "District": "BANDA",
+         "N": 99.82,
+         "OC": 92.42,
+         "P": 93.35,
+         "K": 58.01,
+         "ACIDIC": "3.39",
+         "NEUTRAL": 35.7,
+         "BASIC": "60.9"
+      },
+      {
+         "District": "BARABANKI",
+         "N": 98.84,
+         "OC": 95.53,
+         "P": 95.71,
+         "K": 27.81,
+         "ACIDIC": "12.16",
+         "NEUTRAL": 4.75,
+         "BASIC": "83.09"
+      },
+      {
+         "District": "BAREILLY",
+         "N": 99.9,
+         "OC": 93.03,
+         "P": 77.87,
+         "K": 48.66,
+         "ACIDIC": "2.79",
+         "NEUTRAL": 7.73,
+         "BASIC": "89.47"
+      },
+      {
+         "District": "BASTI",
+         "N": 99.8,
+         "OC": 95.13,
+         "P": 96.93,
+         "K": 5.96,
+         "ACIDIC": "14.55",
+         "NEUTRAL": 11.71,
+         "BASIC": "73.74000000000001"
+      },
+      {
+         "District": "BIJNOR",
+         "N": 99.37,
+         "OC": 93.29,
+         "P": 97.45,
+         "K": 24.84,
+         "ACIDIC": "1.1600000000000001",
+         "NEUTRAL": 5.04,
+         "BASIC": "93.79"
+      },
+      {
+         "District": "BUDAUN",
+         "N": 99.76,
+         "OC": 64.52,
+         "P": 72.88,
+         "K": 39.82,
+         "ACIDIC": "17.63",
+         "NEUTRAL": 12.1,
+         "BASIC": "70.27000000000001"
+      },
+      {
+         "District": "BULANDSHAHR",
+         "N": 99.75,
+         "OC": 93.27,
+         "P": 98.36,
+         "K": 16.54,
+         "ACIDIC": "7.209999999999999",
+         "NEUTRAL": 3.81,
+         "BASIC": "88.98"
+      },
+      {
+         "District": "CHANDAULI",
+         "N": 98.59,
+         "OC": 97.24,
+         "P": 98.45,
+         "K": 24.52,
+         "ACIDIC": "3.58",
+         "NEUTRAL": 5.79,
+         "BASIC": "90.61"
+      },
+      {
+         "District": "CHITRAKOOT",
+         "N": 99.77,
+         "OC": 79.04,
+         "P": 97.08,
+         "K": 47.93,
+         "ACIDIC": "0.87",
+         "NEUTRAL": 17.68,
+         "BASIC": "81.44"
+      },
+      {
+         "District": "DEORIA",
+         "N": 99.61,
+         "OC": 84.71,
+         "P": 95.11,
+         "K": 7,
+         "ACIDIC": "1.7600000000000002",
+         "NEUTRAL": 9.65,
+         "BASIC": "88.58999999999999"
+      },
+      {
+         "District": "ETAH",
+         "N": 99.79,
+         "OC": 96.14,
+         "P": 99.47,
+         "K": 0.78,
+         "ACIDIC": "2.65",
+         "NEUTRAL": 0.33,
+         "BASIC": "97.03"
+      },
+      {
+         "District": "ETAWAH",
+         "N": 99.58,
+         "OC": 97.42,
+         "P": 98.32,
+         "K": 31.66,
+         "ACIDIC": "0.16",
+         "NEUTRAL": 1.46,
+         "BASIC": "98.38"
+      },
+      {
+         "District": "FARRUKHABAD",
+         "N": 99.96,
+         "OC": 96.3,
+         "P": 94.44,
+         "K": 4.95,
+         "ACIDIC": "0.8500000000000001",
+         "NEUTRAL": 5.22,
+         "BASIC": "93.92999999999999"
+      },
+      {
+         "District": "FATEHPUR",
+         "N": 98.11,
+         "OC": 97.07,
+         "P": 93.92,
+         "K": 4.2,
+         "ACIDIC": "5.119999999999999",
+         "NEUTRAL": 7.87,
+         "BASIC": "87.01"
+      },
+      {
+         "District": "FIROZABAD",
+         "N": 98.61,
+         "OC": 93.18,
+         "P": 80.3,
+         "K": 18.85,
+         "ACIDIC": "3.84",
+         "NEUTRAL": 1.38,
+         "BASIC": "94.78"
+      },
+      {
+         "District": "GAUTAM BUDDHA NAGAR",
+         "N": 99.85,
+         "OC": 79.94,
+         "P": 97.91,
+         "K": 12.6,
+         "ACIDIC": "0.45999999999999996",
+         "NEUTRAL": 0.04,
+         "BASIC": "99.48"
+      },
+      {
+         "District": "GHAZIABAD",
+         "N": 99.94,
+         "OC": 85.03,
+         "P": 95.02,
+         "K": 10.09,
+         "ACIDIC": "0.51",
+         "NEUTRAL": 1.9,
+         "BASIC": "97.60000000000001"
+      },
+      {
+         "District": "GHAZIPUR",
+         "N": 99.84,
+         "OC": 92.96,
+         "P": 97.16,
+         "K": 42.68,
+         "ACIDIC": "0.15999999999999998",
+         "NEUTRAL": 2.32,
+         "BASIC": "97.51"
+      },
+      {
+         "District": "GONDA",
+         "N": 97.52,
+         "OC": 95.44,
+         "P": 95.2,
+         "K": 49.47,
+         "ACIDIC": "1.35",
+         "NEUTRAL": 3.72,
+         "BASIC": "94.92999999999999"
+      },
+      {
+         "District": "GORAKHPUR",
+         "N": 99.87,
+         "OC": 78.73,
+         "P": 97.51,
+         "K": 38.7,
+         "ACIDIC": "5.4",
+         "NEUTRAL": 8,
+         "BASIC": "86.6"
+      },
+      {
+         "District": "HAMIRPUR",
+         "N": 99.94,
+         "OC": 87.08,
+         "P": 90.76,
+         "K": 20.59,
+         "ACIDIC": "1.05",
+         "NEUTRAL": 7.74,
+         "BASIC": "91.22"
+      },
+      {
+         "District": "HAPUR",
+         "N": 99.85,
+         "OC": 86.67,
+         "P": 85.88,
+         "K": 29.63,
+         "ACIDIC": "5.89",
+         "NEUTRAL": 2.8,
+         "BASIC": "91.30000000000001"
+      },
+      {
+         "District": "HARDOI",
+         "N": 99.77,
+         "OC": 96.62,
+         "P": 36.88,
+         "K": 0.62,
+         "ACIDIC": "0.09999999999999999",
+         "NEUTRAL": 0.03,
+         "BASIC": "99.86"
+      },
+      {
+         "District": "HATHRAS",
+         "N": 99.78,
+         "OC": 95.27,
+         "P": 99.13,
+         "K": 23.48,
+         "ACIDIC": "3.02",
+         "NEUTRAL": 2.06,
+         "BASIC": "94.91"
+      },
+      {
+         "District": "JALAUN",
+         "N": 99.49,
+         "OC": 75.75,
+         "P": 98.11,
+         "K": 1.13,
+         "ACIDIC": "11.17",
+         "NEUTRAL": 8.7,
+         "BASIC": "80.13"
+      },
+      {
+         "District": "JAUNPUR",
+         "N": 99.23,
+         "OC": 6.8,
+         "P": 98.24,
+         "K": 44.39,
+         "ACIDIC": "1.27",
+         "NEUTRAL": 1.59,
+         "BASIC": "97.14"
+      },
+      {
+         "District": "JHANSI",
+         "N": 99.77,
+         "OC": 79.36,
+         "P": 94.1,
+         "K": 2.44,
+         "ACIDIC": "2.08",
+         "NEUTRAL": 12.21,
+         "BASIC": "85.7"
+      },
+      {
+         "District": "KANNAUJ",
+         "N": 99.93,
+         "OC": 98.96,
+         "P": 98.98,
+         "K": 1.57,
+         "ACIDIC": "3.27",
+         "NEUTRAL": 3.73,
+         "BASIC": "93.0"
+      },
+      {
+         "District": "KANPUR DEHAT",
+         "N": 99.87,
+         "OC": 93.31,
+         "P": 94.12,
+         "K": 8.44,
+         "ACIDIC": "1.72",
+         "NEUTRAL": 1.73,
+         "BASIC": "96.55000000000001"
+      },
+      {
+         "District": "KANPUR NAGAR",
+         "N": 99.93,
+         "OC": 91.61,
+         "P": 97.54,
+         "K": 1.83,
+         "ACIDIC": "0.24",
+         "NEUTRAL": 0.32,
+         "BASIC": "99.45"
+      },
+      {
+         "District": "KASGANJ",
+         "N": 99.81,
+         "OC": 92.63,
+         "P": 94.64,
+         "K": 5.22,
+         "ACIDIC": "7.08",
+         "NEUTRAL": 5.23,
+         "BASIC": "87.69"
+      },
+      {
+         "District": "KAUSHAMBI",
+         "N": 95.32,
+         "OC": 92.51,
+         "P": 91.86,
+         "K": 9.73,
+         "ACIDIC": "6.13",
+         "NEUTRAL": 2.87,
+         "BASIC": "91.00999999999999"
+      },
+      {
+         "District": "LAKHIMPUR KHERI",
+         "N": 99.62,
+         "OC": 97.71,
+         "P": 98.1,
+         "K": 6.2,
+         "ACIDIC": "7.54",
+         "NEUTRAL": 0.49,
+         "BASIC": "91.97999999999999"
+      },
+      {
+         "District": "KUSHI NAGAR",
+         "N": 99.74,
+         "OC": 91.43,
+         "P": 89.45,
+         "K": 37.97,
+         "ACIDIC": "1.31",
+         "NEUTRAL": 4.59,
+         "BASIC": "94.10000000000001"
+      },
+      {
+         "District": "LALITPUR",
+         "N": 99.32,
+         "OC": 78.44,
+         "P": 97.24,
+         "K": 1.88,
+         "ACIDIC": "3.64",
+         "NEUTRAL": 9.59,
+         "BASIC": "86.77000000000001"
+      },
+      {
+         "District": "LUCKNOW",
+         "N": 99.58,
+         "OC": 58.53,
+         "P": 74.76,
+         "K": 8.8,
+         "ACIDIC": "2.74",
+         "NEUTRAL": 3.05,
+         "BASIC": "94.2"
+      },
+      {
+         "District": "MAHARAJGANJ",
+         "N": 99.78,
+         "OC": 51.46,
+         "P": 97.16,
+         "K": 26.77,
+         "ACIDIC": "2.84",
+         "NEUTRAL": 5.35,
+         "BASIC": "91.83"
+      },
+      {
+         "District": "MAHOBA",
+         "N": 99.83,
+         "OC": 94.04,
+         "P": 96.45,
+         "K": 5.49,
+         "ACIDIC": "4.619999999999999",
+         "NEUTRAL": 13.37,
+         "BASIC": "82.01"
+      },
+      {
+         "District": "MAINPURI",
+         "N": 99.28,
+         "OC": 91.86,
+         "P": 91.26,
+         "K": 14.76,
+         "ACIDIC": "1.68",
+         "NEUTRAL": 0.72,
+         "BASIC": "97.60000000000001"
+      },
+      {
+         "District": "MATHURA",
+         "N": 99.83,
+         "OC": 70.02,
+         "P": 65.99,
+         "K": 4.68,
+         "ACIDIC": "0.97",
+         "NEUTRAL": 0.5,
+         "BASIC": "98.53"
+      },
+      {
+         "District": "MAU",
+         "N": 99.77,
+         "OC": 87.45,
+         "P": 96.6,
+         "K": 30.85,
+         "ACIDIC": "1.2900000000000003",
+         "NEUTRAL": 0.33,
+         "BASIC": "98.38"
+      },
+      {
+         "District": "MEERUT",
+         "N": 99.87,
+         "OC": 90.8,
+         "P": 95.67,
+         "K": 28.41,
+         "ACIDIC": "1.11",
+         "NEUTRAL": 1.77,
+         "BASIC": "97.12"
+      },
+      {
+         "District": "MIRZAPUR",
+         "N": 99.09,
+         "OC": 77.89,
+         "P": 86.61,
+         "K": 16.66,
+         "ACIDIC": "11.9",
+         "NEUTRAL": 3.67,
+         "BASIC": "84.42999999999999"
+      },
+      {
+         "District": "MORADABAD",
+         "N": 99.57,
+         "OC": 78.91,
+         "P": 85.17,
+         "K": 32.33,
+         "ACIDIC": "7.73",
+         "NEUTRAL": 10.21,
+         "BASIC": "82.06"
+      },
+      {
+         "District": "MUZAFFARNAGAR",
+         "N": 99.76,
+         "OC": 85.86,
+         "P": 91.29,
+         "K": 81.24,
+         "ACIDIC": "0.95",
+         "NEUTRAL": 0.12,
+         "BASIC": "98.93"
+      },
+      {
+         "District": "PILIBHIT",
+         "N": 99.95,
+         "OC": 83.75,
+         "P": 94.35,
+         "K": 72.9,
+         "ACIDIC": "0.08",
+         "NEUTRAL": 0.74,
+         "BASIC": "99.19"
+      },
+      {
+         "District": "PRATAPGARH",
+         "N": 99.6,
+         "OC": 96.4,
+         "P": 97.01,
+         "K": 4.36,
+         "ACIDIC": "2.65",
+         "NEUTRAL": 6.37,
+         "BASIC": "90.97"
+      },
+      {
+         "District": "RAE BARELI",
+         "N": 99.71,
+         "OC": 88.98,
+         "P": 87.17,
+         "K": 11.76,
+         "ACIDIC": "3.2800000000000002",
+         "NEUTRAL": 2.08,
+         "BASIC": "94.65"
+      },
+      {
+         "District": "RAMPUR",
+         "N": 99.77,
+         "OC": 94.25,
+         "P": 97.9,
+         "K": 32.58,
+         "ACIDIC": "2.7199999999999998",
+         "NEUTRAL": 8.25,
+         "BASIC": "89.03"
+      },
+      {
+         "District": "SAHARANPUR",
+         "N": 99.94,
+         "OC": 94.07,
+         "P": 98.49,
+         "K": 49.35,
+         "ACIDIC": "0.98",
+         "NEUTRAL": 0.02,
+         "BASIC": "99.0"
+      },
+      {
+         "District": "SAMBHAL",
+         "N": 99.49,
+         "OC": 97.41,
+         "P": 98.34,
+         "K": 20.05,
+         "ACIDIC": "6.82",
+         "NEUTRAL": 17.42,
+         "BASIC": "75.77"
+      },
+      {
+         "District": "SANT KABIR NAGAR",
+         "N": 99.79,
+         "OC": 92.21,
+         "P": 64.04,
+         "K": 21.73,
+         "ACIDIC": "12.77",
+         "NEUTRAL": 6.27,
+         "BASIC": "80.97"
+      },
+      {
+         "District": "SANT RAVIDAS NAGAR",
+         "N": 98.78,
+         "OC": 95.21,
+         "P": 94.67,
+         "K": 8.22,
+         "ACIDIC": "0.7899999999999999",
+         "NEUTRAL": 1.67,
+         "BASIC": "97.54"
+      },
+      {
+         "District": "SHAHJAHANPUR",
+         "N": 99.77,
+         "OC": 94.22,
+         "P": 96.36,
+         "K": 26.8,
+         "ACIDIC": "13.260000000000002",
+         "NEUTRAL": 7.93,
+         "BASIC": "78.82"
+      },
+      {
+         "District": "SHAMLI",
+         "N": 100,
+         "OC": 92.36,
+         "P": 98.99,
+         "K": 20.61,
+         "ACIDIC": "1.6",
+         "NEUTRAL": 0.81,
+         "BASIC": "97.6"
+      },
+      {
+         "District": "SHRAVASTI",
+         "N": 21.25,
+         "OC": 95.28,
+         "P": 97.85,
+         "K": 10.99,
+         "ACIDIC": "24.919999999999998",
+         "NEUTRAL": 4.59,
+         "BASIC": "70.5"
+      },
+      {
+         "District": "SIDDHARTH NAGAR",
+         "N": 99.78,
+         "OC": 62.13,
+         "P": 34.34,
+         "K": 6.44,
+         "ACIDIC": "27.720000000000002",
+         "NEUTRAL": 15.33,
+         "BASIC": "56.94"
+      },
+      {
+         "District": "SITAPUR",
+         "N": 99.34,
+         "OC": 92.91,
+         "P": 83.45,
+         "K": 39.53,
+         "ACIDIC": "2.21",
+         "NEUTRAL": 4.31,
+         "BASIC": "93.47999999999999"
+      },
+      {
+         "District": "SONBHADRA",
+         "N": 41.9,
+         "OC": 86.84,
+         "P": 97.41,
+         "K": 0.62,
+         "ACIDIC": "13.879999999999999",
+         "NEUTRAL": 1.84,
+         "BASIC": "84.28"
+      },
+      {
+         "District": "SULTANPUR",
+         "N": 99.83,
+         "OC": 94.26,
+         "P": 80.08,
+         "K": 21.47,
+         "ACIDIC": "1.8699999999999999",
+         "NEUTRAL": 1.66,
+         "BASIC": "96.47"
+      },
+      {
+         "District": "UNNAO",
+         "N": 99.77,
+         "OC": 83.15,
+         "P": 92.41,
+         "K": 1,
+         "ACIDIC": "0.33",
+         "NEUTRAL": 0.08,
+         "BASIC": "99.6"
+      },
+      {
+         "District": "VARANASI",
+         "N": 99.82,
+         "OC": 84.18,
+         "P": 78.56,
+         "K": 8.6,
+         "ACIDIC": "0.59",
+         "NEUTRAL": 1,
+         "BASIC": "98.42"
+      }
+   ],
+   "UTTARAKHAND": [
+      {
+         "District": "ALMORA",
+         "N": 100,
+         "OC": 21.49,
+         "P": 51.87,
+         "K": 3.77,
+         "ACIDIC": "43.41",
+         "NEUTRAL": 11.33,
+         "BASIC": "45.26"
+      },
+      {
+         "District": "BAGESHWAR",
+         "N": 100,
+         "OC": 21.37,
+         "P": 10.28,
+         "K": 11.05,
+         "ACIDIC": "64.25",
+         "NEUTRAL": 6.48,
+         "BASIC": "29.27"
+      },
+      {
+         "District": "CHAMOLI",
+         "N": 100,
+         "OC": 10.26,
+         "P": 6.6,
+         "K": 14.19,
+         "ACIDIC": "60.849999999999994",
+         "NEUTRAL": 36.53,
+         "BASIC": "2.63"
+      },
+      {
+         "District": "CHAMPAWAT",
+         "N": 100,
+         "OC": 14.86,
+         "P": 13.78,
+         "K": 20.61,
+         "ACIDIC": "66.28999999999999",
+         "NEUTRAL": 2.74,
+         "BASIC": "30.96"
+      },
+      {
+         "District": "DEHRADUN",
+         "N": 34.34,
+         "OC": 5.42,
+         "P": 7.35,
+         "K": 29.1,
+         "ACIDIC": "44.32",
+         "NEUTRAL": 2.38,
+         "BASIC": "53.300000000000004"
+      },
+      {
+         "District": "HARIDWAR",
+         "N": 97.94,
+         "OC": 58.31,
+         "P": 15.79,
+         "K": 22.5,
+         "ACIDIC": "9.870000000000001",
+         "NEUTRAL": 10.04,
+         "BASIC": "80.09"
+      },
+      {
+         "District": "NAINITAL",
+         "N": 99.98,
+         "OC": 11.66,
+         "P": 34.41,
+         "K": 32.17,
+         "ACIDIC": "13.7",
+         "NEUTRAL": 6.27,
+         "BASIC": "80.03999999999999"
+      },
+      {
+         "District": "PAURI GARHWAL",
+         "N": 95.65,
+         "OC": 15.69,
+         "P": 2.91,
+         "K": 1.24,
+         "ACIDIC": "20.91",
+         "NEUTRAL": 5.48,
+         "BASIC": "73.61999999999999"
+      },
+      {
+         "District": "PITHORAGARH",
+         "N": 100,
+         "OC": 22.69,
+         "P": 17.88,
+         "K": 17.65,
+         "ACIDIC": "57.769999999999996",
+         "NEUTRAL": 3.92,
+         "BASIC": "38.309999999999995"
+      },
+      {
+         "District": "RUDRA PRAYAG",
+         "N": 97.5,
+         "OC": 6.85,
+         "P": 1.16,
+         "K": 47.3,
+         "ACIDIC": "46.21",
+         "NEUTRAL": 15.15,
+         "BASIC": "38.64"
+      },
+      {
+         "District": "TEHRI GARHWAL",
+         "N": 96.67,
+         "OC": 20.33,
+         "P": 27.08,
+         "K": 20.96,
+         "ACIDIC": "77.74",
+         "NEUTRAL": 8.33,
+         "BASIC": "13.94"
+      },
+      {
+         "District": "UDHAM SINGH NAGAR",
+         "N": 99.38,
+         "OC": 70.3,
+         "P": 60.08,
+         "K": 48.28,
+         "ACIDIC": "1.1500000000000001",
+         "NEUTRAL": 0.61,
+         "BASIC": "98.23"
+      },
+      {
+         "District": "UTTAR KASHI",
+         "N": 48.84,
+         "OC": 2.79,
+         "P": 1.28,
+         "K": 49.09,
+         "ACIDIC": "94.4",
+         "NEUTRAL": 1.86,
+         "BASIC": "3.7199999999999998"
+      }
+   ],
+   "WEST BENGAL": [
+      {
+         "District": "24 PARAGANAS NORTH",
+         "N": 59.6,
+         "OC": 59.59,
+         "P": 0,
+         "K": 6.06,
+         "ACIDIC": "26.26",
+         "NEUTRAL": 5.05,
+         "BASIC": "68.69"
+      },
+      {
+         "District": "24 PARAGANAS SOUTH",
+         "N": 27.52,
+         "OC": 25.47,
+         "P": 6.6,
+         "K": 21.37,
+         "ACIDIC": "86.50999999999999",
+         "NEUTRAL": 0.74,
+         "BASIC": "12.76"
+      },
+      {
+         "District": "ALIPURDUAR",
+         "N": 78.26,
+         "OC": 27.91,
+         "P": 3.53,
+         "K": 46.51,
+         "ACIDIC": "98.66",
+         "NEUTRAL": 0.44,
+         "BASIC": "0.9099999999999999"
+      },
+      {
+         "District": "BANKURA",
+         "N": 17.79,
+         "OC": 16.91,
+         "P": 1.06,
+         "K": 5.46,
+         "ACIDIC": "97.41000000000001",
+         "NEUTRAL": 0.32,
+         "BASIC": "2.27"
+      },
+      {
+         "District": "BARDHAMAN",
+         "N": 36.93,
+         "OC": 20.89,
+         "P": 14.73,
+         "K": 47.93,
+         "ACIDIC": "85.61999999999999",
+         "NEUTRAL": 1.62,
+         "BASIC": "12.75"
+      },
+      {
+         "District": "BIRBHUM",
+         "N": 63.9,
+         "OC": 63.07,
+         "P": 3.73,
+         "K": 10.79,
+         "ACIDIC": "43.57",
+         "NEUTRAL": 6.22,
+         "BASIC": "50.21"
+      },
+      {
+         "District": "COOCHBEHAR",
+         "N": 55.42,
+         "OC": 33.93,
+         "P": 2.38,
+         "K": 52.98,
+         "ACIDIC": "98.78999999999999",
+         "NEUTRAL": 0,
+         "BASIC": "1.21"
+      },
+      {
+         "District": "DARJEELING",
+         "N": 100,
+         "OC": 0,
+         "P": 0,
+         "K": 26.47,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "DINAJPUR DAKSHIN",
+         "N": 16.98,
+         "OC": 15.1,
+         "P": 5.66,
+         "K": 0,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 5.66,
+         "BASIC": "94.34"
+      },
+      {
+         "District": "DINAJPUR UTTAR",
+         "N": 100,
+         "OC": 0,
+         "P": 0,
+         "K": 25,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "HOOGHLY",
+         "N": 33.71,
+         "OC": 26.88,
+         "P": 0.65,
+         "K": 1.2,
+         "ACIDIC": "94.03",
+         "NEUTRAL": 0.19,
+         "BASIC": "5.79"
+      },
+      {
+         "District": "HOWRAH",
+         "N": 14.66,
+         "OC": 26.66,
+         "P": 73.33,
+         "K": 5.33,
+         "ACIDIC": "92.0",
+         "NEUTRAL": 1.33,
+         "BASIC": "6.67"
+      },
+      {
+         "District": "JALPAIGURI",
+         "N": 78.08,
+         "OC": 18.55,
+         "P": 5.28,
+         "K": 37.64,
+         "ACIDIC": "94.94000000000001",
+         "NEUTRAL": 0.77,
+         "BASIC": "4.29"
+      },
+      {
+         "District": "KALIMPONG",
+         "N": 0,
+         "OC": 0,
+         "P": 0,
+         "K": 100,
+         "ACIDIC": "100.0",
+         "NEUTRAL": 0,
+         "BASIC": "0.0"
+      },
+      {
+         "District": "MALDAH",
+         "N": 73.33,
+         "OC": 72.88,
+         "P": 3.62,
+         "K": 9.8,
+         "ACIDIC": "46.16",
+         "NEUTRAL": 2.47,
+         "BASIC": "51.379999999999995"
+      },
+      {
+         "District": "MEDINIPUR EAST",
+         "N": 100,
+         "OC": 100,
+         "P": 0,
+         "K": 33.33,
+         "ACIDIC": "0.0",
+         "NEUTRAL": 0,
+         "BASIC": "100.0"
+      },
+      {
+         "District": "MEDINIPUR WEST",
+         "N": 95.26,
+         "OC": 36.05,
+         "P": 4.24,
+         "K": 3.91,
+         "ACIDIC": "6.8500000000000005",
+         "NEUTRAL": 3.26,
+         "BASIC": "89.9"
+      },
+      {
+         "District": "MURSHIDABAD",
+         "N": 16.28,
+         "OC": 39.48,
+         "P": 0.62,
+         "K": 21.2,
+         "ACIDIC": "41.35",
+         "NEUTRAL": 0.63,
+         "BASIC": "58.03"
+      },
+      {
+         "District": "NADIA",
+         "N": 31.68,
+         "OC": 41.45,
+         "P": 0.66,
+         "K": 23.57,
+         "ACIDIC": "16.5",
+         "NEUTRAL": 1.83,
+         "BASIC": "81.67"
+      },
+      {
+         "District": "PURULIA",
+         "N": 50.27,
+         "OC": 50.29,
+         "P": 11.25,
+         "K": 2.59,
+         "ACIDIC": "99.98",
+         "NEUTRAL": 0,
+         "BASIC": "0.02"
+      }
+   ]
+}

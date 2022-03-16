@@ -1,227 +1,304 @@
 <!DOCTYPE HTML>
 
 <html>
-	<head>
-		<title>Know & Grow</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="../lib/w3.css">
-		<link rel="icon" type="image" href="images/favicon.png">
-		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- <iframe name="sayduck3dViewer" style="width:100px;height:100px;" src="https://sayduck.com/3d/ZDE9?background-color=transparent&starting-variant=eagkw8w9ma&" frameborder="0"></iframe> -->
-		
-<nav class="w3-sidenav w3-black" style="width:70px">
-	<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i class="fa fa-home w3-xxlarge"></i></a> 
-	<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i class="fa fa-search w3-xxlarge"></i></a> 
-	<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i class="fa fa-envelope w3-xxlarge"></i></a> 
-	<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i class="fa fa-globe w3-xxlarge"></i></a>
-	<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i class="fa fa-trash w3-xxlarge"></i></a> 
-  </nav>
-		<!-- Wrapper -->
-			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<img class="logo" src="./images/favicon.png" alt="Know&Grow_Logo" width="100px" height="100px">
-							<!-- <span class="icon fa-gem"></span> -->
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>KNOW & GROW</h1>
-								<p>We recommend Best Crops for <b>YOU</b> considering all factors YOUR crop needs. <br>
-								Let's GROW together.</p>
+<head>
+	<title>Know & Grow</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+	<noscript>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" />
+	</noscript>
+	<link rel="icon" type="image" href="{{ url_for('static', filename='images/favicon.png') }}">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="{{ url_for('static', filename='js/location.js') }}"></script>
+</head>
+
+<body class="is-preload">
+	<!-- <iframe name="sayduck3dViewer" style="width:100px;height:100px;" src="https://sayduck.com/3d/ZDE9?background-color=transparent&starting-variant=eagkw8w9ma&" frameborder="0"></iframe>
+
+	<nav class="w3-sidenav w3-black" style="width:70px">
+		<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i
+				class="fa fa-home w3-xxlarge"></i></a>
+		<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i
+				class="fa fa-search w3-xxlarge"></i></a>
+		<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i
+				class="fa fa-envelope w3-xxlarge"></i></a>
+		<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i
+				class="fa fa-globe w3-xxlarge"></i></a>
+		<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i
+				class="fa fa-trash w3-xxlarge"></i></a>
+	</nav>
+	 -->
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<img class="logo" src="{{ url_for('static', filename='images/favicon.png') }}" alt="Know&Grow_Logo"
+					width="100px" height="100px">
+				<!-- <span class="icon fa-gem"></span> -->
+			</div>
+			<div class="content">
+				<div class="inner">
+					<h1 style="color: #310e08;">KNOW & GROW</h1>
+					<p>We recommend Best Crops for <b>YOU.</b><br>
+						We consider all factors YOUR crop needs. <br>
+						Let's GROW together.</p>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<!-- <li><a href="#intro">Home</a></li> -->
+					<li><a href="{{ url_for('.home', _anchor='predict') }}">Let's Grow!</a></li>
+					<!-- <li><a href="#about">About</a></li> -->
+					<!-- <li><a href="#contact">Contact</a></li> -->
+					<!--<li><a href="#elements">Elements</a></li>-->
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<article id="intro">
+				<h2 class="major">Intro</h2>
+				<span class="image main"><img src="{{ url_for('static', filename='images/INTRO.png') }}"
+						alt="" /></span>
+				<p>The comparison of different algorithms based on their performance metrics is used to find the most
+					accurate model for crop recommendation. The most accurate model was found to be a Random Forest
+					Algorithm with a precision of 82.74%, recall 80.92%, and an F1 score of 78.67%. The model trained
+					hence, can be used for giving a list of the recommended crops to the user.</p>
+				<a href="{{ url_for('.home', _anchor='predict') }}">Find your best crop!</a>
+			</article>
+
+			<!-- predict -->
+			<article id="predict">
+				<h2 class="major">Form</h2>
+				<span class="image main"><img src="{{ url_for('static', filename='images/TOOL.png') }}" alt="" /></span>
+				<!-- <p>Kindly fill the form to find your best crop.</p> -->
+				<!-- Form -->
+				<section>
+					<div class="content">
+						<form method="POST" action="{{ url_for('crop_prediction') }}" name="predictionform">
+							<header>
+								<h3 class="inputcategory">Location</h3>
+							</header>
+							<div class="fields">
+								<div class="field half">
+									<label for="state">State</label>
+									<select onchange="print_city('district', this.selectedIndex);" name="state"
+										id="state" required></select>
+								</div>
+								<div class="field half">
+									<label for="district">District</label>
+									<select name="district" id="district" required>
+										<script language="javascript"> print_state("state");</script>
+									</select>
+								</div>
 							</div>
-						</div>
-						<nav>
-							<ul>
-								<!-- <li><a href="#intro">Home</a></li> -->
-								<li><a href="#predict">Find the Crop!</a></li>
-								<!-- <li><a href="#about">About</a></li> -->
-								<!-- <li><a href="#contact">Contact</a></li> -->
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+							<hr class="hr hr-1">
+							<header>
+								<h3 class="inputcategory">Season Months</h3>
+							</header>
+							<div class="fields">
+								<div class="field half">
+									<input type="radio" id="kharif" name="season" value="KHARIF" />
+									<label for="kharif">June-October (Kharif)</label>
+								</div>
+								<div class="field half">
+									<input type="radio" id="rabi" name="season" value="RABI" />
+									<label for="rabi">October-March (Rabi)</label>
+								</div>
+								<div class="field half">
+									<input type="radio" id="autumn" name="season" value="AUTUMN" />
+									<label for="autumn">September-October (Autumn)</label>
+								</div>
+								<div class="field half">
+									<input type="radio" id="winter" name="season" value="WINTER" />
+									<label for="winter">November-April (Winter)</label>
+								</div>
+								<div class="field half">
+									<input type="radio" id="summer" name="season" value="SUMMER" />
+									<label for="summer">March-June (Summer)</label>
+								</div>
+								<div class="field half">
+									<input type="radio" id="wholeyear" name="season" value="WHOLE YEAR" />
+									<label for="wholeyear">Whole Year</label>
+								</div>
 
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/INTRO.png" alt="" /></span>
-								<p>The comparison of different algorithms based on their performance metrics is used to find the most accurate model for crop recommendation. The most accurate model was found to be a Random Forest Algorithm with a precision of 82.74%, recall 80.92%, and an F1 score of 78.67%. The model trained hence, can be used for giving a list of the recommended crops to the user.</p>
-								<a href="#predict">Find your best crop!</a>
-							</article>
-
-						<!-- predict -->
-							<article id="predict">
-								<h2 class="major">Form</h2>
-								<span class="image main"><img src="images/TOOL.png" alt="" /></span>
-								<!-- <p>Kindly fill the form to find your best crop.</p> -->
-								<!-- Form -->
-								<section>
-									<div class="content">
-										<form name="predictionform" onSubmit="validateinput()" method="post" action="#">
-											<header>
-												<h3 style="
-												color: #B3D81C; 
-												font-weight: bold;
-												font-size: 22px;">Location</h3>
-											</header>
-											<div class="fields">
-												<div class="field half">
-													<label for="state">State</label>
-													<select name="state" id="state" required>
-														<option value="">-- State --</option>
-														<option value="1">Delhi</option>
-														<option value="2">Uttar Pradesh</option>
-														<option value="3">Madhya Pradesh</option>
-														<option value="4">Arunachal Pradesh</option>
-													</select>
-												</div>
-												<div class="field half">
-													<label for="district">District</label>
-													<select name="district" id="district" required>
-														<option value="">-- District --</option>
-														<option value="1">South Delhi</option>
-														<option value="2">North Delhi</option>
-														<option value="3">East Delhi</option>
-														<option value="4">West Delhi</option>
-													</select>
-												</div>
-											</div>
-											<header>
-												<h3 style="
-												color: #d46600; 
-												font-weight: bold;
-												font-size: 22px;">Soil Properties</h3>
-											</header>
-											<!-- <button class="buttonload">
-												<i class="fa fa-spinner fa-spin"></i>Loading
-											  </button> -->
-											<div class="fields">
-												<div class="field third">
-													<label for="nitrogen">Nitrogen</label>
-													<input type="text" name="nitrogen" id="nitrogen" value="" placeholder="N Quantity" required />
-												</div>
-												<div class="field third">
-													<label for="phosphorus">Phosphorus</label>
-													<input type="text" name="phosphorus" id="phosphorus" value="" placeholder="P Quantity" required/>
-												</div>
-												<div class="field third">
-													<label for="potassium">Potassium</label>
-													<input type="text" name="potassium" id="potassium" value="" placeholder="K Quantity" required/>
-												</div>
-												<div class="field half">
-													<label for="organiccarbon">Organic Carbon</label>
-													<input type="text" name="organiccarbon" id="organiccarbon" value="" placeholder="OC Quantity" required/>
-												</div>
-												<div class="field half">
-													<label for="ph">pH Value</label>
-													<input type="text" name="ph" id="ph" value="" placeholder="ph Level" required/>
-												</div>
-											</div>
-											<header>
-												<h3 style="
-												color: #16f0af; 
-												font-weight: bold;
-												font-size: 22px;">Environment Properties</h3>
-											</header>
-											<div class="fields">	
-												<div class="field half">
-													<label for="rainfall">Rainfall</label>
-													<input type="text" name="rainfall" id="rainfall" value="" placeholder="Rainfall"  required/>
-												</div>
-												<div class="field half">
-													<label for="temperature">Temperature</label>
-													<input type="text" name="temperature" id="temperature" value="" placeholder="Temperature" required/>
-												</div>
-											</div>
-											<header>
-												<h3 style="
-												color: #1c58d8; 
-												font-weight: bold;
-												font-size: 22px;">Season Months</h3>
-											</header>
-											<div class="fields">
-												<div class="field half">
-													<input type="radio" id="kharif" name="season" />
-													<label for="kharif">June-October</label>
-												</div>
-												<div class="field half">
-													<input type="radio" id="rabi" name="season" />
-													<label for="rabi">October-March</label>
-												</div>
-												<div class="field half">
-													<input type="radio" id="autumn" name="season" />
-													<label for="autumn">September-October</label>
-												</div>
-												<div class="field half">
-													<input type="radio" id="winter" name="season" />
-													<label for="winter">November-April</label>
-												</div>
-												<div class="field half">
-													<input type="radio" id="summer" name="season" />
-													<label for="summer">March-June</label>
-												</div>
-												<div class="field half">
-													<input type="radio" id="wholeyear" name="season" />
-													<label for="wholeyear">Whole Year</label>
-												</div>
-												
-												<!-- Winter, November-April
+								<!-- Winter, November-April
 												Rabi, October-March
 												Autumn,  September-October
 												Whole Year, Jan-Dec
 												Summer, March-June
 												Kharif, June-October -->
 
-											</div>
-											<ul class="actions">
-												<li><input type="submit" name="PredictCrop" id="submit" value="PredictCrop" /></li>
-											</ul>
-										</form>
-									</div>
-								</section>
-							</article>
+							</div>
+							<hr class="hr hr-1">
+							<button class = "btnStyle" type="button" name="loadBtn" id="loadBtn" value="Load Properties" onclick="load_properties()">Load Properties</button>							
+							<hr class="hr hr-1">	
+							<header>
+								<h3 class="inputcategory">Soil Properties</h3>
+							</header>
+							<div id="Properties" class="fields">
+								<div class="field third">
+									<label for="nitrogen">Nitrogen (%)</label>
+									<input type="text" name="nitrogen" id="nitrogen" value="" placeholder="N Quantity (%)" required />
+								</div>
+								<div class="field third">
+									<label for="phosphorus">Phosphorus (%)</label>
+									<input type="text" name="phosphorus" id="phosphorus" value=""
+										placeholder="P Quantity (%)" required />
+								</div>
+								<div class="field third">
+									<label for="potassium">Potassium (%)</label>
+									<input type="text" name="potassium" id="potassium" value="" placeholder="K Quantity (%)" required />
+								</div>
+								<div class="field half">
+									<label for="organiccarbon">Organic Carbon (%)</label>
+									<input type="text" name="organiccarbon" id="organiccarbon" value=""
+										placeholder="OC Quantity (%)" required />
+								</div>
+							</div>
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/ABOUT.png" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
-							</article>
 
+							<hr class="hr hr-1">
+							<header>
+								<h3 class="inputcategory">pH Value</h3>
+							</header>
+							<div class="fields">
+								<div class="field half">
+									<label for="ph_acidic">Acidic (%)</label>
+									<input type="text" name="ph_acidic" id="ph_acidic" value=""
+										placeholder="ph Level-Acidic (%)" required />
+								</div>
+								<div class="field half">
+									<label for="ph_neutral">Neutral (%)</label>
+									<input type="text" name="ph_neutral" id="ph_neutral" value=""
+										placeholder="ph Level-Neutral (%)" required />
+								</div>
+								<div class="field half">
+									<label for="ph_basic">Basic (%)</label>
+									<input type="text" name="ph_basic" id="ph_basic" value=""
+										placeholder="ph Level-Basic (%)" required />
+								</div>
+							</div>
+							<hr class="hr hr-1">
+							<header>
+								<h3 class="inputcategory">Environment Properties</h3>
+							</header>
+							<div class="fields">
+								<div class="field half">
+									<label for="rainfall">Rainfall (mm/Day)</label>
+									<input type="text" name="rainfall" id="rainfall" value="" placeholder="Rainfall (mm/Day"
+										required />
+								</div>
+								<div class="field half">
+									<label for="temperature">Temperature (Kelvin)</label>
+									<input type="text" name="temperature" id="temperature" value=""
+										placeholder="Temperature (Kelvin)" required />
+								</div>
+							</div>
+
+							<button class = "btnStyle predictbtn"  type="submit" name="submitBtn" id="submit" value="Predict Crop" onclick="load_properties()">Predict</button>							
+						</form>
 					</div>
+				</section>
+			</article>
 
-					<a href="#first" class="large wide smooth-scroll-middle">Get Started</a>
+			<!-- About -->
+			<article id="about">
+				<h2 class="major">About</h2>
+				<span class="image main"><img src="{{ url_for('static', filename='images/ABOUT.png') }}"
+						alt="" /></span>
+				<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at
+					eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+					lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
+					fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
+					dolor sit amet.</p>
+			</article>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; We bring MAGIC to YOUR Farms. Design: <a href="https://github.com/Know-and-Grow/Know-and-Grow/tree/main/Datasets">Our Research/Code</a>.</p>
-						<!-- <p class="copyright" href='https://www.freepik.com/vectors/rural-landscape'>Rural landscape vector created by jcomp - www.freepik.com</p>
-						<p href='https://www.freepik.com/vectors/peasant'>Peasant vector created by vectorpouch - www.freepik.com</p>
-						<p href='https://www.freepik.com/vectors/rural-landscape'>Rural landscape vector created by jcomp - www.freepik.com</p> -->
-					</footer>
+		</div>
+		<div class="">
+			<button href="#first" class="large wide smooth-scroll-middle explore"></button>
+		</div>
 
-			</div>
+		<div>
+			<!-- Footer -->
+			<footer id="footer">
+				<p class="copyright">&copy; We bring MAGIC to YOUR Farms. Design: <a href="https://github.com/Know-and-Grow/Know-and-Grow/tree/main/Datasets">Our Research/Code</a>.</p>
+				<!-- <p class="copyright" href='https://www.freepik.com/vectors/rural-landscape'>Rural landscape vector created by jcomp - www.freepik.com</p>
+				<p href='https://www.freepik.com/vectors/peasant'>Peasant vector created by vectorpouch - www.freepik.com</p>
+				<p href='https://www.freepik.com/vectors/rural-landscape'>Rural landscape vector created by jcomp - www.freepik.com</p> -->
+			</footer>
+		</div>
+	</div>
 
-		<!-- BG -->
-			<div id="bg"></div>
+	
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/form.js"></script>
+	<!-- BG -->
+	<div id="bg"></div>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/util.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/form_validation.js') }}"></script>
 
-	</body>
+
+	<script>
+
+		function load_properties() {
+			stateElem = document.getElementById("state")
+			state = stateElem.value
+			districtElem = document.getElementById("district")
+			district = districtElem.value
+			season = document.querySelector('input[name="season"]:checked').value;
+
+			// read csv file SoilDB.csv
+			fetch("{{ url_for('static', filename='js/Soil_DB.json') }}")
+				.then(response => {
+					return response.json();
+				})
+				.then(jsondata => {
+					all_districts = jsondata[state]
+					var k;
+					for (k = 0; k < all_districts.length; ++k) {
+						if (all_districts[k].District == district) {
+							soil_properties = all_districts[k]
+							n = soil_properties.N
+							oc = soil_properties.OC
+							p = soil_properties.P
+							k = soil_properties.K
+							acidic = soil_properties.ACIDIC
+							neutral = soil_properties.NEUTRAL
+							basic = soil_properties.BASIC
+							document.getElementById("nitrogen").defaultValue = n
+							document.getElementById("phosphorus").defaultValue = p
+							document.getElementById("potassium").defaultValue = k
+							document.getElementById("organiccarbon").defaultValue = oc
+							document.getElementById("ph_acidic").defaultValue = acidic
+							document.getElementById("ph_neutral").defaultValue = neutral
+							document.getElementById("ph_basic").defaultValue = basic
+
+							break;
+						}
+					}
+				});
+			// select row for given state and district
+			//
+
+
+		}
+
+
+	</script>
+</body>
+
 </html>
