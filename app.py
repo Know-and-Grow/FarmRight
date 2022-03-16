@@ -75,7 +75,7 @@ def home():
 # RENDER PREDICTION PAGES
 
 # render crop recommendation result page
-@ app.route('/predict', methods=['POST'])
+@ app.route('/recommendations', methods=['POST'])
 def crop_prediction():
     title = 'Harvestify - Crop Recommendation'
 
