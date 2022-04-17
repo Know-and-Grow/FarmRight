@@ -1,7 +1,5 @@
 <!DOCTYPE HTML>
-
 <html>
-
 <head>
 	<title>Know & Grow</title>
 	<meta charset="utf-8" />
@@ -15,24 +13,11 @@
 
 	<!-- Scripts -->
 	<script type="text/javascript" src="{{ url_for('static', filename='js/location.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/scrolling.js') }}"></script>
 </head>
 
 <body class="is-preload">
-	<!-- <iframe name="sayduck3dViewer" style="width:100px;height:100px;" src="https://sayduck.com/3d/ZDE9?background-color=transparent&starting-variant=eagkw8w9ma&" frameborder="0"></iframe>
-
-	<nav class="w3-sidenav w3-black" style="width:70px">
-		<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i
-				class="fa fa-home w3-xxlarge"></i></a>
-		<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i
-				class="fa fa-search w3-xxlarge"></i></a>
-		<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i
-				class="fa fa-envelope w3-xxlarge"></i></a>
-		<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i
-				class="fa fa-globe w3-xxlarge"></i></a>
-		<a class="w3-padding-hor-16" href="tryit.asp-filename=tryw3css_sidenav_icons.html#"><i
-				class="fa fa-trash w3-xxlarge"></i></a>
-	</nav>
-	 -->
+	
 	<!-- Wrapper -->
 	<div id="wrapper">
 
@@ -53,30 +38,13 @@
 			</div>
 			<nav>
 				<ul>
-					<!-- <li><a href="#intro">Home</a></li> -->
 					<li><a href="{{ url_for('.home', _anchor='predict') }}">Let's Grow!</a></li>
-					<!-- <li><a href="#about">About</a></li> -->
-					<!-- <li><a href="#contact">Contact</a></li> -->
-					<!--<li><a href="#elements">Elements</a></li>-->
 				</ul>
 			</nav>
 		</header>
 
 		<!-- Main -->
 		<div id="main">
-
-			<!-- Intro -->
-			<article id="intro">
-				<h2 class="major">Intro</h2>
-				<span class="image main"><img src="{{ url_for('static', filename='images/INTRO.png') }}"
-						alt="" /></span>
-				<p>The comparison of different algorithms based on their performance metrics is used to find the most
-					accurate model for crop recommendation. The most accurate model was found to be a Random Forest
-					Algorithm with a precision of 82.74%, recall 80.92%, and an F1 score of 78.67%. The model trained
-					hence, can be used for giving a list of the recommended crops to the user.</p>
-				<a href="{{ url_for('.home', _anchor='predict') }}">Find your best crop!</a>
-			</article>
-
 			<!-- predict -->
 			<article id="predict">
 				<h2 class="major">Form</h2>
@@ -211,49 +179,116 @@
 					</div>
 				</section>
 			</article>
-
-			<!-- About -->
-			<article id="about">
-				<h2 class="major">About</h2>
-				<span class="image main"><img src="{{ url_for('static', filename='images/ABOUT.png') }}"
-						alt="" /></span>
-				<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at
-					eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-					lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
-					fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
-					dolor sit amet.</p>
-			</article>
-
-		</div>
-		<div class="">
-			<button href="#first" class="large wide smooth-scroll-middle explore"></button>
 		</div>
 
-		<div>
-			<!-- Footer -->
-			<footer id="footer">
-				<p class="copyright">&copy; We bring MAGIC to YOUR Farms. Design: <a href="https://github.com/Know-and-Grow/Know-and-Grow/tree/main/Datasets">Our Research/Code</a>.</p>
-				<!-- <p class="copyright" href='https://www.freepik.com/vectors/rural-landscape'>Rural landscape vector created by jcomp - www.freepik.com</p>
-				<p href='https://www.freepik.com/vectors/peasant'>Peasant vector created by vectorpouch - www.freepik.com</p>
-				<p href='https://www.freepik.com/vectors/rural-landscape'>Rural landscape vector created by jcomp - www.freepik.com</p> -->
-			</footer>
-		</div>
+		<!-- scroll button --> 
+		<section id="explore" class="demo scrolling">
+			<a href="#landingpage"><span></span></a>
+		</section>
 	</div>
 
-	
+	<section class="demo scrolling">
+		<div id="landingpage" class="flex-container">
+			<div>
+				<!-- Intro -->
+				<article id="tiles">
+					<h2 class="">Intro</h2>
+					<span class="image"><img src="{{ url_for('static', filename='images/intro.jpg') }}"
+							alt="" /></span>
+					<p>The comparison of different algorithms based on their performance metrics is used to find the most
+						accurate model for crop recommendation. The most accurate model was found to be a Random Forest
+						Algorithm with a precision of 82.74%, recall 80.92%, and an F1 score of 78.67%. The model trained
+						hence, can be used for giving a list of the recommended crops to the user.</p>
+					<!-- <a href="{{ url_for('.home', _anchor='predict') }}">Find your best crop!</a> -->
+				</article>
+			</div>
 
-	<!-- BG -->
-	<div id="bg"></div>
+			<div>
+				<!-- About -->
+				<article id="tiles">
+					<h2 class="">About</h2>
+					<span class="image"><img src="{{ url_for('static', filename='images/intro.jpg') }}"
+						alt="" /></span>
+					<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at
+						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
+						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
+						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
+						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
+						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
+						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
+						dolor sit amet.</p>
+				</article>
+			</div>
+			<div>
+				<!-- About -->
+				<article id="tiles">
+					<h2 class="">About</h2>
+					<span class="image"><img src="{{ url_for('static', filename='images/intro.jpg') }}"
+						alt="" /></span>
+					<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at
+						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
+						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
+						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
+						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
+						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
+						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
+						dolor sit amet.</p>
+				</article>
+			</div>	
+		</div>
+				
+		<div id="landingpage" class="flex-container">
+			<div>
+				<!-- Intro -->
+				<article id="tiles">
+					<h2 class="">Intro</h2>
+					<span class="image"><img src="{{ url_for('static', filename='images/intro.jpg') }}"
+							alt="" /></span>
+					<p>The comparison of different algorithms based on their performance metrics is used to find the most
+						accurate model for crop recommendation. The most accurate model was found to be a Random Forest
+						Algorithm with a precision of 82.74%, recall 80.92%, and an F1 score of 78.67%. The model trained
+						hence, can be used for giving a list of the recommended crops to the user.</p>
+					<!-- <a href="{{ url_for('.home', _anchor='predict') }}">Find your best crop!</a> -->
+				</article>
+			</div>
+
+			<div>
+				<!-- About -->
+				<article id="tiles">
+					<h2 class="">About</h2>
+					<span class="image"><img src="{{ url_for('static', filename='images/intro.jpg') }}"
+						alt="" /></span>
+					<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at
+						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
+						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
+						dolor sit amet.</p>
+				</article>
+			</div>	
+		</div>
+				
+	</section>
+	<!-- Footer -->
+	<footer id="footer">
+		<p class="copyright">&copy; We bring MAGIC to YOUR Farms. Design: <a href="https://github.com/Know-and-Grow/Know-and-Grow/tree/main/Datasets">Our Research/Code</a>.</p>
+		<!-- <p class="copyright" href='https://www.freepik.com/vectors/rural-landscape'>Rural landscape vector created by jcomp - www.freepik.com</p>
+		<p href='https://www.freepik.com/vectors/peasant'>Peasant vector created by vectorpouch - www.freepik.com</p> -->
+	</footer>
+
+
 	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/util.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/form_validation.js') }}"></script>
-
-
 	<script>
-
 		function load_properties() {
 			stateElem = document.getElementById("state")
 			state = stateElem.value
