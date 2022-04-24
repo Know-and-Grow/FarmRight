@@ -23,6 +23,9 @@
         </header>
         <div id="predictiondata" class="predictiondata">
             <h4>The Best Crops for your farm!</h4>
+            {% if prediction==[] %}
+                <h1>Try Again</h1>
+            {% else %}
             <div class="table-wrapper">
                 <table class="rwd-table">
                     <thead>
@@ -43,6 +46,7 @@
                     </tbody>
                 </table>
             </div>
+            {% endif %}
         </div>
     </div>
 </body>
