@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Know & Grow</title>
+	<title>FarmRight</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
@@ -14,13 +14,46 @@
 	<!-- Scripts -->
 	<script type="text/javascript" src="{{ url_for('static', filename='js/location.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/scrolling.js') }}"></script>
+
+	<!-- CHATBOT -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/jquery.convform.css') }}"></link>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.convform.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/chatbot_custom.js') }}"></script>
 </head>
 
 <body class="is-preload">
-	
+
+	<!--	Chatbot	-->
+		<div class="chatbot_icon">
+			<img id="icon" src="{{ url_for('static', filename='images/chatbot.png') }}"></img>
+		</div>
+
+		<div class="chatbot_box">
+			<div class="conv-form-wrapper">
+				<form action="" method="GET" class="hidden">		
+					<select name="programmer" data-conv-question="So, are you a programmer? (this question will fork the conversation based on your answer)">
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+					</select>
+					<div data-conv-fork="programmer">
+						<div data-conv-case="yes">
+							<input type="text" data-conv-question="A fellow programmer! Cool." data-no-answer="true">
+						</div>
+						<div data-conv-case="no">
+							<select name="thought" data-conv-question="Have you ever thought about learning? Programming is fun!">
+								<option value="yes">Yes</option>
+								<option value="no">No..</option>
+							</select>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	<!--	Chatbot	end  -->
+
 	<!-- Wrapper -->
 	<div id="wrapper">
-
 		<!-- Header -->
 		<header id="header">
 			<div class="logo">
@@ -49,11 +82,11 @@
 			<article id="predict">
 				<h2 class="major">Form</h2>
 				<span class="image main"><img src="{{ url_for('static', filename='images/TOOL.png') }}" alt="" /></span>
-				<!-- <p>Kindly fill the form to find your best crop.</p> -->
+				
 				<!-- Form -->
 				<section>
 					<div class="content">
-						<form method="POST" action="{{ url_for('crop_prediction') }}" name="predictionform">
+						<form  method="POST" action="{{ url_for('crop_prediction') }}" name="predictionform">
 							<header>
 								<h3 class="inputcategory">Location</h3>
 							</header>
@@ -187,100 +220,80 @@
 		</section>
 	</div>
 
-	<section class="demo scrolling">
-		<div id="landingpage" class="flex-container">
+	<section id="landingpage" class="demo scrolling">
+		<div id="flex-container">
 			<div>
 				<!-- Intro -->
 				<article id="tiles">
-					<h2 class="">Intro</h2>
-					<span class="image"><img src="{{ url_for('static', filename='images/intro.jpg') }}"
+					<h2 >Namaste!</h2>
+					<h4>Welcome to Farm Right.</h4>
+					<span class="image"><img src="{{ url_for('static', filename='images/hello.jpg') }}"
 							alt="" /></span>
-					<p>The comparison of different algorithms based on their performance metrics is used to find the most
-						accurate model for crop recommendation. The most accurate model was found to be a Random Forest
-						Algorithm with a precision of 82.74%, recall 80.92%, and an F1 score of 78.67%. The model trained
-						hence, can be used for giving a list of the recommended crops to the user.</p>
+					<p>Farmers of India are considered the backbone of economic development. We aim at providing easy and efficient solutions to hardships our farmers face to choose the Right Crop for your farm.
+						<br><br>
+						"If a farmer is rich , then so is the nation."
+					</p>
+					
 					<!-- <a href="{{ url_for('.home', _anchor='predict') }}">Find your best crop!</a> -->
 				</article>
 			</div>
 
 			<div>
-				<!-- About -->
+				<!-- Problems -->
 				<article id="tiles">
-					<h2 class="">About</h2>
-					<span class="image"><img src="{{ url_for('static', filename='images/intro.jpg') }}"
-						alt="" /></span>
-					<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at
-						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
-						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
-						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
-						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
-						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
-						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
-						dolor sit amet.</p>
+					<h2>The Enigma</h2>
+					<h4>PROBLEMS of the Peasants</h4>
+					<span class="image"><img src="{{ url_for('static', filename='images/enigma1.jpg') }}" alt="" /></span>
+					<p>Various problems faced by farmers are posing challenges in front of them which hinder the progress of the vast sector. These problems include:</p>
+					<ul>
+						<li>Lack of knowledge and guidance.</li>
+						<li>Choosing the best crop for their area according to the Climate and various Soil Properties.</li>
+						<li>Unable to understand the pattern of <i>"Crops Grown"</i> and <i>"Climate Change"</i> through decades.</li>
+					</ul>
+					<p>This makes their efforts go down the drain.</p>
 				</article>
 			</div>
 			<div>
-				<!-- About -->
+				<!-- Website tour -->
 				<article id="tiles">
-					<h2 class="">About</h2>
-					<span class="image"><img src="{{ url_for('static', filename='images/intro.jpg') }}"
+					<h2 >Tour it!</h2>
+					<span class="image"><img src="{{ url_for('static', filename='images/tour.jpg') }}"
 						alt="" /></span>
-					<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at
-						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
-						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
-						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
-						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
-						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
-						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
-						dolor sit amet.</p>
+					<p>This website aims at providing a solution to above said problems so that farmers are able to choose the best crop which would give them the highest benefit. Checkout: <ul>
+						<li>Our Crop recommendation system</li>
+						<li>ChatBot</li>
+						<li>Connect with us! Help us Improve.</li>
+					</ul></p>
+					<p>To those that work in ACRES, not in HOURS.</p>
 				</article>
-			</div>	
-		</div>
-				
-		<div id="landingpage" class="flex-container">
-			<div>
-				<!-- Intro -->
-				<article id="tiles">
-					<h2 class="">Intro</h2>
-					<span class="image"><img src="{{ url_for('static', filename='images/intro.jpg') }}"
-							alt="" /></span>
-					<p>The comparison of different algorithms based on their performance metrics is used to find the most
-						accurate model for crop recommendation. The most accurate model was found to be a Random Forest
-						Algorithm with a precision of 82.74%, recall 80.92%, and an F1 score of 78.67%. The model trained
-						hence, can be used for giving a list of the recommended crops to the user.</p>
-					<!-- <a href="{{ url_for('.home', _anchor='predict') }}">Find your best crop!</a> -->
-				</article>
-			</div>
-
-			<div>
-				<!-- About -->
-				<article id="tiles">
-					<h2 class="">About</h2>
-					<span class="image"><img src="{{ url_for('static', filename='images/intro.jpg') }}"
-						alt="" /></span>
-					<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at
-						eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-						lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
-						fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
-						dolor sit amet.</p>
-				</article>
-			</div>	
-		</div>
-				
+			</div>		
+		</div>				
 	</section>
+
+	<sector class="">
+		<div id="flex-container2">
+			<div>
+					<!-- Connect -->
+				<article id="connect">
+					<h2>Connect with us</h2>
+					<h4>Help us Improve</h4>
+					<p>The comparison of different algorithms based on their performance metrics is used to find the most
+						accurate model for crop recommendation. The most accurate model was found to be a Random Forest
+						Algorithm with a precision of 82.74%, recall 80.92%, and an F1 score of 78.67%. The model trained
+						hence, can be used for giving a list of the recommended crops to the user.</p>
+				</article>
+			</div>
+		</div>
+	</section>
+
 	<!-- Footer -->
 	<footer id="footer">
 		<p class="copyright">&copy; We bring MAGIC to YOUR Farms. Design: <a href="https://github.com/Know-and-Grow/Know-and-Grow/tree/main/Datasets">Our Research/Code</a>.</p>
+		
 		<!-- <p class="copyright" href='https://www.freepik.com/vectors/rural-landscape'>Rural landscape vector created by jcomp - www.freepik.com</p>
 		<p href='https://www.freepik.com/vectors/peasant'>Peasant vector created by vectorpouch - www.freepik.com</p> -->
+		<!-- <a href='https://www.freepik.com/vectors/banner-people'>Banner people vector created by pikisuperstar - www.freepik.com</a>	-->
 	</footer>
-
 
 	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
@@ -327,12 +340,7 @@
 					}
 				});
 			// select row for given state and district
-			//
-
-
 		}
-
-
 	</script>
 </body>
 

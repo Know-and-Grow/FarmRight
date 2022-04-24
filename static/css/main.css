@@ -167,7 +167,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 1rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -667,9 +667,17 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: inherit;
-			width: 60%;
+			width: 100%;
 
 		}
+
+		@media screen and (max-width: 900px){
+			.image img {
+				display: none;
+			}
+			
+		}
+
 
 		.image.left, .image.right {
 			max-width: 40%;
@@ -1525,7 +1533,7 @@ input, select, textarea {
 		text-align: center;
 		position: inherit;
 		bottom: 0;
-		padding: 10px;
+		padding: 2%;
 		display: block;
 		z-index: 4;
 		background-color: #4d211c;;
@@ -1677,46 +1685,36 @@ input, select, textarea {
   opacity: .5;
 }
 
-.flex-container {
+#flex-container {
 	display: flex;
+	flex-direction: row;
 	align-items: stretch;
 	background-image: url('/static/images/tiles-bg.jpg');
 	background-size: cover;
 	background-repeat:no-repeat;
-  }
+	max-height: fit-content;
+    height: auto;
+}
   
-  .flex-container > div {
+  #flex-container > div {
 	/* background-color:#003617; */
 	color: white;
-	margin: 10px;
+	margin: 1.5%;
+	min-width: 30%;
 	text-align: center;
-	line-height: inherit;
     font-size: small;
   }
-	@media screen and (max-width: 1680px) {
 
-		#wrapper {
-			width: 100%;
+	/* Responsive layout - makes a one column-layout instead of two-column layout */
+	@media screen and (max-width: 900px) {
+		#flex-container {
+			flex-direction: column;
+			max-height: fit-content;
+			/* background: none;
+			background-color: #d3f64a !important; */
+			height: auto;
 		}
-
 	}
-
-	@media screen and (max-width: 736px) {
-
-		#wrapper {
-			width: 100%;
-		}
-
-	}
-
-	@media screen and (max-width: 480px) {
-
-		#wrapper {
-			width: 100%;
-		}
-
-	}
-
 
 #explore a {
   padding-top: 60px;
@@ -1793,10 +1791,146 @@ input, select, textarea {
 }
 
 #tiles {
-	padding: 6%;
+	padding-left: 6%;
+	padding-right: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 	display: block;
 	position: relative;
-    background-color: #005023d1;
+    background-color: #00723f;
     border-radius: 30px;
     box-shadow: 2px cornsilk;
+}
+	#tiles p{
+		font-size: 15px;
+		text-align: justify;
+  		text-justify: inter-word;
+	} 
+
+	#tiles ul li{
+		font-size: 15px;
+		text-align: justify;
+		text-justify: inter-word;
+	}
+
+#connect {
+	padding-left: 4%;
+	padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+	display: block;
+	position: relative;
+	background-color: #00723f;
+    border-radius: 8em;
+    box-shadow: 2px cornsilk;
+    width: 70%;
+    margin-left: auto;
+    margin-top: 25%;
+}
+	#connect p{
+		font-size: 15px;
+		text-align: justify;
+		text-justify: inter-word;
+	} 
+
+	#connect ul li{
+		font-size: 15px;
+		text-align: justify;
+		text-justify: inter-word;
+	}
+
+	/* Responsive layout - makes a one column-layout instead of two-column layout */
+	@media screen and (max-width: 700px) {
+		#connect {
+			padding: 7%;
+			width: 100%;
+			margin-left: auto;
+			margin-top: 80%;
+			border-radius: 3em;
+			height: auto;
+		}
+	}
+
+#flex-container2 {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	background-image: url('/static/images/connect.jpg');
+	background-size: cover;
+	background-repeat:no-repeat;
+	max-height: 100vh;
+	height: auto;
+}
+	
+	  #flex-container2 > div {
+		/* background-color:#003617; */
+		color: white;
+		margin: 2%;
+		text-align: center;
+		font-size: small;
+	  }
+	
+		/* Responsive layout - makes a one column-layout instead of two-column layout */
+		@media screen and (max-width: 900px) {
+			#flex-container2 {
+				flex-direction: column;
+				max-height: fit-content;
+				/* background: none;
+				background-color: #d3f64a !important; */
+				height: auto;
+			}
+		}
+	
+
+
+
+
+
+/* CHATBOT */
+
+.chatbot_icon {
+	position: fixed;
+	width: 70px;
+    height: 70px;
+	right: 30px;
+	bottom: 20px;
+	cursor: pointer;
+	z-index: 100;
+    background-color: #2f0c068f;
+	border-radius: 33px;
+}
+	.chatbot_icon img {
+		width: 60px;
+		margin-left: 5px;
+		margin-top: 2px;
+	}
+
+.chatbot_box {
+	position: fixed;
+	right: 20px;
+	bottom: 100px;
+	width: 50vh;
+	height: 75vh;
+	background-color:  #ffa600;;
+	z-index: 1000;
+	transition: all 0.3s ease-out;
+	transform: scaleY(0);
+}
+
+	.chatbot_box.active {
+		transform: scaleY(1);
+	}
+
+.hidden {
+	display: none !important;
+}
+
+.conv-form-wrapper textarea{
+	height:30px;
+	overflow: hidden;
+	resize: none;
+}
+
+#messages {
+	padding: 20px;
 }
