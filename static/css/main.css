@@ -749,7 +749,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
+		margin: 0 0 1em 0;
 		padding-left: 1em;
 	}
 
@@ -1247,8 +1247,8 @@ input, select, textarea {
 					font-size: 20px;
 					border-bottom: 0;
 					margin-top: 0;
-					background-color:  #008037;
-					color: #d0eb65;
+					background-color: #00723f;
+					color: #b3d81c;
 					font-weight: 600;
 					border: none !important;
 					border-left: 0 !;
@@ -1256,8 +1256,8 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: #131c3b8c;
-						color:#d0eb65;
+						background-color: #b3d81c;
+    					color: #310e08;
 					}
 
 					#header nav ul li a:active {
@@ -1445,7 +1445,7 @@ input, select, textarea {
 			width: 45rem;
 			max-width: 100%;
 			background-color: #060924;;
-			border-radius: 4px;
+			border-radius: 1.7em;
 			opacity: 0;
 		}
 
@@ -1536,7 +1536,7 @@ input, select, textarea {
 		padding: 2%;
 		display: block;
 		z-index: 4;
-		background-color: #4d211c;;
+		background-color: #290f0b;
 	}
 
 		#footer .copyright {
