@@ -14,9 +14,14 @@ import re
 
 import nltk
 try:
-    nltk.data.find('tokenizers/popular')
+    nltk.data.find('tokenizers/punkt')
 except LookupError:
-    nltk.download('popular')
+    nltk.download('punkt')
+
+try:
+    nltk.data.find('corpora/wordnet')
+except LookupError:
+    nltk.download('wordnet')
 
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
