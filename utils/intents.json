@@ -14,7 +14,7 @@
     },
     {"tag": "form",
     "patterns": ["Which crop should I grow this year?", "Tell me which crop I should grow", "What is the crop of the year","Recommend a crop", "What is the best crop for my land?", "What crop should I grow this winter?", "What crop should I grow this summer?"],
-    "responses": ["We provide personalized crop recommendations for your land. For more info, [click here]", "Please [click here] to get crop recommendations"]
+    "responses": ["Please use <strong><a href='http://127.0.0.1:5000/#predict'>FarmRight</a></strong> to get personalized crop recommendations for your land for Free.", "Please visit <strong><a href='http://127.0.0.1:5000/#predict'>FarmRight</a></strong> to get crop recommendations."]
     },
     {"tag": "properties",
     "patterns": ["I do not have information of soil and weather properties", "How to fill soil and weather properties", "How to fill pH?", "How to fill soil properties?", "How to fill Acidic%?", "How to fill Neutral%?", "How to fill Basic%?", "How to fill Temperature?", "How do I know about rainfall pattern of my area?", "How to fill Environment properties?" ],

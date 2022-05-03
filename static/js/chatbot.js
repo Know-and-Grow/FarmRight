@@ -1,8 +1,8 @@
-
-function openForm() {
-    document.getElementById("myForm").style.display = "block";
+function toggleChatbotMsgBox(){
+  var x = document.getElementById("myForm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
-  
-function closeForm() {
-    document.getElementById("myForm").style.display = "none";
 }
