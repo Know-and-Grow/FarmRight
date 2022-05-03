@@ -30,7 +30,7 @@
     },
     {"tag": "name",
      "patterns": ["what's your name?","who are you?","what is your name"],
-     "responses": ["I'm {chatbot_name}. What's your name?","Hi, my name is {chatbot_name}. I am a bot to help you navigate through our crop recommendation system. What is your good name ?","I am {chatbot_name}. What should I call you ?"] 
+     "responses": ["I'm KrishiBot. What's your name?","Hi, my name is KrishiBot. I am a bot to help you navigate through our crop recommendation system. What is your good name ?","I am KrishiBot. What should I call you ?"] 
     },
    {"tag": "name2",
     "patterns": ["my name is ", "I'm ","I am"],
