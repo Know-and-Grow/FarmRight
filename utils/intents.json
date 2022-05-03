@@ -1,0 +1,40 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?","Hey", "Hello", "Good day"],
+     "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "form",
+    "patterns": ["Which crop should I grow this year?", "Tell me which crop I should grow", "What is the crop of the year","Recommend a crop", "What is the best crop for my land?", "What crop should I grow this winter?", "What crop should I grow this summer?"],
+    "responses": ["Please use <strong><a href='http://127.0.0.1:5000/#predict'>FarmRight</a></strong> to get personalized crop recommendations for your land for Free.", "Please visit <strong><a href='http://127.0.0.1:5000/#predict'>FarmRight</a></strong> to get crop recommendations."]
+    },
+    {"tag": "properties",
+    "patterns": ["I do not have information of soil and weather properties", "How to fill soil and weather properties", "How to fill pH?", "How to fill soil properties?", "How to fill Acidic%?", "How to fill Neutral%?", "How to fill Basic%?", "How to fill Temperature?", "How do I know about rainfall pattern of my area?", "How to fill Environment properties?" ],
+    "responses": ["Please click on Load Properties button to autofill the properties.", "The Load Properties button is provided to automatically fill these properties. Please click on it"]
+    },
+    {"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {"tag": "options",
+    "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","what can you do for me","what is your work","what is your purpose","how can you help me","what can you help me do", "What does FarmRight do?" ],
+    "responses": ["I can help you to recommend crops for your land.", "Offering support for personalized crop recommendations !","I'm here to guide you through our recommendation system, FarmRight"] 
+    },
+    {"tag": "name",
+     "patterns": ["what's your name?","who are you?","what is your name"],
+     "responses": ["I'm {chatbot_name}. What's your name?","Hi, my name is {chatbot_name}. I am a bot to help you navigate through our crop recommendation system. What is your good name ?","I am {chatbot_name}. What should I call you ?"] 
+    },
+   {"tag": "name2",
+    "patterns": ["my name is ", "I'm ","I am"],
+    "responses": ["Oooh great to meet you {n}. How may I assist you {n}", "Oh, I'll keep that in mind, {n}","It's nice to meet you,{n}"]
+   }
+]
+}
