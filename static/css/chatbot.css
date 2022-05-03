@@ -1,0 +1,205 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open_button {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  right: 30px;
+  bottom: 20px;
+  cursor: pointer;
+  z-index: 100;
+  background-color: #2f0c068f;
+  border-radius: 33px;
+}
+	.open_button img {
+		width: 60px;
+		margin-left: 5px;
+		margin-top: 2px;
+	}
+
+    .open_button.active {
+		transform: scaleY(1);
+	}
+
+/* The popup chat - hidden by default */
+.chat_popup {
+  display: none;
+  position: fixed;
+  bottom: 13vh;
+  right: 5vh;
+  width: 65vh;
+  height: 83vh;
+  z-index: 9;
+  transform: scaleY(1);
+  border-radius: 3px;
+  transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 900px){
+    .chat_popup  {
+      width: 50vh;
+      height: 80vh;
+      right: 1em;
+    }
+}
+
+.msger {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 70px;
+    height: 70px;
+    right: 30px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 100;
+    background-color: #2f0c068f;
+	  border-radius: 33px;
+    /* width: 100%; */
+    max-width: 867px;
+    margin: 25px 10px;
+    /* height: calc(100% - 50px); */
+    /* border: var(--border); */
+    /* border-radius: 5px; */
+    /* background: var(--msger-bg); */
+    /* box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2); */
+  }
+  .msger-header {
+    /* display: flex; */
+    font-size: medium;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    border-bottom: var(--border);
+    background: #eee;
+    color: #666;
+  }
+  .msger-chat {
+    flex: 1;
+    overflow-y: auto;
+    height: 85%;
+    width: 100%;
+    cursor: pointer;
+    background-color: #bbef69;
+    padding: 3%;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border: solid 0.48em #0b4a00;
+  }
+  .msger-chat::-webkit-scrollbar {
+    width: 6px;
+  }
+  .msger-chat::-webkit-scrollbar-track {
+    background: #ddd;
+  }
+  .msger-chat::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+  }
+  .msg {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+  .msg_img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-image: url('/static/images/chatbot.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5em;
+  }
+  .msg_bubble {
+    max-width: fit-content;
+    padding: 0.7em;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 17px;
+    background: #e3ffb8;
+  }
+  .msg_info {
+    background-color: #0b4a0057;
+    border-radius: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: fit-content;
+    margin-left: 5px;
+    margin-bottom: 3px;
+  }
+  .msg-text{
+    color: black;
+    font-size: smaller;
+    font-style: italic;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .msg-text a {
+    color: blue;
+    text-decoration: underline;
+    font-style: normal;
+  }
+  .msg_info_name {
+    margin-right: 3px;
+    font-weight: bold;
+    color: #0b4a00;
+  }
+  .msg_info_time {
+    font-size: 0.75em;
+    color: #0b4a00;
+    font-weight: bold;
+  }
+  .left_msg .msg_bubble {
+    border-bottom-left-radius: 0;
+  }
+
+  .right-msg {
+    flex-direction: row-reverse;
+  }
+  .right-msg .msg_bubble {
+    border-bottom-right-radius: 0;
+  }
+  .right-msg .msg_img {
+    margin: 0 0 0 10px;
+  }
+  .left_msg .msg_img {
+    margin: 0 10px 0 0;
+  }
+  .msger_inputarea {
+    display: flex;
+    padding: 10px;
+    border-top: var(--border);
+    background: #0b4a00;
+    height: auto;
+  }
+
+  .msger_inputarea * {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+  }
+  .msger_input {
+    flex: 1;
+    background: #ddd;
+  }
+  .msger_send_btn {
+    margin-left: 10px;
+    background: rgb(251 140 1);
+    color: #500000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.23s;
+    align-items: center;
+    height: auto;
+    width: auto;
+    line-height: normal;;
+  }
+  .msger_send_btn:hover {
+    background: rgb(0, 180, 50);
+  }
+
+ 
+  
