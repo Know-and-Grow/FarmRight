@@ -1815,17 +1815,18 @@ input, select, textarea {
 
 #connect {
 	padding-left: 4%;
-	padding-right: 4%;
+    padding-right: 4%;
     padding-top: 2%;
     padding-bottom: 2%;
-	display: block;
-	position: relative;
-	background-color: #00723f;
-    border-radius: 8em;
+    display: block;
+    position: relative;
+    background-color: #00723f;
+    border-radius: 2em;
     box-shadow: 2px cornsilk;
-    width: 70%;
-    margin-left: auto;
-    margin-top: 25%;
+    width: 100%;
+	margin-left: 100%;
+    margin-top: 50%;	
+    text-align: left;
 }
 	#connect p{
 		font-size: 15px;
@@ -1934,3 +1935,17 @@ input, select, textarea {
 #messages {
 	padding: 20px;
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+	font-weight: bold;
+  }
